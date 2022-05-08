@@ -66,6 +66,11 @@ function! RunTestFile()
     " Write the file and run tests for the given filename
     if expand("%") != ""
       :update " only write if changed? could use :w
+      " for minitest: make sure parallel is off so we can `pry`
+      if filereadable("Gemfile") && strlen(glob("test/**/*.rb"))
+        :let $PARALLEL_WORKERS = 0
+      endif
+
       if exists('g:test#last_command')
         :TestLast
       else
