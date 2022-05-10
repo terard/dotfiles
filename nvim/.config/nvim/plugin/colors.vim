@@ -6,12 +6,7 @@ endif
 let g:gruvbox_invert_selection='0'
 
 set background=dark
-"if has('nvim')
-    "call luaeval('vim.cmd("colorscheme " .. _A[1])', [g:theprimeagen_colorscheme])
-"else
-    "" TODO: What the way to use g:theprimeagen_colorscheme
-    colorscheme gruvbox
-"endif
+colorscheme gruvbox
 
 highlight ColorColumn ctermbg=0 guibg=grey
 hi SignColumn guibg=none
