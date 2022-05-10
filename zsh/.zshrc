@@ -1,6 +1,7 @@
-# Initialize completion
-autoload -U compinit
-compinit -D
+# (installed with homebrew)
+FPATH=$HOMEBREW_PREFIX/share/zsh-completions:$FPATH
+autoload -Uz compinit
+compinit
 
 # Nicer history
 export HISTSIZE=100000
@@ -10,18 +11,21 @@ export HISTCONTROL=erasedups
 HISTCONTROL=ignoreboth
 setopt HIST_IGNORE_ALL_DUPS
 
-export GIT_EDITOR=$VIM
 export STARSHIP_CONFIG=~/starship.toml
-export EDITOR=vi
+
+export EDITOR="nvim"
+export GIT_EDITOR="nvim"
+export VISUAL="nvim"
 
 # https://github.com/junegunn/fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # ruby
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-source /usr/local/opt/chruby/share/chruby/auto.sh
+source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
+source $HOMEBREW_PREFIX/opt/chruby/share/chruby/auto.sh
 
-chruby ruby-3.0.1
+# maybe find a better way to do this?
+# chruby ruby-3.0.1
 
 # alias
 alias l='ls -lah'
@@ -31,6 +35,7 @@ alias t="tree"
 alias h="history"
 
 alias zrc='nvim ~/.zshrc; . ~/.zshrc'
+alias vim='nvim'
 alias v='nvim .'
 alias vrc='nvim ~/.config/nvim/init.vim'
 alias nvrc='vrc'
@@ -68,9 +73,10 @@ export WORDCHARS='*?[]~&;!$%^<>'
 
 
 # should be at the end (installed with homebrew)
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 # should be at the end (installed with homebrew)
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 eval "$(starship init zsh)"
