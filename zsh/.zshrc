@@ -1,16 +1,3 @@
-# Antigen (installed with brew)
-#source /usr/local/share/antigen/antigen.zsh
-
-#antigen bundle zsh-users/zsh-autosuggestions
-
-
-# should be the last bundle
-#antigen bundle zsh-users/zsh-syntax-highlighting
-
-#antigen apply
-
-# autosuggestions
-
 # Initialize completion
 autoload -U compinit
 compinit -D
@@ -24,11 +11,8 @@ HISTCONTROL=ignoreboth
 setopt HIST_IGNORE_ALL_DUPS
 
 export GIT_EDITOR=$VIM
-
 export STARSHIP_CONFIG=~/starship.toml
-
 export EDITOR=vi
-
 
 # https://github.com/junegunn/fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -38,7 +22,6 @@ source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
 chruby ruby-3.0.1
-
 
 # alias
 alias l='ls -lah'
@@ -51,7 +34,6 @@ alias zrc='nvim ~/.zshrc; . ~/.zshrc'
 alias v='nvim .'
 alias vrc='nvim ~/.config/nvim/init.vim'
 alias nvrc='vrc'
-
 
 alias gs="git status"
 alias gp="git push"
