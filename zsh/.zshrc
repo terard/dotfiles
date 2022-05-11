@@ -1,3 +1,7 @@
+#export XDG_CONFIG_HOME=$HOME/.config
+export XDG_CONFIG_HOME=$HOME/dotfiles
+export XDG_DATA_HOME=$HOME/.local/share
+
 # (installed with homebrew)
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH

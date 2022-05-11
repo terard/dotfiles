@@ -1,4 +1,4 @@
-set exrc
+"set exrc
 set number
 set rnu
 

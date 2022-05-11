@@ -1,7 +1,7 @@
 let mapleader=","
 
 " initialize plugins
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'roman/golden-ratio'
 Plug 'scrooloose/nerdcommenter'
@@ -26,6 +26,19 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
+" lsp
+Plug 'neovim/nvim-lspconfig'
+
+" completion
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
+
+"Plug ''
+
 " prettier
 Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 
@@ -47,10 +60,7 @@ nnoremap <C-h>  <C-w>h
 nnoremap <C-l>  <C-w>l
 nnoremap <leader><leader> <c-^>
 
-nnoremap <Leader><CR> :so ~/.config/nvim/init.vim<CR>
-
-nnoremap <C-p> :GFiles<CR>
-nnoremap <Leader>pf :Files<CR>
+nnoremap <Leader><CR> :so ~/dotfiles/nvim/init.vim<CR>
 
 nnoremap zz :update<cr>
 nnoremap ww :update<cr>
@@ -58,6 +68,8 @@ nnoremap ww :update<cr>
 " for telescope and friends?
 nnoremap <C-p> :GFiles<CR>
 nnoremap <Leader>pf :Files<CR>
+
+lua require("travhimself")
 
 " running tests
 nnoremap <leader>t :call RunTestFile()<CR>
