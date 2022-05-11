@@ -30,6 +30,10 @@ source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
 # maybe find a better way to do this?
 # chruby ruby-3.0.1
 
+# rust
+export PATH="$(brew --prefix)/bin/rust-analyzer:$PATH"
+export PATH=$HOME/.cargo/bin:$PATH
+
 # alias
 alias l='ls -lah'
 alias ls='ls -G'
