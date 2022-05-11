@@ -1,7 +1,10 @@
 # (installed with homebrew)
-FPATH=$HOMEBREW_PREFIX/share/zsh-completions:$FPATH
-autoload -Uz compinit
-compinit
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
 
 # Nicer history
 export HISTSIZE=100000
@@ -21,8 +24,8 @@ export VISUAL="nvim"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # ruby
-source $HOMEBREW_PREFIX/opt/chruby/share/chruby/chruby.sh
-source $HOMEBREW_PREFIX/opt/chruby/share/chruby/auto.sh
+source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
+source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
 
 # maybe find a better way to do this?
 # chruby ruby-3.0.1
@@ -71,12 +74,10 @@ alias tk="tmux kill-server"
 # Narrow that down to allow easier skipping through words via M-f and M-b.
 export WORDCHARS='*?[]~&;!$%^<>'
 
+# should be at the end (installed with homebrew)
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # should be at the end (installed with homebrew)
-source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
-# should be at the end (installed with homebrew)
-source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 eval "$(starship init zsh)"
