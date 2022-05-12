@@ -15,30 +15,21 @@ require'lspconfig'.rust_analyzer.setup{
   end,
 }
 
---local nvim_lsp = require'lspconfig'
-
---local on_attach = function(client)
-    --require'completion'.on_attach(client)
---end
-
---nvim_lsp.rust_analyzer.setup({
-    --on_attach=on_attach,
-    --settings = {
-        --["rust-analyzer"] = {
-            --assist = {
-                --importGranularity = "module",
-                --importPrefix = "self",
-            --},
-            --cargo = {
-                --loadOutDirsFromCheck = true
-            --},
-            --procMacro = {
-                --enable = true
-            --},
-        --}
-    --}
---})
-
+-- not sure this is working very well (for ruby and rails)
+require'lspconfig'.solargraph.setup{
+  capabilities=capabilities,
+  on_attach = function()
+  vim.keymap.set("n", "K", vim.lsp.buf.hover, {buffer=0})
+  vim.keymap.set("n", "gd", vim.lsp.buf.definition, {buffer=0}) -- ctrl-t to manage taglist 
+  vim.keymap.set("n", "gt", vim.lsp.buf.type_definition, {buffer=0}) -- not working in rust?
+  vim.keymap.set("n", "gi", vim.lsp.buf.implementation, {buffer=0}) 
+  vim.keymap.set("n", "gr", "<cmd>Telescope lsp_references<cr>", {buffer=0}) 
+  vim.keymap.set("n", "<leader>R", vim.lsp.buf.rename, {buffer=0}) 
+  vim.keymap.set("n", " dj", vim.diagnostic.goto_next, {buffer=0}) 
+  vim.keymap.set("n", " dk", vim.diagnostic.goto_prev, {buffer=0}) 
+  vim.keymap.set("n", " dl", "<cmd>Telescope diagnostics<cr>", {buffer=0}) 
+  end,
+}
 
 -- set completeopt=menu,menuone,noselect
 -- is the same as (cool lua way):
@@ -71,12 +62,3 @@ cmp.setup({
     { name = 'buffer' },
   })
 })
-
--- Set configuration for specific filetype.
---cmp.setup.filetype('gitcommit', {
-  --sources = cmp.config.sources({
-    --{ name = 'cmp_git' }, -- You can specify the `cmp_git` source if you were installed it.
-  --}, {
-    --{ name = 'buffer' },
-  --})
---})
