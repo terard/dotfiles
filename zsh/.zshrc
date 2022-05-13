@@ -1,5 +1,4 @@
-#export XDG_CONFIG_HOME=$HOME/.config
-export XDG_CONFIG_HOME=$HOME/dotfiles
+export XDG_CONFIG_HOME=$HOME/.config
 export XDG_DATA_HOME=$HOME/.local/share
 
 # (installed with homebrew)
@@ -83,7 +82,7 @@ alias tk="tmux kill-server"
 export WORDCHARS='*?[]~&;!$%^<>'
 
 # should be at the end (installed with homebrew)
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # should be at the end (installed with homebrew)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
