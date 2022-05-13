@@ -60,7 +60,9 @@ nnoremap <C-h>  <C-w>h
 nnoremap <C-l>  <C-w>l
 nnoremap <leader><leader> <c-^>
 
-nnoremap <Leader><CR> :so ~/dotfiles/nvim/init.vim<CR>
+"nnoremap <Leader><CR> :so ~/.config/nvim/init.vim<CR>
+nnoremap <Leader><CR> :so $XDG_CONFIG_HOME/nvim/init.vim<CR>
+
 
 nnoremap zz :update<cr>
 nnoremap ww :update<cr>
