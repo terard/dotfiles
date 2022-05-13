@@ -29,6 +29,9 @@ require'lspconfig'.solargraph.setup{
   vim.keymap.set("n", " dk", vim.diagnostic.goto_prev, {buffer=0}) 
   vim.keymap.set("n", " dl", "<cmd>Telescope diagnostics<cr>", {buffer=0}) 
   end,
+  flags = {
+    debounce_text_changes = 150,
+  }
 }
 
 -- set completeopt=menu,menuone,noselect
