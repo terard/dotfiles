@@ -6,6 +6,13 @@ set rnu
 set ignorecase smartcase
 set smarttab
 
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+
+
 set hlsearch
 set incsearch
 
@@ -36,7 +43,7 @@ set cursorline
 set cmdheight=2
 set switchbuf=useopen
 
-set updatetime=50
+"set updatetime=50
 
 " If a file is changed outside of vim, automatically reload it without asking
 set autoread

@@ -3,11 +3,22 @@ export XDG_DATA_HOME=$HOME/.local/share
 
 # (installed with homebrew)
 if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+	FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
 
-  autoload -Uz compinit
-  compinit
+	autoload -Uz compinit
+	compinit
 fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+#export PREFIX="/opt/homebrew/bin/n"
+#export N_PREFIX="/opt/homebrew/bin/n"
+export N_CACHE_PREFIX=$HOME/.n/versions
+unset PREFIX
+unset N_PREFIX
+unset N_CACHE_PREFIX
 
 # Nicer history
 export HISTSIZE=100000
@@ -33,6 +44,8 @@ source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
 # maybe find a better way to do this?
 # chruby ruby-3.0.1
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # rust
 export PATH="$(brew --prefix)/bin/rust-analyzer:$PATH"
 export PATH=$HOME/.cargo/bin:$PATH
@@ -41,7 +54,7 @@ export PATH=$HOME/.cargo/bin:$PATH
 alias l='ls -lah'
 alias ls='ls -G'
 alias ll='ls -lG'
-alias t="tree"
+alias t="tree -la -I .git"
 alias h="history"
 
 alias zrc='nvim ~/.zshrc; . ~/.zshrc'
