@@ -55,7 +55,8 @@ let g:neoformat_try_node_exe = 1
 Plug 'tpope/vim-rails'
 Plug 'ngmy/vim-rubocop'
 
-Plug 'jiangmiao/auto-pairs'
+" maybe play with settings?
+" Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
@@ -101,7 +102,8 @@ nnoremap <Leader>pf :Files<CR>
 lua require("travhimself")
 
 " let test#neovim#term_position = "vert"
-let test#strategy = "neovim"
+" let test#strategy = "neovim"
+let test#strategy = "basic"
 
 " running tests
 nnoremap <leader>t :call RunTestFile()<CR>

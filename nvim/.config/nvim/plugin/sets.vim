@@ -12,8 +12,15 @@ set shiftwidth=2
 set softtabstop=2
 set autoindent
 
+" Clear the search buffer when hitting return
+function! MapCR()
+  nnoremap <cr> :nohlsearch<cr>
+endfunction
+call MapCR()
+"set hlsearch!
+"nnoremap <CR> :set hlsearch!<CR>
 
-set hlsearch
+"set hlsearch
 set incsearch
 
 set signcolumn=yes
