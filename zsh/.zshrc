@@ -9,6 +9,16 @@ if type brew &>/dev/null; then
 	compinit
 fi
 
+if [[ $(arch) == 'arm64' ]]; then
+  echo Sourcing M1 version of .zshenv
+  export PATH=/opt/homebrew/bin:$PATH
+  export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$(/opt/homebrew/bin/brew --prefix)/share/zsh-syntax-highlighting/highlighters
+else
+  echo Sourcing Intel version of .zshenv
+  export PATH=/usr/local/bin/:$PATH
+  export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$(/usr/local/bin/brew --prefix)/share/zsh-syntax-highlighting/highlighters
+fi
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
@@ -49,6 +59,7 @@ export PATH="$HOME/.local/bin:$PATH"
 # rust
 export PATH="$(brew --prefix)/bin/rust-analyzer:$PATH"
 export PATH=$HOME/.cargo/bin:$PATH
+
 
 # alias
 alias l='ls -lah'
