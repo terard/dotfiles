@@ -1,3 +1,5 @@
+set shell=/bin/zsh
+
 let mapleader=","
 
 " initialize plugins
@@ -60,7 +62,9 @@ Plug 'ngmy/vim-rubocop'
 
 call plug#end()
 
-set rtp+=/opt/homebrew/opt/fzf
+"set rtp+=/opt/homebrew/opt/fzf
+set rtp+=/usr/local/opt/fzf
+
 
 " maps
 "nnoremap <leader>f :Neoformat<CR>
@@ -85,6 +89,8 @@ nnoremap <leader>c :Sex!<cr>
 " for telescope and friends?
 nnoremap <C-p> :GFiles<CR>
 nnoremap <Leader>pf :Files<CR>
+
+"let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
 
 "au BufNewFile,BufRead *.sol setfiletype solidity
 
