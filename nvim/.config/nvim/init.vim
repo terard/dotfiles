@@ -84,7 +84,8 @@ nnoremap <leader>x :silent !chmod +x %<CR>
 nnoremap zz :update<cr>
 nnoremap ww :update<cr>
 
-nnoremap <leader>c :Sex!<cr>
+"nnoremap <leader>c :Sex!<cr>
+nnoremap <leader>c :Ex!<cr>
 
 " for telescope and friends?
 nnoremap <C-p> :GFiles<CR>
@@ -128,63 +129,93 @@ function! RunTestFile()
     else
       :TestFile
     endif
+  end
+endfunction
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" RENAME CURRENT FILE
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+function! RenameFile()
+  let old_name = expand('%')
+  let new_name = input('New file name: ', expand('%'), 'file')
+  if new_name != '' && new_name != old_name
+    exec ':saveas ' . new_name
+    exec ':silent !rm ' . old_name
+    redraw!
+  endif
+endfunction
+map <leader>n :call RenameFile()<cr>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" SWITCH BETWEEN TEST AND PRODUCTION CODE
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+function! OpenTestAlternate()
+  let new_file = AlternateForCurrentFile()
+  exec ':e ' . new_file
+endfunction
+function! AlternateForCurrentFile()
+  let current_file = expand("%")
+  let new_file = current_file
+  let in_spec = match(current_file, '^spec/') != -1
+  let going_to_spec = !in_spec
+  let in_app = match(current_file, '\<controllers\>') != -1 || match(current_file, '\<models\>') != -1 || match(current_file, '\<workers\>') != -1 || match(current_file, '\<views\>') != -1 || match(current_file, '\<helpers\>') != -1  || match(current_file, '\<services\>') != -1
+  if going_to_spec
+    if in_app
+      let new_file = substitute(new_file, '^app/', '', '')
     end
-  endfunction
-
-  """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-  " RENAME CURRENT FILE
-  """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-  function! RenameFile()
-    let old_name = expand('%')
-    let new_name = input('New file name: ', expand('%'), 'file')
-    if new_name != '' && new_name != old_name
-      exec ':saveas ' . new_name
-      exec ':silent !rm ' . old_name
-      redraw!
-    endif
-  endfunction
-  map <leader>n :call RenameFile()<cr>
+    let new_file = substitute(new_file, '\.e\?rb$', '_spec.rb', '')
+    let new_file = 'spec/' . new_file
+  else
+    let new_file = substitute(new_file, '_spec\.rb$', '.rb', '')
+    let new_file = substitute(new_file, '^spec/', '', '')
+    if in_app
+      let new_file = 'app/' . new_file
+    end
+  endif
+  return new_file
+endfunction
+nnoremap <leader>. :call OpenTestAlternate()<cr>
 
 
-  """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-  " RemoveFancyCharacters COMMAND
-  " Remove smart quotes, etc.
-  """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-  function! RemoveFancyCharacters()
-    let typo = {}
-    let typo["“"] = '"'
-    let typo["”"] = '"'
-    let typo["‘"] = "'"
-    let typo["’"] = "'"
-    let typo["–"] = '--'
-    let typo["—"] = '---'
-    let typo["…"] = '...'
-    :exe ":%s/".join(keys(typo), '\|').'/\=typo[submatch(0)]/ge'
-  endfunction
-  command! RemoveFancyCharacters :call RemoveFancyCharacters()
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" RemoveFancyCharacters COMMAND
+" Remove smart quotes, etc.
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+function! RemoveFancyCharacters()
+  let typo = {}
+  let typo["“"] = '"'
+  let typo["”"] = '"'
+  let typo["‘"] = "'"
+  let typo["’"] = "'"
+  let typo["–"] = '--'
+  let typo["—"] = '---'
+  let typo["…"] = '...'
+  :exe ":%s/".join(keys(typo), '\|').'/\=typo[submatch(0)]/ge'
+endfunction
+command! RemoveFancyCharacters :call RemoveFancyCharacters()
 
-  nnoremap <Leader>r :call VisualFindAndReplace()<CR>
-  xnoremap <Leader>r :call VisualFindAndReplaceWithSelection()<CR>
-  function! VisualFindAndReplace()
-    :OverCommandLine%s/
-    :w
-  endfunction
-  function! VisualFindAndReplaceWithSelection() range
-    :'<,'>OverCommandLine s/
-    :w
-  endfunction
+nnoremap <Leader>r :call VisualFindAndReplace()<CR>
+xnoremap <Leader>r :call VisualFindAndReplaceWithSelection()<CR>
+function! VisualFindAndReplace()
+  :OverCommandLine%s/
+  :w
+endfunction
+function! VisualFindAndReplaceWithSelection() range
+  :'<,'>OverCommandLine s/
+  :w
+endfunction
 
 
-  augroup TRAV_HIMSELF
-    autocmd!
+augroup TRAV_HIMSELF
+  autocmd!
 
-    " Source the vimrc file after saving it
-    autocmd bufwritepost .vimrc source $MYVIMRC
+  " Source the vimrc file after saving it
+  autocmd bufwritepost .vimrc source $MYVIMRC
 
-    autocmd BufWritePre *.rb Neoformat
-    autocmd BufWritePre,InsertLeave *.tsx,*.ts,*.jsx,*.js Neoformat
-    "autocmd BufWritePre,InsertLeave *.jsx Neoformat
-    "autocmd BufWritePre,InsertLeave *.css Neoformat
-    autocmd BufWritePre,InsertLeave *.scss Neoformat
-    autocmd BufWritePre,InsertLeave *.tsx,*.ts,*.jsx,*.js EslintFixAll
-  augroup end
+  "autocmd BufWritePre *.rb Neoformat
+  "autocmd BufWritePre,InsertLeave *.tsx,*.ts,*.jsx,*.js Neoformat
+  "autocmd BufWritePre,InsertLeave *.jsx Neoformat
+  "autocmd BufWritePre,InsertLeave *.css Neoformat
+  "autocmd BufWritePre,InsertLeave *.scss Neoformat
+  "autocmd BufWritePre,InsertLeave *.tsx,*.ts,*.jsx,*.js EslintFixAll
+augroup end

@@ -84,7 +84,9 @@ alias gc="git commit"
 alias grc="git rebase --continue"
 alias grs="git rebase --skip"
 alias gra="git rebase --abort"
-alias glo='git log --oneline --no-decorate -n 35; echo "..."'
+alias glo='git log --oneline --abbrev=8 --no-decorate -n 35; echo "..."'
+alias gwl="git worktree list"
+alias gwp="git worktree prune"
 
 alias pryor="bundle exec pry -r ./config/environment"
 alias pg_start="brew services start postgresql"

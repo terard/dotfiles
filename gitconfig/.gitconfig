@@ -22,6 +22,7 @@
 	func = 146 bold
 [alias]
     co = checkout
+    wt = worktree
 [merge]
     tool = vimdiff
 [diff-so-fancy]
