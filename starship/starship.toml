@@ -1,4 +1,5 @@
-# ~/.config/starship.toml
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
 
 # Wait 10 milliseconds for starship to check files under the current directory.
 scan_timeout = 10
@@ -17,5 +18,8 @@ only_attached = false
 
 [jobs]
 symbol = "+"
-number_threshold = 2
-#symbol_threshold = 0
+number_threshold = 1
+
+[directory]
+truncation_length = 2
+truncate_to_repo = false
