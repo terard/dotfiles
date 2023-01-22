@@ -7,6 +7,7 @@ let g:gruvbox_invert_selection='0'
 
 set background=dark
 colorscheme gruvbox
+"colorscheme tokyonight-storm
 
 highlight ColorColumn ctermbg=0 guibg=grey
 hi SignColumn guibg=none

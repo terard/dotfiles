@@ -15,8 +15,11 @@ Plug 'vim-test/vim-test'
 Plug 'osyo-manga/vim-over'
 Plug 'tpope/vim-surround'
 
+Plug 'github/copilot.vim'
+
 " colors
 Plug 'gruvbox-community/gruvbox'
+"Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 " fuzziness
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -45,6 +48,8 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " prettier
 Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 
+Plug 'kchmck/vim-coffee-script'
+
 Plug 'eslint/eslint'
 Plug 'hrsh7th/vscode-langservers-extracted'
 
@@ -69,6 +74,7 @@ set rtp+=/usr/local/opt/fzf
 " maps
 "nnoremap <leader>f :Neoformat<CR>
 nnoremap <leader>f gg=G``
+
 
 nnoremap <C-j>  <C-w>j
 nnoremap <C-k>  <C-w>k
@@ -211,6 +217,10 @@ augroup TRAV_HIMSELF
 
   " Source the vimrc file after saving it
   autocmd bufwritepost .vimrc source $MYVIMRC
+
+  " remove trailing whitespace on save
+  " TODO: do this the Lua (nvim) way
+  autocmd BufWritePre * :%s/\s\+$//e
 
   "autocmd BufWritePre *.rb Neoformat
   "autocmd BufWritePre,InsertLeave *.tsx,*.ts,*.jsx,*.js Neoformat

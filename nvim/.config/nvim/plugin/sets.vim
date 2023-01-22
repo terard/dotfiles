@@ -1,6 +1,7 @@
 "set exrc
 set number
 set rnu
+set mouse=
 
 " make searches case-sensitive only if they contain upper-case characters
 set ignorecase smartcase
