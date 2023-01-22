@@ -9,6 +9,15 @@ if type brew &>/dev/null; then
 	compinit
 fi
 
+function worktree_add() {
+  git worktree add $1 --guess-remote
+}
+
+function worktree_cleanup() {
+  echo $1
+  git worktree remove $1 --force && git branch -D $1
+}
+
 if [[ $(arch) == 'arm64' ]]; then
   echo Sourcing M1 version of .zshenv
   export PATH=/opt/homebrew/bin:$PATH
@@ -39,6 +48,7 @@ HISTCONTROL=ignoreboth
 setopt HIST_IGNORE_ALL_DUPS
 
 export STARSHIP_CONFIG=~/starship.toml
+eval "$(starship init zsh)"
 
 export EDITOR="nvim"
 export GIT_EDITOR="nvim"
@@ -68,6 +78,8 @@ alias ll='ls -lG'
 alias t="tree -la -I .git"
 alias h="history"
 
+alias ag="ag -f --hidden"
+
 alias zrc='nvim ~/.zshrc; . ~/.zshrc'
 alias vim='nvim'
 alias v='nvim .'
@@ -77,8 +89,10 @@ alias nvrc='vrc'
 alias gs="git status"
 alias gp="git push"
 alias gf="git fetch"
+alias gfa="git fetch --all"
 alias gitpush="git push"
 alias gb="git branch"
+alias gbm="git branch --merged"
 alias gd="git diff"
 alias gc="git commit"
 alias grc="git rebase --continue"
@@ -92,6 +106,11 @@ alias pryor="bundle exec pry -r ./config/environment"
 alias pg_start="brew services start postgresql"
 alias pg_stop="brew services stop postgresql"
 alias raket="rake -T"
+alias be="bundle exec"
+alias b="bundle"
+alias bu="bundle update"
+alias yi="yarn install"
+alias rc="rc"
 
 # tmux
 bindkey -s ^f "tmux-sessionizer\n"
@@ -113,6 +132,15 @@ export WORDCHARS='*?[]~&;!$%^<>'
 # should be at the end (installed with homebrew)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-eval "$(starship init zsh)"
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# pnpm
+export PNPM_HOME="/Users/atomic/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
+path+=("/Users/atomic/Library/Python/3.10/bin")
