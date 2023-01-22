@@ -1,0 +1,20 @@
+--local capabilities = vim.lsp.protocol.make_client_capabilities()
+--local format = vim.lsp.buf.format(
+--{
+--defaultFormatter = {
+--"rubocop"
+--},
+--}
+--)
+
+--require "lspconfig".ruby_ls.setup({
+  ----format = format,
+  --defaultFormatter = "rubocop",
+  --defaultFormattingProvider = "rubocop",
+  --init_options = {
+    --defaultFormatter = "rubocop",
+    --formatter = "rubocop",
+    --format = "rubocop"
+  --}
+--})
+--print("hello from ruby_ls")
