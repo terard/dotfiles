@@ -9,16 +9,16 @@ lsp.ensure_installed({
   'lua_ls',
 })
 
-local cmp = require('cmp')
---local cmp_action = require('lsp-zero').cmp_action()
+--local cmp = require('cmp')
+----local cmp_action = require('lsp-zero').cmp_action()
 
-cmp.setup({
-  mapping = {
-    --['<C-n>'] = cmp_action.luasnip_jump_forward(),
-    --['<C-p>'] = cmp_action.luasnip_jump_backward(),
-    ['<C-l>'] = cmp.mapping.complete(),
-  }
-})
+--cmp.setup({
+  --mapping = {
+    ----['<C-n>'] = cmp_action.luasnip_jump_forward(),
+    ----['<C-p>'] = cmp_action.luasnip_jump_backward(),
+    --['<C-l>'] = cmp.mapping.complete(),
+  --}
+--})
 
 lsp.nvim_workspace()
 
