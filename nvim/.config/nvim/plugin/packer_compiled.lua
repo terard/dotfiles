@@ -104,10 +104,20 @@ _G.packer_plugins = {
     path = "/Users/bryce/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/Users/atomic/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/bryce/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
+  },
+  ["git-worktree.nvim"] = {
+    loaded = true,
+    path = "/Users/atomic/.local/share/nvim/site/pack/packer/start/git-worktree.nvim",
+    url = "https://github.com/ThePrimeagen/git-worktree.nvim"
   },
   ["golden-ratio"] = {
     loaded = true,
@@ -195,6 +205,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/bryce/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-coffee-script"] = {
+    loaded = true,
+    path = "/Users/atomic/.local/share/nvim/site/pack/packer/start/vim-coffee-script",
+    url = "https://github.com/kchmck/vim-coffee-script"
   },
   ["vim-fugitive"] = {
     loaded = true,

@@ -13,6 +13,8 @@ function worktree_add() {
   git worktree add $1 --guess-remote
 }
 
+alias wta="worktree_add"
+
 function worktree_cleanup() {
   echo $1
   git worktree remove $1 --force && git branch -D $1

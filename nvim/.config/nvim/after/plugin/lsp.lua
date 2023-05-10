@@ -3,9 +3,21 @@ lsp.preset('recommended')
 
 lsp.ensure_installed({
   --'emmet_ls',
-  'ruby-lsp',
+  'ruby_ls',
+  'tsserver',
   'eslint',
-  'sumneko_lua',
+  'lua_ls',
+})
+
+local cmp = require('cmp')
+--local cmp_action = require('lsp-zero').cmp_action()
+
+cmp.setup({
+  mapping = {
+    --['<C-n>'] = cmp_action.luasnip_jump_forward(),
+    --['<C-p>'] = cmp_action.luasnip_jump_backward(),
+    ['<C-l>'] = cmp.mapping.complete(),
+  }
 })
 
 lsp.nvim_workspace()
