@@ -1,6 +1,7 @@
+require("travhimself.packer")
 require("travhimself.set")
 require("travhimself.remap")
-require("travhimself.emmet")
+--require("travhimself.emmet")
 require("travhimself.ruby")
 
 vim.cmd("source ~/.config/nvim/lua/travhimself/legacy.vim")

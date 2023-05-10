@@ -2,7 +2,8 @@ local lsp = require('lsp-zero')
 lsp.preset('recommended')
 
 lsp.ensure_installed({
-  --'ruby-lsp',
+  --'emmet_ls',
+  'ruby-lsp',
   'eslint',
   'sumneko_lua',
 })
