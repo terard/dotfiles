@@ -83,7 +83,7 @@ alias h="history"
 alias ag="ag -f --hidden"
 
 alias zrc='nvim ~/.zshrc; . ~/.zshrc'
-# alias vim='nvim'
+alias vim='nvim'
 alias v='vim .'
 alias vrc='nvim ~/.config/nvim/init.vim'
 alias nvrc='vrc'
@@ -129,7 +129,7 @@ alias tk="tmux kill-server"
 export WORDCHARS='*?[]~&;!$%^<>'
 
 # should be at the end (installed with homebrew)
-#source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # should be at the end (installed with homebrew)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh

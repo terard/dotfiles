@@ -7,6 +7,9 @@ vim.keymap.set("n", "<leader>ac", mark.clear_all)
 vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu)
 
 --vim.keymap.set("n", "<S-C-M-S-1>", function() ui.nav_file(1) end)
+-- this would bork my pane navigation
+--vim.keymap.set("n", "<C-h>", function() ui.nav_file(1) end)
+
 vim.keymap.set("n", "<leader>1", function() ui.nav_file(1) end)
 vim.keymap.set("n", "<leader>2>", function() ui.nav_file(2) end)
 vim.keymap.set("n", "<leader>3>", function() ui.nav_file(3) end)
