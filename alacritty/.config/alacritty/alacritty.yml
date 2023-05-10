@@ -38,7 +38,8 @@ font:
   # The normal (roman) font face to use.
   # Style can be specified to pick a specific face.
   normal:
-    family: Monolisa
+    family: "Dank Mono"
+    #family: Monolisa
     #family: "Berkeley Mono Trial"
     style: Regular
       # family: "Fira Code"
@@ -47,14 +48,16 @@ font:
 
       # The bold font face
   bold:
-    family: Monolisa
+    # family: Monolisa
+    family: "Dank Mono"
     style: Medium
       # family: "Fira Code"
       # family: "Source Code Pro"
 
       # The italic font face
   italic:
-    family: Monolisa
+    # family: Monolisa
+    family: "Dank Mono"
     style: "Light Italic"
       # style: "Light Oblique"
       # family: "Fira Code"
@@ -62,8 +65,9 @@ font:
       # style: "Medium Italic"
 
       # Point size of the font
-  size: 16.0
-  use_thin_strokes: true
+  size: 18.0
+  #use_thin_strokes: true
+  AppleFontSmoothing: true
 
 draw_bold_text_with_bright_colors: true
 
