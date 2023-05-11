@@ -60,8 +60,8 @@ export VISUAL="nvim"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # ruby
-# source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
-# source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 
 # maybe find a better way to do this?
 # chruby ruby-3.0.1
@@ -145,4 +145,4 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
-# path+=("/Users/atomic/Library/Python/3.10/bin")
+path+=("/Users/bryce/Library/Python/3.9/bin")
