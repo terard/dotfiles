@@ -41,6 +41,8 @@ vim.keymap.set("n", "<leader>t", function()
   vim.cmd("TestFile -strategy=basic")
 end)
 
+vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
+
 --nnoremap
 --vim.keymap.set("n", "<leader><CR>", ":so $XDG_CONFIG_HOME/nvim/init.vim<CR>")
 vim.keymap.set("n", "<leader><CR>", ":so $XDG_CONFIG_HOME/nvim/init.lua<CR>")

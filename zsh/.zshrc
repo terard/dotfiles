@@ -30,16 +30,16 @@ else
   export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$(/usr/local/bin/brew --prefix)/share/zsh-syntax-highlighting/highlighters
 fi
 
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-# [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-#
-# #export PREFIX="/opt/homebrew/bin/n"
-# #export N_PREFIX="/opt/homebrew/bin/n"
-# export N_CACHE_PREFIX=$HOME/.n/versions
-# unset PREFIX
-# unset N_PREFIX
-# unset N_CACHE_PREFIX
+ export NVM_DIR="$HOME/.nvm"
+ [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+ [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+ #export PREFIX="/opt/homebrew/bin/n"
+ #export N_PREFIX="/opt/homebrew/bin/n"
+ export N_CACHE_PREFIX=$HOME/.n/versions
+ unset PREFIX
+ unset N_PREFIX
+ unset N_CACHE_PREFIX
 
 # Nicer history
 export HISTSIZE=100000
@@ -62,6 +62,8 @@ export VISUAL="nvim"
 # ruby
 # source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
 # source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
 
 # maybe find a better way to do this?
 # chruby ruby-3.0.1
@@ -135,14 +137,14 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
-# export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-# export PYENV_ROOT="$HOME/.pyenv"
-# command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init -)"
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 # pnpm
 # export PNPM_HOME="/Users/atomic/.local/share/pnpm"
 # export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
-# path+=("/Users/atomic/Library/Python/3.10/bin")
+path+=("/Users/atomic/Library/Python/3.10/bin")
