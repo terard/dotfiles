@@ -57,7 +57,7 @@ return require('packer').startup(function(use)
     requires = {
       -- LSP Support
       { 'neovim/nvim-lspconfig' }, -- Required
-      { -- Optional
+      {                            -- Optional
         'williamboman/mason.nvim',
         run = function()
           pcall(vim.cmd, 'MasonUpdate')
@@ -66,9 +66,9 @@ return require('packer').startup(function(use)
       { 'williamboman/mason-lspconfig.nvim' }, -- Optional
 
       -- Autocompletion
-      { 'hrsh7th/nvim-cmp' }, -- Required
+      { 'hrsh7th/nvim-cmp' },     -- Required
       { 'hrsh7th/cmp-nvim-lsp' }, -- Required
-      { 'L3MON4D3/LuaSnip' }, -- Required
+      { 'L3MON4D3/LuaSnip' },     -- Required
       { 'hrsh7th/cmp-buffer' },
       { 'hrsh7th/cmp-path' },
       { 'saadparwaiz1/cmp_luasnip' },
@@ -99,4 +99,9 @@ return require('packer').startup(function(use)
   -- new
   use { 'kchmck/vim-coffee-script' }
   use { 'ThePrimeagen/git-worktree.nvim' }
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
+  require('lualine').setup()
 end)

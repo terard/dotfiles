@@ -3,6 +3,7 @@ require("travhimself.set")
 require("travhimself.remap")
 --require("travhimself.emmet")
 require("travhimself.ruby")
+require("travhimself.worktrees")
 
 vim.cmd("source ~/.config/nvim/lua/travhimself/legacy.vim")
 --vim.cmd 'source ~/.config/nvim/keymaps.vim'

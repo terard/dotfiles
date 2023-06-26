@@ -66,7 +66,7 @@ source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
 # maybe find a better way to do this?
-# chruby ruby-3.0.1
+chruby ruby-3.2.2
 
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -107,8 +107,13 @@ alias gwl="git worktree list"
 alias gwp="git worktree prune"
 
 alias pryor="bundle exec pry -r ./config/environment"
-alias pg_start="brew services start postgresql"
-alias pg_stop="brew services stop postgresql"
+
+alias pg_start="brew services start postgresql@14"
+alias pg_stop="brew services stop postgresql@14"
+
+alias redis_start="brew services start redis"
+alias redis_stop="brew services stop redis"
+
 alias raket="rake -T"
 alias be="bundle exec"
 alias b="bundle"
@@ -138,13 +143,13 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+#export PYENV_ROOT="$HOME/.pyenv"
+#command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+#eval "$(pyenv init -)"
 
 # pnpm
 # export PNPM_HOME="/Users/atomic/.local/share/pnpm"
 # export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
-path+=("/Users/atomic/Library/Python/3.10/bin")
+#path+=("/Users/atomic/Library/Python/3.10/bin")

@@ -26,6 +26,11 @@ vim.keymap.set("n", "<leader>f", function()
 	vim.lsp.buf.format()
 end)
 
+-- Git Worktrees
+vim.keymap.set("n", "<leader>gwl", "[[<Cmd>lua require('telescope').extensions.git_worktree.git_worktrees()<CR>]]", { noremap = true, silent = true })
+-- :lua require('telescope').extensions.git_worktree.create_git_worktree()
+vim.keymap.set("n", "<leader>gwa", "[[<Cmd>lua require('telescope').extensions.git_worktree.create_git_worktree()<CR>]]", { noremap = true, silent = true })
+
 -- gangster setup: run raw dog like this if no pry
 --vim.keymap.set("n", "<leader>t", ":!rspec %<cr>")
 -- AND run like this if there is a pry
