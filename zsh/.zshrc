@@ -20,6 +20,8 @@ export XDG_DATA_HOME=$HOME/.local/share
 #   git worktree remove $1 --force && git branch -D $1
 # }
 
+export PATH=~/tailwindcss:$PATH
+
 if [[ $(arch) == 'arm64' ]]; then
   echo Sourcing M1 version of .zshenv
   export PATH=/opt/homebrew/bin:$PATH

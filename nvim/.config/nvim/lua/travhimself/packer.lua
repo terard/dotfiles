@@ -97,11 +97,22 @@ return require('packer').startup(function(use)
   use { 'github/copilot.vim' }
 
   -- new
+  use { 'slim-template/vim-slim' }
   use { 'kchmck/vim-coffee-script' }
   use { 'ThePrimeagen/git-worktree.nvim' }
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
-  require('lualine').setup()
+  require('lualine').setup {
+    sections = {
+      lualine_a = {
+        {
+          'filename',
+          file_status = true,
+          path = 4
+        }
+      }
+    }
+  }
 end)
