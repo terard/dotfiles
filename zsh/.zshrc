@@ -1,5 +1,6 @@
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_DATA_HOME=$HOME/.local/share
+export BAT_THEME=Nord
 
 # # (installed with homebrew)
 # if type brew &>/dev/null; then
@@ -79,6 +80,8 @@ alias ls='ls -G'
 alias ll='ls -lG'
 alias t="tree -la -I .git"
 alias h="history"
+
+alias cat="bat"
 
 alias ag="ag -f --hidden"
 
