@@ -11,13 +11,15 @@ return require('packer').startup(function(use)
   }
 
   --use { "ellisonleao/gruvbox.nvim" }
-  use({
-    'rose-pine/neovim',
-    as = 'rose-pine',
-    config = function()
-      vim.cmd('colorscheme rose-pine')
-    end
-  })
+  --use({
+    --'rose-pine/neovim',
+    --as = 'rose-pine',
+    --config = function()
+      --vim.cmd('colorscheme rose-pine')
+    --end
+  --})
+
+  use { "catppuccin/nvim", as = "catppuccin" }
 
   use {
     'nvim-treesitter/nvim-treesitter',
@@ -115,4 +117,9 @@ return require('packer').startup(function(use)
       }
     }
   }
+
+  use('jose-elias-alvarez/null-ls.nvim')
+  use('MunifTanjim/prettier.nvim')
+  use('MunifTanjim/eslint.nvim')
+  use('tjdevries/colorbuddy.nvim')
 end)

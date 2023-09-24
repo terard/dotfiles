@@ -1,5 +1,9 @@
+export TERM=xterm-256color
+
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_DATA_HOME=$HOME/.local/share
+
+export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
 
 # # (installed with homebrew)
 # if type brew &>/dev/null; then
@@ -110,8 +114,8 @@ alias gwp="git worktree prune"
 
 alias pryor="bundle exec pry -r ./config/environment"
 
-alias pg_start="brew services start postgresql@14"
-alias pg_stop="brew services stop postgresql@14"
+alias pg_start="brew services start postgresql@15"
+alias pg_stop="brew services stop postgresql@15"
 
 alias redis_start="brew services start redis"
 alias redis_stop="brew services stop redis"
@@ -155,3 +159,4 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 # pnpm end
 
 #path+=("/Users/atomic/Library/Python/3.10/bin")
+export PATH="/usr/local/opt/postgresql@15/bin:$PATH"
