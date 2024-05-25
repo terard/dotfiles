@@ -3,6 +3,7 @@ lsp.preset('recommended')
 
 lsp.ensure_installed({
   'ruby_ls',
+  --'erb_lint',
   'tsserver',
   'eslint',
   'lua_ls',

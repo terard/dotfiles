@@ -23,8 +23,11 @@ vim.keymap.set("n", "Q", "<nop>")
 vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 
 vim.keymap.set("n", "<leader>f", function()
-	vim.lsp.buf.format()
+  vim.lsp.buf.format()
 end)
+--vim.keymap.set("n", "<Leader>f", ":ErbLint --autocorrect<CR>")
+
+vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- gangster setup: run raw dog like this if no pry
 --vim.keymap.set("n", "<leader>t", ":!rspec %<cr>")
@@ -64,4 +67,3 @@ vim.keymap.set("n", "<C-l>", "<C-w>l")
 vim.keymap.set("n", "<leader><leader>", ":e#<cr>")
 
 --nnoremap <Leader><CR> :so $XDG_CONFIG_HOME/nvim/init.vim<CR>
-

@@ -1,14 +1,15 @@
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_DATA_HOME=$HOME/.local/share
 export BAT_THEME=Nord
+export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
 
-# # (installed with homebrew)
-# if type brew &>/dev/null; then
-# 	FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-#
-# 	autoload -Uz compinit
-# 	compinit
-# fi
+# (installed with homebrew)
+if type brew &>/dev/null; then
+	FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+	autoload -Uz compinit
+	compinit
+fi
 #
 # function worktree_add() {
 #   git worktree add $1 --guess-remote
@@ -61,8 +62,8 @@ export VISUAL="nvim"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # ruby
-# source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
-# source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
+source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
+source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
 
 # maybe find a better way to do this?
 # chruby ruby-3.0.1
@@ -108,14 +109,21 @@ alias gwl="git worktree list"
 alias gwp="git worktree prune"
 
 alias pryor="bundle exec pry -r ./config/environment"
-alias pg_start="brew services start postgresql"
-alias pg_stop="brew services stop postgresql"
+
+alias pg_start="brew services start postgresql@15"
+alias pg_stop="brew services stop postgresql@15"
+
+alias redis_start="brew services start redis"
+alias redis_stop="brew services stop redis"
+
 alias raket="rake -T"
 alias be="bundle exec"
 alias b="bundle"
 alias bu="bundle update"
 alias yi="yarn install"
 alias rc="rc"
+
+bindkey -e
 
 # tmux
 bindkey -s ^f "tmux-sessionizer\n"
@@ -126,6 +134,8 @@ alias tns="tmux new-session"
 alias tnd="tmux new-session -d "
 alias tnw="tmux new-window"
 alias tk="tmux kill-server"
+
+alias ap="ansible-playbook"
 
 # By default, zsh considers many characters part of a word (e.g., _ and -).
 # Narrow that down to allow easier skipping through words via M-f and M-b.
@@ -149,3 +159,4 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # pnpm end
 
 # path+=("/Users/atomic/Library/Python/3.10/bin")
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"

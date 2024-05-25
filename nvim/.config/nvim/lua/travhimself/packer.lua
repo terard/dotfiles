@@ -11,13 +11,14 @@ return require('packer').startup(function(use)
   }
 
   --use { "ellisonleao/gruvbox.nvim" }
-  use({
-    'rose-pine/neovim',
-    as = 'rose-pine',
-    config = function()
-      vim.cmd('colorscheme rose-pine')
-    end
-  })
+  use { "catppuccin/nvim", as = "catppuccin" }
+  --use({
+  --'rose-pine/neovim',
+  --as = 'rose-pine',
+  --config = function()
+  --vim.cmd('colorscheme rose-pine')
+  --end
+  --})
 
   use {
     'nvim-treesitter/nvim-treesitter',
@@ -26,7 +27,7 @@ return require('packer').startup(function(use)
   use { 'nvim-treesitter/playground' }
 
   use { 'theprimeagen/harpoon' }
-  use { 'mbbill/undotree' }
+  --use { 'mbbill/undotree' }
   use { 'tpope/vim-fugitive' }
 
   --use {
@@ -57,7 +58,7 @@ return require('packer').startup(function(use)
     requires = {
       -- LSP Support
       { 'neovim/nvim-lspconfig' }, -- Required
-      { -- Optional
+      {                            -- Optional
         'williamboman/mason.nvim',
         run = function()
           pcall(vim.cmd, 'MasonUpdate')
@@ -66,9 +67,9 @@ return require('packer').startup(function(use)
       { 'williamboman/mason-lspconfig.nvim' }, -- Optional
 
       -- Autocompletion
-      { 'hrsh7th/nvim-cmp' }, -- Required
+      { 'hrsh7th/nvim-cmp' },     -- Required
       { 'hrsh7th/cmp-nvim-lsp' }, -- Required
-      { 'L3MON4D3/LuaSnip' }, -- Required
+      { 'L3MON4D3/LuaSnip' },     -- Required
       { 'hrsh7th/cmp-buffer' },
       { 'hrsh7th/cmp-path' },
       { 'saadparwaiz1/cmp_luasnip' },
@@ -99,4 +100,32 @@ return require('packer').startup(function(use)
   -- new
   use { 'kchmck/vim-coffee-script' }
   use { 'ThePrimeagen/git-worktree.nvim' }
+  use { 'mhartington/formatter.nvim' }
+  use { 'tkatsu/vim-erblint' }
+
+  use "lukas-reineke/indent-blankline.nvim"
+  local highlight = {
+    "RainbowRed",
+    "RainbowYellow",
+    "RainbowBlue",
+    "RainbowOrange",
+    "RainbowGreen",
+    "RainbowViolet",
+    "RainbowCyan",
+  }
+
+  local hooks = require "ibl.hooks"
+  -- create the highlight groups in the highlight setup hook, so they are reset
+  -- every time the colorscheme changes
+  hooks.register(hooks.type.HIGHLIGHT_SETUP, function()
+    vim.api.nvim_set_hl(0, "RainbowRed", { fg = "#E06C75" })
+    vim.api.nvim_set_hl(0, "RainbowYellow", { fg = "#E5C07B" })
+    vim.api.nvim_set_hl(0, "RainbowBlue", { fg = "#61AFEF" })
+    vim.api.nvim_set_hl(0, "RainbowOrange", { fg = "#D19A66" })
+    vim.api.nvim_set_hl(0, "RainbowGreen", { fg = "#98C379" })
+    vim.api.nvim_set_hl(0, "RainbowViolet", { fg = "#C678DD" })
+    vim.api.nvim_set_hl(0, "RainbowCyan", { fg = "#56B6C2" })
+  end)
+
+  require("ibl").setup { indent = { highlight = highlight } }
 end)
