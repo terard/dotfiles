@@ -1,4 +1,3 @@
-
 vim.keymap.set("n", "<leader>d", vim.cmd.Ex)
 --vim.keymap.set("n", "<cr>", vim.cmd.Ex)
 
