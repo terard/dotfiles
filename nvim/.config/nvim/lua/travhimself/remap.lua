@@ -1,3 +1,4 @@
+
 vim.keymap.set("n", "<leader>d", vim.cmd.Ex)
 --vim.keymap.set("n", "<cr>", vim.cmd.Ex)
 
@@ -66,4 +67,4 @@ vim.keymap.set("n", "<C-l>", "<C-w>l")
 --vim.keymap.set("n", "<leader><leader>", ":bprevious<cr>")
 vim.keymap.set("n", "<leader><leader>", ":e#<cr>")
 
---nnoremap <Leader><CR> :so $XDG_CONFIG_HOME/nvim/init.vim<CR>
+--nnoremap <Leader><CR> :so $XDG_CONFIG_HOME/nvim/init.vim<CR>gg
