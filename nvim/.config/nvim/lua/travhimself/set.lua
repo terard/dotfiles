@@ -43,6 +43,11 @@ vim.opt.mouse = ""
 vim.opt.clipboard = "unnamed"
 --vim.opt.clipboard = "unnamed"
 --set clipboard+=unnamedplus
+--
+vim.opt.inccommand = "nosplit"
+local opts = {}
+--vim.api.nvim_set_keymap("v", "<C-r>", "<CMD>SearchReplaceSingleBufferVisualSelection<CR>", opts)
+vim.api.nvim_set_keymap("v", "<leader>r", "<CMD>SearchReplaceWithinVisualSelection<CR>", opts)
 
 vim.g.mapleader = ","
 

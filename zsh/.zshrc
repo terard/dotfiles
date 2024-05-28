@@ -1,13 +1,17 @@
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_DATA_HOME=$HOME/.local/share
 
+# https://stackoverflow.com/questions/52671926/rails-may-have-been-in-progress-in-another-thread-when-fork-was-called
+export DISABLE_SPRING=true
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
 # # (installed with homebrew)
-# if type brew &>/dev/null; then
-# 	FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-#
-# 	autoload -Uz compinit
-# 	compinit
-# fi
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
 #
 # function worktree_add() {
 #   git worktree add $1 --guess-remote
@@ -62,9 +66,8 @@ export VISUAL="nvim"
 # ruby
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-
 # maybe find a better way to do this?
-# chruby ruby-3.0.1
+chruby ruby-3.1.3
 
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -72,15 +75,23 @@ export PATH="$HOME/.local/bin:$PATH"
 # export PATH="$(brew --prefix)/bin/rust-analyzer:$PATH"
 # export PATH=$HOME/.cargo/bin:$PATH
 
-
 # alias
-alias l='ls -lah'
+alias l='exa -lah'
 alias ls='ls -G'
 alias ll='ls -lG'
-alias t="tree -la -I .git"
-alias h="history"
 
-alias ag="ag -f --hidden"
+#alias t="tree -la -I .git"
+alias t="exa --tree -a"
+alias t2="exa --tree --level=2 -a"
+alias t3="exa --tree --level=3 -a"
+alias t4="exa --tree --level=4 -a"
+alias t5="exa --tree --level=5 -a"
+
+alias h="history"
+alias x="exit"
+
+#alias ag="ag -f --hidden"
+alias ag="rg"
 
 alias zrc='nvim ~/.zshrc; . ~/.zshrc'
 alias vim='nvim'
@@ -105,17 +116,26 @@ alias gwl="git worktree list"
 alias gwp="git worktree prune"
 
 alias pryor="bundle exec pry -r ./config/environment"
-alias pg_start="brew services start postgresql"
-alias pg_stop="brew services stop postgresql"
+alias pg_start="brew services restart postgresql@13"
+alias pg_stop="brew services stop postgresql@13"
+alias mysql_start="brew services restart mariadb@10.5"
+alias mysql_stop="brew services stop mariadb@10.5"
+alias redis_start="brew services restart redis"
+alias redis_stop="brew services stop redis"
 alias raket="rake -T"
 alias be="bundle exec"
 alias b="bundle"
 alias bu="bundle update"
 alias yi="yarn install"
-alias rc="rc"
+#alias rc="rc"
 
 # tmux
+bindkey -e # emacs
 bindkey -s ^f "tmux-sessionizer\n"
+# not sure why this is needed. but C-r stopped working in tmux
+bindkey '^R' history-incremental-search-backward
+
+
 alias tmus="tmux"
 alias tls="tmux ls"
 alias ta="tmux attach"
@@ -134,7 +154,6 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # should be at the end (installed with homebrew)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-
 # export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 # export PYENV_ROOT="$HOME/.pyenv"
 # command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
@@ -145,4 +164,7 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
-path+=("/Users/bryce/Library/Python/3.9/bin")
+#path+=("/Users/bryce/Library/Python/3.9/bin")
+source /Users/travis_erard/.zed_profile
+export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"
+export PATH="/opt/homebrew/opt/mariadb@10.5/bin:$PATH"

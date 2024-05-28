@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 languages=$(echo "ruby rails javascript lua" | tr " " "\n")
-core_utils=$(echo "find xargs sed awk tmux git" | tr " " "\n")
+core_utils=$(echo "find xargs sed awk tmux git gpg cal" | tr " " "\n")
 selected=$(echo -e "$languages\n$core_utils" | fzf)
 
 read -p "gimme: " query

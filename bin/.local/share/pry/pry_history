@@ -1,0 +1,5328 @@
+puts RbConfig::CONFIG["configure_args"]
+exit
+value
+File.directory?(value)
+File.exist?(value)
+exit
+user.roles_formatted
+exit
+@notified_case
+@notified_case.state
+@notified_case.states
+ls @notified_case
+exit
+less ls @notified_case
+@notified_case.case_transitions
+@notified_case.case_transitions.find_by(to_state: "notified")
+exit
+notification_event
+exit
+notification_event.update(created_at: Time.zone.now - 95.days)
+notification_event
+exit
+query_date
+whereami
+exit
+query
+exit
+"#{Rails.root}#{home}"
+File
+Directory
+expect(Pathname.new("#{Rails.root}#{home}")).to be_directory
+"#{Rails.root}#{home}"
+"#{Rails.root}/#{home}"
+expect(Pathname.new("#{Rails.root}/#{home}")).to be_directory
+exit
+Cases::FindCan.new
+Cases::FindCan.new(case_number: 12345)
+Cases::FindCan.new(case_number: 12345).call
+Cases::FindCan.new.call(case_number: 54321)
+exit
+value
+exit
+value
+exit
+requested_recipients
+keys_found
+exit
+recipients
+keys
+exit
+gpg_options
+exit
+recipients
+keys
+exit
+public_keys
+recipients
+keys
+whereami
+exit
+User.count
+exit
+crypter
+Figaro.env.gpg_recipient_ds
+Figaro.env.gpg_recipient_ds.split(/[,\s]+/)
+exit
+keys
+recipients
+exit
+keys
+recipients
+exit
+keys
+recipients
+exit
+keys
+keys.first
+keys.first.class
+exit
+keys
+exit
+keys.first
+keys.first.email
+keys.first.class
+exit
+keys
+exit
+keys
+exit
+Figaro.env.gpg_recipient_ds
+Figaro.env.gpg_recipient_ds.split(",")
+"pawan_kinger@trendmicro.com, simon_dulude@trendmicro.com, amit_kumar@trendmicro.com".split(",")
+"pawan_kinger@trendmicro.com, simon_dulude@trendmicro.com, amit_kumar@trendmicro.com".split(/[,\s]+/)
+"pawan_kinger@trendmicro.com,  simon_dulude@trendmicro.com,  amit_kumar@trendmicro.com".split(/[,\s]+/)
+exit
+keys
+recipients
+exit
+crypter
+crypter.crypto
+crypter.crypto.class
+fg
+exit
+encrypted
+encrypted.chomp
+encrypted.first
+encrypted.lines
+encrypted.lines.first
+encrypted.lines.last
+exit
+crypter
+crypter.keys
+ls crypter
+ls crypter.crypto
+exit
+GPGME::Engine
+ls GPGME::Engine
+GPGME::Engine.home_dir
+GPGME::Engine.info
+ls GPGME::Engine
+GPGME::Engine.dirinfo
+ls GPGME::Engine.info
+GPGME::Engine.info
+exit
+GPGME::Engine.info
+exit
+GPGME::Engine.info
+exit
+encrypted
+exit
+file_io
+exit
+file_io
+exit
+lfs_file
+exit
+lfs_file
+lfs_file_path
+exit
+temp_file_root
+temp_file_root + @zdi_can + "-" + "-" + (0...8).map { (65 + rand(26)).chr }.join + ".zip"
+exit
+lfs_file_path
+fg
+exit
+file_fixture
+ActiveSupport::TestCase.file_fixture_path
+self.fixture_path
+File.open("spec/fixtures/files/hebitme.pdf")
+File.open("spec/fixtures/files/hebitme002.pdf")
+exit
+file
+exit
+file
+exit
+gpg_options
+exit
+file
+exit
+file
+exit
+gpg_options
+exit
+file
+file.name
+ls file
+file.class
+file.path
+exit
+input 
+output
+exit
+gpg_options
+file_io
+exit
+encrypted
+output
+exit
+encrypted
+ls encrypted
+encrypted.to_json
+encrypted.file_name
+encrypted.read
+encrypted.read.chomp
+encrypted.chomp
+encrypted.read.lines
+encrypted.read
+exit
+result
+result.lines
+result.lines.first
+result.lines.first.chomp
+result.lines.last.chomp
+exit
+GPGME::Engine.info
+GPGME::Engine.info.select{|i| i.home_dir}
+GPGME::Engine.info.filter{|i| i.home_dir}
+GPGME::Engine.info.first
+GPGME::Engine.info.first.class
+GPGME::Engine.info.first.class.to_h
+GPGME::Engine.info.first.class.to_s
+GPGME::Engine.info.first.enumerable?
+GPGME::Engine.info.first.enumerable
+GPGME::Engine.info
+GPGME::Engine.info.enumerable?
+GPGME::Engine.info.is_enumerable?
+GPGME::Engine.info.is_enum?
+GPGME::Engine.info.is_a?(Enumerable)
+GPGME::Engine.info.is_a?(Array)
+GPGME::Engine.info.filter{|i| i.home_dir}
+GPGME::Engine.info.filter{|i| i.home_dir}.select{|s| s.home_dir}
+GPGME::Engine.info.first
+GPGME::Engine.info.first.home_dir
+GPGME::Engine.info.filter{|i| i.home_dir}.map{|s| s.home_dir}
+exit
+gpg_options
+cipher_input_path
+check_file_read(cipher_input_path)
+File.read(cipher_input_path)
+decrypt_buffer(cipher_input, gpg_options)
+exit
+cipher_input
+gpg_options
+crypto.decrypt(cipher_input, gpg_options)
+exit
+options
+exit
+options
+exit
+clear_input
+clear_input_path
+output_path
+gpg_options
+encrypt_buffer(clear_input: clear_input, gpg_options: gpg_options)
+exit
+public_keys
+recipients
+exit
+recipients
+exit
+gpg_options
+exit
+recipients
+exit
+recipients
+gpg_options
+exit
+recipients
+exit
+recipients & keys.map(&:email).map(&:downcase) == recipients
+crypto.encrypt(clear_input, gpg_options)
+exit
+output
+exit
+cipher_input
+gpg_options
+decrypt_buffer(cipher_input, gpg_options)
+exit
+cipher_input
+exit
+cipher_input
+cipher_input_path
+exit
+result
+exit
+result
+exit
+gpg_options
+exit
+@thing = nil
+@thing.respond_to?(:hello)
+@thing.&.hello
+@thing.&hello
+@thing&.hello
+@thing&.hello.false?
+if @thing&.hello puts "woo" end
+if @thing&.hello
+  puts "hello"
+end
+exit
+user
+exit
+rendered
+exit
+rendered
+exit
+update_params
+@product
+exit
+params
+params.require
+params.require(:product)
+params.require(:product)[:tag_ids]
+exit
+params.require(:product)[:tag_ids]
+exit
+params.require(:product)[:tag_ids]
+exit
+params.require(:product)[:tag_ids]
+exit
+product_params
+exit
+product_params
+exti
+exit
+params
+product_params
+exit
+product_params
+update_params.key?("automated_analysis_supported")
+product_params.key?("automated_analysis_supported")
+product_params.key?("automated_analysis_supporteds")
+product_params.key?("automated_analysis_supported")
+params.require(:product)[:tag_ids]
+params.require(:product)
+exit
+update_params
+current_user.admin?
+exit
+update_params
+update_params.delete("automated_analysis_supported")
+update_params
+product_params
+exit
+product_params
+update_params
+exit
+update_params
+product_params
+params.require(:product)[:tag_ids]
+product_params
+exit
+product_params
+product_params.delete("automated_analysis_supported")
+product_params
+product_params.class
+update_params.class
+update_params.delete("automated_analysis_supported")
+update_params
+product_params
+exit
+update_params
+product_params
+update_params.key?("automated_analysis_supported")
+exit
+product_params
+update_params
+exit
+params
+params.delete("automated_analysis_supported")
+params
+params.delete("automated_analysis_supported")
+params
+exit
+params
+params.to_h
+product_params.to_h
+product_params.to_h.delete("automated_analysis_supported")
+product_params.to_h
+foo = product_params.to_h
+foo
+foo.delete("automated_analysis_supported")
+foo
+exit
+update_params
+params
+product_params
+exit
+whereami
+update_params
+params
+update_params.class
+params.class
+exit
+weak_params
+weak_params = update_params.delete("automated_analysis_supported")
+weak_params
+weak_params = update_params.delete!("automated_analysis_supported")
+product_params.to_h
+product_params.to_h.class
+weak_params = update_params.to_h.delete!("automated_analysis_supported")
+weak_params = update_params.to_h.delete("automated_analysis_supported")
+weak_params
+weak_params = update_params.to_h
+weak_params
+weak_params = product_params.to_h
+weak_params = product_params.to_h.delete("automated_analysis_supported")
+weak_params
+weak_params = product_params.to_h
+weak_params.delete!("automated_analysis_supported")
+weak_params.class
+weak_params.delete("automated_analysis_supported")
+weak_params
+exit
+params
+exit
+update_params
+product_params
+update_params.clas
+update_params.class
+product_params.clas
+product_params.class
+exit
+update_params
+current_user.admin?
+update_params.delete("automated_analysis_supported")
+update_params
+product_params
+product_params.delete("automated_analysis_supported")
+product_params
+exit
+params
+exit
+params
+exit
+params
+exit
+Time.zone
+exit
+Time.now
+Time.current
+exit
+Time.now
+Time.current
+Time.current = Time.now
+Time.current == Time.now
+Time.current
+Time.now
+Time.local
+Time.local(Time.now)
+Time.local(Time.now.to_s)
+exit
+Time.zone
+exit
+Time.local(2014, 04, 01, 0, 0, 0)
+Time.local(2014, 04, 01)
+Time.zone
+Time.now
+Time.zone.now
+Time.current
+ls Time
+exit
+Time.zone
+exit
+Time.current
+exit
+Time.utc(2020, 8, 30, 19, 0, 20)
+Time.local(2020, 8, 30, 19, 0, 20)
+Time.utc(2020, 8, 30, 19, 0, 20)
+Time.utc(2020, 8, 30, 19, 0, 20) == Time.local(2020, 8, 30, 19, 0, 20)
+exit
+Time.current
+exit
+Time.current
+Time.now
+Time.current.class
+Time.now.class
+exit
+Time.current
+exit
+Time.current
+exit
+Time.current
+exit
+Time.current
+exit
+30.days.ago
+30.days.ago.beginning_of_day
+exit
+controller
+Controller
+request
+request.controller
+exit
+response
+response.body
+exit
+response.body
+response
+ls response
+response.render
+ls response
+exit
+show_detail
+exit
+show_detail
+current_user
+current_user.roles
+current_user.role
+current_user.user_roles
+exit
+show_detail
+current_user.user_roles
+exit
+current_user.user_roles
+current_user.roles
+show_detail
+current_user
+exit
+current_user
+current_user.user_roles
+show_detail
+exit
+rendered
+exit
+rendered
+exit
+key_file
+key_file.read
+exit
+public_keys
+exit
+public_keys
+exit
+gpg_options
+exit
+gpg_options
+exit
+public_keys
+generate_key_sha_array(public_keys)
+exit
+keys
+public_keys
+exit
+keys
+exit
+public_keys
+exit
+gpg_options
+public_keys
+exit
+public_keys
+exit
+public_keys
+exit
+public_keys
+exit
+public_keys
+exit
+public_keys
+exit
+public_keys
+exit
+keys
+exit
+public_keys
+exit
+key_file.read
+exit
+public_keys
+public_keys.delete("\n")
+public_keys.match(/(^.*)(:)(.*)/i).captures
+public_keys.match(/(^.*)(:)(.*)/i)
+public_keys.match(/-----BEGIN PGP PRIVATE KEY BLOCK-----(.*?)-----END PGP PRIVATE KEY BLOCK-----/i)
+public_keys.match(/-----BEGIN PGP PRIVATE KEY BLOCK-----(.*?)-----END PGP PRIVATE KEY BLOCK-----/)
+public_keys.delete("\n").match(/-----BEGIN PGP PRIVATE KEY BLOCK-----(.*?)-----END PGP PRIVATE KEY BLOCK-----/)
+public_keys.delete("\n").match(/-----BEGIN PGP PRIVATE KEY BLOCK-----(.*?)-----END PGP PRIVATE KEY BLOCK-----/).captures
+public_keys.delete("\n").match(/-----BEGIN PGP PRIVATE KEY BLOCK-----(.*?)-----END PGP PRIVATE KEY BLOCK-----/).captures.first
+public_keys.delete("\n").match(/-----BEGIN PGP PRIVATE KEY BLOCK-----(.*?)-----END PGP PRIVATE KEY BLOCK-----/).captures.last
+exit
+public_keys
+exit
+key
+key.sha
+exit
+public_keys
+whereami
+exit
+public_keys
+public_keys.first
+public_keys.last
+exit
+keys
+keys.class
+keys.to_a
+keys
+exit
+data
+data.split("-----END PGP PRIVATE KEY BLOCK----------BEGIN PGP PUBLIC KEY BLOCK-----")
+data.split("-----END PGP PRIVATE KEY BLOCK----------BEGIN PGP PUBLIC KEY BLOCK-----").class
+exit
+keys
+keys.first
+keys.first.sha
+exit
+keys
+keys.first.append("-----BEGIN PGP PUBLIC KEY BLOCK-----")
+keys.first += ("-----BEGIN PGP PUBLIC KEY BLOCK-----")
+keys.first += "-----BEGIN PGP PUBLIC KEY BLOCK-----"
+keys.first
+keys[0] = keys[0] + "-----BEGIN PGP PUBLIC KEY BLOCK-----"
+keys
+exit
+keys[0] = keys[0] + "-----END PGP PUBLIC KEY BLOCK-----"
+keys[1] = keys[1] + "-----BEGIN PGP PUBLIC KEY BLOCK-----"
+keys
+exit
+keys[0] = keys[0] + "-----END PGP PUBLIC KEY BLOCK-----"
+keys[1] = "-----BEGIN PGP PUBLIC KEY BLOCK-----" + keys[1]
+keys
+exit
+public_keys
+exit
+key
+key.sha
+exit
+public_key_file
+public_key_file.read
+exit
+public_keys
+exit
+keys
+exit
+key
+key.sha
+exit
+gpg_options
+exit
+clear_input
+gpg_options
+crypto.encrypt(clear_input, gpg_options)
+exit
+invalid_keys
+exit
+public_keys
+gpg_options
+exit
+GPGME_DEBUG=9 crypto.encrypt(clear_input, gpg_options)
+GPGME_DEBUG
+exit
+crypto.encrypt(clear_input, gpg_options)
+exit
+crypto.encrypt(clear_input, gpg_options)
+GPGME_DEBUG
+ENV["GPGME_DEBUG"]
+ENV
+exit
+crypto.encrypt(clear_input, gpg_options)
+gpg_options
+gpg_options.merge({gpgme_debug: 9})
+gpg_options
+gpg_options.merge!({gpgme_debug: 9})
+crypto.encrypt(clear_input, gpg_options)
+exit
+crypto.encrypt(clear_input, gpg_options)
+recipients
+keys
+exit
+crypto.encrypt(clear_input, gpg_options)
+clear_input
+gpg_options
+exit
+[public_key_file]
+[public_key_file.read]
+exit
+exxit
+exit
+public_keys
+exit
+invalid_keys
+exit
+invalid_keys
+key
+exit
+invalid_keys
+exit
+public_keys
+exit
+invalid_keys
+exit
+public_keys
+exit
+public_keys
+exit
+public_keys
+exit
+public_keys
+exit
+public_key_file
+public_key_file.read.delete("\n")
+public_key_file.read
+exit
+invalid_keys
+exit
+Figaro.env.gpg_pub_keys
+exit
+public_keys
+recipients
+recipients & keys.map(&:email).map(&:downcase) == recipients
+exit
+public_keys
+recipients
+keys
+whereami
+exit
+keys
+exit
+home_dir
+Figaro.env.gpg_pub_keys
+exit
+home_dir
+exit
+@crypto
+exit
+Figaro.env.gpg_pub_keys
+exit
+Figaro.env.gpg_pub_keys
+home_dir
+exit
+public_keys
+recipients
+exit
+recipients
+exit
+keys
+recipients
+exit
+public_keys
+reciepients
+recipients
+exit
+key
+exit
+invalid_keys
+keys
+public_keys
+exit
+key
+key.sha
+exit
+keys
+exit
+keys
+keys.size
+key.sha
+ls key
+key.email
+exit
+recipients
+exit
+key
+key.sha
+exit
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+exit
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+GPGME::Key.find(:secret, "786C3AD3")
+exit
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+exit
+key_path
+check_file_read(key_path)
+gpg_options
+exit
+key_path
+exit
+GPGME::Key.find("zeke.test@trendmicro.com")
+exit
+GPGME::Key.find("zeke.test@trendmicro.com")
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+exit
+GPGME::Key.find("zeke.test@trendmicro.com")
+exit
+GPGME::Key.find("zeke.test@trendmicro.com")
+exit
+GPGME::Key.find("zeke.test@trendmicro.com")
+exit
+key_path
+exit
+GPGME::Key.find("zeke.test@trendmicro.com")
+exit
+GPGME::Key.find("zeke.test@trendmicro.com")
+GPGME::Key.find("786C3AD3")
+exit
+GPGME::Key.find("786C3AD3")
+GPGME::Key.find("zeke.test@trendmicro.com")
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+exit
+key_path
+exit
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+GPGME::Key.find("zeke.test@trendmicro.com")
+exit
+gpg_options
+exit
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+GPGME::Key.find("zeke.test@trendmicro.com")
+exit
+gpg_options
+key_path
+exit
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+GPGME::Key.find("zeke.test@trendmicro.com")
+exit
+key_path
+gpg_options
+exit
+GPGME::Key.find("zeke.test@trendmicro.com")
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+exit
+key_path
+exit
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+GPGME::Key.find("zeke.test@trendmicro.com")
+exit
+gpg_options
+exit
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+GPGME::Key.find("zeke.test@trendmicro.com")
+exit
+key_path
+exit
+key_path
+exit
+GPGME::Key.find("zeke.test@trendmicro.com")
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+exit
+GPGME::Key.find(:secret)
+exit
+GPGME::Key.import(File.open("spec/files/crypter/zeke_spec_test_private_key.asc"))
+GPGME::Key.find(:secret)
+File.open("spec/files/crypter/zeke_spec_test_private_key.asc")
+cat File.open("spec/files/crypter/zeke_spec_test_private_key.asc")
+exit
+key_path
+File.open(key_path)
+exit
+GPGME::Key.find(:secret)
+GPGME::Key.find
+GPGME::Key.find(:public
+)
+exit
+File.open("spec/files/crypter/zeke_spec_test_private_key.asc")
+GPGME::Key.import(File.open("spec/files/crypter/zeke_spec_test_private_key.asc"))
+exit
+key_path
+exit
+key_path
+exit
+key_path
+exit
+key_path
+exit
+key_path
+exit
+key_path
+exit
+key_path
+exit
+GPGME::Key.find(:secret)
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+GPGME::Key.find(:public, "zeke.test@trendmicro.com")
+exit
+GPGME::Key.find(:public, "zeke.test@trendmicro.com")
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+exit
+encrypted
+exit
+GPGME::Key.find(:public, "zeke.test@trendmicro.com")
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+GPGME::Key.find(:secret)
+exit
+crypter.import_key("spec/files/crypter/zeke_spec_testing_keys.asc", {})
+GPGME::Key.find(:secret)
+result =crypter.import_key("spec/files/crypter/zeke_spec_testing_keys.asc", {})
+result.imports
+result.imports.first
+exit
+eix
+exit
+GPGME::Key.find(:public)
+result =crypter.import_key("spec/files/crypter/zeke_spec_testing_keys.asc")
+GPGME::Key.find(:secret)
+result =crypter.import_key("spec/files/crypter/zeke_spec_testing_keys.asc", {pinentry_mode: GPGME::PINENTRY_MODE_LOOPBACK, keylist_mode: GPGME::KEYLIST_MODE_LOCAL})
+exit
+key
+exit
+result =crypter.import_key("spec/files/crypter/zeke_spec_testing_keys.asc")
+key
+exit
+result =crypter.import_keys("spec/files/crypter/")
+key
+exit
+key
+exit
+key
+exit
+GPGME::Key.find(:secret)
+GPGME::Key.find(:public)
+exit
+result =crypter.import_keys("spec/files/crypter/")
+result
+GPGME::Key.find(:secret)
+exit
+encrypted
+exit
+encrypted
+exit
+encrypted
+exit
+Figaro.env.gpg_home
+ls Figaro.env.gpg_home
+exit
+crypter.import_key("spec/files/crypter/zeke_spec_testing_keys.asc")
+exit
+public_keys
+exit
+GPGME::Key.find(:secret, "zeke.test@trendmicro.com")
+GPGME::Key.find(:publi, "zeke.test@trendmicro.com")
+GPGME::Key.find(:public, "zeke.test@trendmicro.com")
+GPGME::Key.find
+ls GPGME::Key
+GPGME::Key.first
+GPGME::Key.keys
+GPGME::Key.find(:public)
+GPGME::Key.find(:public).first
+GPGME::Key.find(:public).first.delete!
+GPGME::Key.find(:public)
+whereami
+crypter.import_key("spec/files/crypter/zeke_spec_testing_keys.asc")
+GPGME::Key.find(:public)
+GPGME::Key.find(:secret)
+crypter.import_key("spec/files/crypter/zeke_spec_test_private_key.asc")
+GPGME::Key.find(:secret)
+exit
+key_path
+gpg_options
+key_path
+file = File.open(key_path, "rb")
+GPGME::Key.import(file, gpg_options)
+GPGME::Key.imports
+GPGME::Key.import
+exit
+result
+exit
+ctx
+GPGME::Key.find(:secret)
+GPGME::Key.find(:public)
+ctx = GPGME::Ctx.new
+key
+ctx.import_keys key
+ls ctx
+ctx.keys
+Ctx.generate_key
+ctx.generate_key
+exit
+parms
+PARMS
+exit
+result
+ctx.keys
+GPGME::Key.find(:public)
+exit
+GPGME::Key.find(:public)
+GPGME::Key.find(:secret)
+exit
+result
+GPGME::Key.find(:secret)
+GPGME::Key.find(:secret, "joe@foo.bar")
+exit
+encrypted
+exit
+gpg_options
+exit
+GPGME::Key.find(:secret, "joe@foo.bar")
+GPGME::Key.find(:secret)
+exit
+GPGME::Key.find(:secret)
+GPGME::Key.find(:secret, "joe@foo.bar")
+ctx.keys
+ctx.class
+exit
+ctx.keys
+GPGME::Key.find(:secret, "joe@foo.bar")
+GPGME::Key.find("joe@foo.bar")
+exit
+GPGME::Key.find("joe@foo.bar")
+GPGME::Key.find(:secret, "joe@foo.bar")
+GPGME::Key.find(:secret)
+exit
+GPGME::Engine.home_dir
+GPGME::Engine
+GPGME::Engine.to_s
+ls GPGME::Engine
+GPGME::Engine.info
+ctx
+ls ctx
+ctx.class
+GPGME::Key.find(:secret)
+GPGME::Key.find(:secret, "joe@foo.bar")
+GPGME::Key.find("joe@foo.bar")
+ctx.keys
+crypter.import_keys(ctx.keys)
+crypter.import_key(ctx.keys.first)
+exit
+ctx.keys
+result = GPGME::Key.import(ctx.keys.first, gpg_options).imports
+result = GPGME::Key.import(GPGME::Data.new(ctx.keys.first), gpg_options).imports
+result
+GPGME::Key.find(:secret)
+GPGME::Key.find(:public)
+exit
+ctx.import
+ctx.import(Data.new(ctx.keys.last))
+ctx.import(GPGME::Data.new(ctx.keys.last))
+ctx.keys.last
+ls ctx.keys.last
+ctx.generate_key(parms).import_result
+result = GPGME::Key.import(GPGME::Data.new(ctx.keys.first), gpg_options)
+ctx
+ctx.keys.first
+result = GPGME::Key.import(ctx.keys.first, gpg_options)
+gpg_options
+result = GPGME::Key.import(ctx.keys.first)
+crypto.import_keys
+crypter.import_keys
+exit
+ctx.keys
+GPGME::Key.find(:public)
+ctx.keys.size
+GPGME::Key.find(:public).size
+ctx.keys
+GPGME::Key.find(:secret)
+exit
+options
+gpg_options
+exit
+gpg_options
+exit
+exit-program
+GPGME::Key.find(:secret)
+GPGME::Key.find(:public)
+whereami
+exit
+GPGME::Key.find(:secret)
+GPGME::Key.find(:public)
+exit
+GPGME::Key.find(:secret)
+GPGME::Key.find(:secret, "ted@foo.bar")
+GPGME::Key.find(:secret)
+GPGME::Key.find(:public)
+GPGME::Key.find(:secret)
+GPGME::Engine.info
+exit
+GPGME::Key.find(:secret)
+GPGME::Key.find(:secret, "ted@foo.bar")
+ctx.keys
+GPGME::Key.find(:secret)
+ctx.keys
+GPGME::Key.find(:secret)
+GPGME::Key.find(:public)
+ctx.keys
+ls ctx.keys
+ctx.keys
+GPGME::Key.find(:public)
+GPGME::Key.find(:secret)
+exit
+ctx.keys
+GPGME::Key.find(:public)
+ctx.keys
+ctx.keys.size
+GPGME::Key.find(:public).size
+whereami
+crypter
+exit
+ctx.keys.size
+GPGME::Key.find(:public).size
+GPGME::Key.find(:secret).size
+ctx.keys
+ls ctx.keys
+GPGME::Key.find().size
+GPGME::Key.keys.size
+GPGME::Key.keys
+ls GPGME::Key
+ls ctx.keys
+ctx.keys.last
+ls ctx.keys.last
+ctx.keys.last.secret?
+ctx.keys.last.subkeys
+ctx.keys.last.secret
+ctx.keys.last.secrets
+whereami
+exit
+crypter
+ctx.keys
+GPGME::Key.find(:secret)
+GPGME::Key.find(:public)
+whereami
+crypter
+ls crypter
+crypter.ctx
+crypter.crypto.ctx
+GPGME::Key.find(:public)
+exit
+ctx
+exit
+crypter
+crypter.ctx
+ls crypter
+crypter.crypto
+ls crypter.crypto
+exit
+GPGME::Key.find(:public)
+ctx.keys
+exit
+ctx.keys.size
+exit
+ctx.keys.size
+GPGME::Key.find(:public)
+GPGME::Key.find(:secret)
+ctx.keys.size
+ctx
+ENV
+exit
+ctx.keys
+exit
+result
+exit
+ctx
+GPGME::Key.find(:secret)
+GPGME::Key.find(:public)
+exit
+GPGME::Key.find(:public)
+GPGME::Key.find(:secret)
+crypter.import_key("spec/files/crypter/zeke_spec_test_private_key.asc")
+GPGME::Key.find(:secret)
+exit
+GPGME::Key.find(:secret)
+crypter.valid?("spec/files/crypter/zeke_spec_test_private_key.asc")
+crypter.import_key(File.open("spec/files/crypter/zeke_spec_test_private_key.asc"))
+GPGME::Key.find(:secret)
+gpg_options
+exit
+result
+GPGME::Key.find(:secret)
+GPGME::Key.find(:public)
+exit
+File.open("spec/files/crypter/zeke_spec_testing_keys.asc")
+File.open("spec/files/crypter/zeke_spec_testing_keys.asc").read
+exit
+result
+GPGME::Key.find(:secret)
+GPGME::Key.find(:public)
+exit
+result
+GPGME::Key.find(:public)
+GPGME::Key.find(:secret)
+exit
+GPGME::Key.import(File.open("spec/files/crypter/zeke_spec_testing_keys.asc"))
+GPGME::Key.import(File.open("spec/files/crypter/zeke_spec_test_private_key.asc"))
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"))
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_public_key.asc"))
+GPGME::Key.import(File.open("spec/files/crypter/zeke_spec_testing_keys.asc"))
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_testing_keys.asc"))
+exit
+GPGME::Key.import(File.read("spec/files/crypter/private/zeke_spec_test_private_key.asc"))
+exit-program
+exit
+result
+GPGME::Key.import(File.read("spec/files/crypter/private/zeke_spec_test_private_key.asc"))
+ENV
+ENV["GPGME_DEBUG"]=9
+ENV["GPGME_DEBUG"]="9"
+ENV
+GPGME::Key.import(File.read("spec/files/crypter/private/zeke_spec_test_private_key.asc"))
+exit
+GPGME::Key.import(File.read("spec/files/crypter/private/zeke_spec_test_private_key.asc"))
+exit
+GPG_DEBUG=true
+GPGME::Key.import(File.read("spec/files/crypter/private/zeke_spec_test_private_key.asc"))
+GPG_VERBOSE=true
+GPGME::Key.import(File.read("spec/files/crypter/private/zeke_spec_test_private_key.asc"))
+exit
+GPGME::Key.import(File.read("spec/files/crypter/private/zeke_spec_test_private_key.asc"), { gpgme_debug: "9" })
+exit
+key
+GPGME::Key.find(:secret)
+GPGME::Key.import(key)
+GPGME::Key.import(File.read("spec/files/crypter/private/zeke_spec_test_private_key.asc"), { gpgme_debug: "9" })
+exit
+ENV
+GPG_VERBOSE=true
+GPG_DEBUG=true
+whereami
+GPGME::Key.import(File.read("spec/files/crypter/private/zeke_spec_test_private_key.asc"))
+GPGME::Key.import(File.open("spec/files/crypter/private/zeke_spec_test_private_key.asc"))
+exit
+GPGME::Key.import(File.open("spec/files/crypter/private/zeke_spec_test_private_key.asc"))
+GPGME::Key.import(File.open("spec/files/crypter/zeke_spec_test_private_key.asc"))
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"))
+ENV
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"))
+exit
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"))
+ENV
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"))
+exit
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"))
+exit
+crypter
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"))
+exit
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"))
+crypter
+crypter.crypto
+crypter.crypto.info
+crypter.crypto.to_s
+exit
+crypter.crypto.to_s
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"))
+GPGME::Key.find(:secret)
+GPGME::Key.find(:secret).size
+exit
+GPGME::Key.find(:secret).size
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"))
+exit
+GPGME::Key.find(:secret).size
+exit
+GPGME::Key.find(:secret).size
+File.read("spec/files/crypter/zeke_spec_test_private_key.asc")
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"))
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"), {:password => "redacted"})
+GPGME::Key.import(File.read("spec/files/crypter/zeke_spec_test_private_key.asc"), {:password => ""})
+key = GPGME::Data.new(File.open("spec/files/crypter/zeke_spec_test_private_key.asc"))
+ls key
+ctx
+GPGME::Key.import(key, {:password => ""})
+GPGME::Key.import(key)
+GPGME::Key.import(key, {:password => nil})
+GPGME::Key.import(key, {:password => ""})
+exit
+GPGME::Key.find(:secret).size
+exit
+GPGME::Key.find(:secret).size
+exit
+crypter.crypto
+exit
+crypter.crypto
+exit
+GPGME::Key.find(:secret).size
+GPGME::Key.find(:public).size
+GPGME::Key.find(:public)
+GPGME::Key.find(:public).first
+exit
+GPGME::Key.find(:public).first
+ls GPGME::Key.find(:public).first
+ls GPGME::Key.find(:public).first.fingerprint
+GPGME::Key.find(:public).first.fingerprint
+GPGME::Key.find(:public).map{|key| key.fingerprint}
+GPGME::Key.find(:public).map{|key| key.sha}
+GPGME::Key.find(:public).map{|key| key.uids}
+GPGME::Key.find(:public).map{|key| key.email}
+exit
+home_dirs
+exit
+crypter.options
+exit
+crypter.gpg_options
+crypter.default_gpg_options
+exit
+crypter.default_gpg_options
+crypter.gpg_options
+exit
+valuje
+value
+exit
+key_paths
+exit
+key_paht
+key_path
+gpg_options
+exit
+@crypter
+exit
+@crypter
+exit
+key_path
+exit
+key_file
+exit
+result
+GPGME::Key.find(:public).map{|key| key.email}
+GPGME::Key.find(:public).map{|key| key.fingerprint}
+exit
+GPGME::Key.find(:public).map{|key| key.fingerprint}
+expect(GPGME::Key.find(:public).map{|key| key.fingerprint}).to include("B267A29B0C2195EE98DFE6DEB16E4E71786C3AD3")
+expect(GPGME::Key.find(:public).map{|key| key.email}).to include("zeke.test@trendmicro.com")
+exit
+gpg_data_obj
+exit
+gpg_data_obj
+exit
+gpg_data_obj
+gpg_data_obj.to_s
+exit
+expect(result).to eq("hello")
+exit
+cipher_input
+cipher_input_path
+exit
+cipher_input
+exit
+cipher_input
+exit
+clear_output
+exit
+output_path
+exit
+output_path
+exit
+result
+exit
+result
+exit
+recipients
+exit
+public_keys
+exit
+public_keys
+exit
+generate_key_sha_array(public_keys)
+exit
+gpg_options
+exit
+encrypted
+encrypted.to_s
+exit
+recipients
+exit
+recipients
+keys
+keys = nil
+whereami
+exit
+public_keys
+recipients & keys.map(&:email).map(&:downcase) == recipients
+recipients & keys.&map(&:email).map(&:downcase) == recipients
+recipients & keys&.map(&:email).map(&:downcase) == recipients
+exit
+recipients
+public_keys || recipients & keys.map(&:email).map(&:downcase) == recipients
+recipients & keys.map(&:email).map(&:downcase) == recipients
+exit
+GPGME::Key.new
+ls GPGME::Key
+exit
+keys
+exit
+key
+GPGME::Key.valid?(key)
+exit
+invalid_keys
+exit
+imports
+exit
+imports
+exit
+key_concat
+GPGME::Key.import(key_concat)
+exit
+invalid_keys
+exit
+imports
+exit
+imports
+imports.first
+imports.first.fpr
+exit
+Time.now
+Time.zone.now
+travel_to(Time.zone.parse("2018-11-06 08:00:00 -0600"))
+Time.zone.now
+exit
+lines.first
+exit
+lines.first
+exit
+lines.first
+lines.first.to_i
+lines.first.to_i.is_a?(Integer)
+exit
+"hello".to_i
+exit
+zdi_cans
+zdi_cans.class
+exit
+zdi_cans
+zdi_cans.class
+exit
+zdi_cans
+zdi_cans.class
+exit
+response.class
+response
+exit
+Case.with_public_year(2021).joins(product: :vendor).group(:vendors).count
+Case.with_public_year(2021).joins(product: :vendor)
+Case.with_public_year().joins(product: :vendor)
+Case.with_public_year().joins(product: :vendor).first.class
+Case.with_public_year().joins(product: :vendor)
+Case.with_public_year().joins(product: :vendor).group(:vendors)
+Case.with_public_year().joins(product: :vendor).group(:vendors).first
+Case.with_public_year(2021).joins(product: :vendor).group(:vendors).count
+Case.with_public_year().joins(product: :vendor).group(:vendors).count
+Case.with_public_year(2021).joins(product: :vendor).group(:vendors).count
+Case.with_public_year().joins(product: :vendor).group(:vendors)
+Case.with_public_year(2021).joins(product: :vendor).group(:vendors)
+Case.with_public_year(2021).joins(product: :vendor).group(:vendors).count
+exit
+Case.with_public_year(2021).joins(product: :vendor).group(:vendors).count
+ActiveRecord::Base.connection.send(:type_map).keys
+exit
+Case.with_public_year(2021).joins(product: :vendor).group(:vendors).count
+Case.with_public_year().joins(product: :vendor).group(:vendors).count
+Case.with_public_year().joins(product: :vendor).group(:vendor_id).count
+exit
+Case.with_public_year().joins(product: :vendor)
+Case.with_public_year().joins(product: :vendor).group(:vendor_id).count
+Case.with_public_year().joins(product: :vendor).group(:vendor).count
+Case.with_public_year(2021).joins(product: :vendor).group(:vendors).count
+Case.with_public_year().joins(product: :vendor).group(:vendors).count
+Case.with_public_year().joins(product: :vendor).group(:vendors).count.to_sql
+Case.with_public_year().joins(product: :vendor).group(:vendors).to_sql
+pp Case.with_public_year().joins(product: :vendor).group(:vendors).to_sql
+pp Case.with_public_year().joins(product: :vendor).group(:vendors).to_sql.to_s
+pp Case.with_public_year().joins(product: :vendor).group(:vendors).to_sql.to_json
+pp Case.with_public_year().joins(product: :vendor).group(:vendors).to_sql
+pp Case.with_public_year().joins(product: :vendor).group(:vendors)
+pp Case.with_public_year().joins(product: :vendor).group(:vendors).to_sql
+pp Case.with_public_year().joins(product: :vendor).group(:vendors)
+exit
+Case.count
+Case.with_public_year
+exit
+Case.with_public_year(2021).joins(product: :vendor).group(:vendors).count
+Case.with_public_year().joins(product: :vendor).group(:vendors).count
+PublicNumber.count
+PublicNumber.all
+PublicNumber.first
+PublicNumber.first.year
+ls PublicNumber.first
+exit
+kase
+kase.public_number
+PublicNumber.all
+Case.with_public_year(2023).joins(product: :vendor).group(:vendors).count
+Case.with_public_year(2023).joins(product: :vendor)
+Case.with_public_year(2023).joins(product: :vendor).count
+exit
+Vendor.count
+Product.count
+Product.first
+Product.first.vendor
+kase.product
+kase.vendor
+exit
+kase.vendor
+Case.with_public_year(2021).joins(product: :vendor).group(:vendors).count
+Case.with_public_year(2023).joins(product: :vendor).group(:vendors).count
+Case.with_public_year(2023).joins(:vendor).group(:vendors).count
+Case.with_public_year(2023).joins(:vendor).group(:vendor).count
+Case.with_public_year(2023).joins(:vendor).group(:vendor).to_sql
+Case.with_public_year(2023).joins(:vendor).group("vendors.id").to_sql
+Case.with_public_year(2023).joins(:vendor).group("vendors.id").count
+Case.with_public_year(2023).joins(:vendor).group("vendors.id")
+Case.with_public_year(2023).joins(:vendor).group("vendor_id")
+Case.with_public_year(2023).joins(:vendor).group("vendor_id").count
+Case.with_public_year(2023).joins(:vendor).group("vendor_id").to_sql
+Case.with_public_year(2023).joins(:vendor).group("products.vendor_id").to_sql
+Case.with_public_year(2023).joins(:vendor).group("products.vendor_id").count
+Case.with_public_year(2023).joins(:vendor).group(:vendor).count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+cases = Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+cases.group('vendors.id')
+cases.group('vendors.id').count
+cases = Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+cases.group('vendors.id').count
+cases.group('vendors.name').count
+cases = Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name').count
+cases = Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name')
+cases = Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name').count
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name').count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('products.name').count
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('products.name').count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name').count
+exit
+Case.all
+Case.count
+exit
+Case.count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name').count
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name').count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('products.name').count
+Case.with_public_year(2023).joins(:product).includes(:product).group('products.name').count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name').count
+Case.with_public_year(2023).joins(:vendor).includes(:vendor).group('vendors.name').count
+exit
+Case.with_public_year(2023).joins(:vendor).includes(:vendor).group('vendors.name').count
+Vendor.count
+Vendor.first.cases
+Vendor.first.cases.with_public_year(2023)
+Vendor.first.cases.with_public_year(2023).count
+Vendor.map{|vendor| vendor.cases.with_public_year(2023).count }
+Vendor.all.map {|vendor| vendor.cases.with_public_year(2023).count }
+Vendor.all.map {|vendor| {vendor.name: vendor.cases.with_public_year(2023).count }
+Vendor.all.map {|vendor| {vendor.name: vendor.cases.with_public_year(2023).count} }
+Vendor.all.map {|vendor| {vendor.name => vendor.cases.with_public_year(2023).count} }
+Vendor.all.map {|vendor| {vendor.name => vendor.cases.with_public_year(2023).count} }.to_sql
+ActiveRecord::Base.logger = Logger.new STDOUT
+Vendor.all.map {|vendor| {vendor.name => vendor.cases.with_public_year(2023).count} }
+Case.with_public_year(2023).joins(:vendor).includes(:vendor).group('vendors.name').count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name').count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name, products.name').count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select('vendors.name').group('vendors.name, products.name').count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select('vendors.name', 'products.name').group('vendors.name, products.name').count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select('vendors.name', 'products.name').group('vendors.name, products.name')
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select('vendors.name', 'products.name', 'count').group('vendors.name, products.name')
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select('vendors.name', 'products.name', 'count(vendors.name)').group('vendors.name, products.name')
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("vendors.name, products.name, count(vendors.name)").group('vendors.name, products.name')
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("vendors.name, products.name, count(vendors.name)").group('vendors.name, products.name').first
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("vendors.name, products.name, count(vendors.name)").group('vendors.name')
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("vendors.name, products.name, count(vendors.name)").group('vendors.name').all
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("vendors.name, products.name, count(vendors.name)").group('vendors.name').errors
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("count(vendors.name)").group('vendors.name').errors
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("count(vendors.name)").group('vendors.name')
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("count(vendors.name)").group('vendors.name').count
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("count(vendors.name)").group('vendors.name').to_sql
+ActiveRecord::Base.logger = Logger.new STDOUT
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("count(vendors.name)").group('vendors.name')
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("COUNT(vendors.name)").group('vendors.name')
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("COUNT(vendors.name)")
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).class
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("COUNT(vendors.name)")
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).select("COUNT(vendors.name)")
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group("vendors.name")
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group("vendors.name")
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group("products.name")
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group("products.name").first
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group("vendors.name")
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group("vendors.name").count
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group("vendors.name").count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group("vendors.name")
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group("vendors.name")
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group("vendors.name").count
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+Case.with_public_year(2023).joins(:vendor).includes(:vendor).group('vendors.name')
+Case.with_public_year(2023).joins(:vendor).includes(:vendor).group('vendors.name').count
+exit
+Case.with_public_year(2023).joins(:vendor).includes(:vendor).group('vendors.name').count
+Case.with_public_year(2023).joins(:vendor).includes(:vendor).group('vendors.name')
+Case.with_public_year(2023).joins(:vendor).includes(:vendor).group('vendors.name').count
+exit
+Case.with_public_year(2023).joins(:product).includes(:product).group('products.name').count
+Case.with_public_year(2023).joins(:product).includes(:product).group('products.name')
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor)
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).count
+Case.with_public_year(2023).joins(:product).includes(:product).group('products.name')
+Case.with_public_year(2023).joins(:product).includes(:product).group('products.name').count
+Case.with_public_year(2023).select("products.name").joins(:product).includes(:product).group('products.name')
+Case.with_public_year(2023).select("products.name").joins(:product).includes(:product).group('products.name').first
+exit
+Case.with_public_year(2023).joins(:product).includes(:product).group('products.name').count
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name').count
+Case.with_public_year(2023).joins(:product).includes(:product).group('products.name')
+Case.with_public_year(2023).joins(:product).includes(:product).group('products.name').all
+Case.with_public_year(2023).joins(:product).includes(:product).group('products.name').valid?
+Case.with_public_year(2023).joins(:product).includes(:product).group('products.name').to_sql
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name').count
+exit
+Case.with_public_year(2023).joins(product: :vendor).includes(product: :vendor).group('vendors.name').count
+Case.with_public_year(2023).joins(:product).includes(:product).group('products.name').count
+Case.with_public_year(2023).joins(:vendor).includes(:vendor).group('vendors.name').count
+exit
+Vendor.all.map {|vendor| {vendor.name => vendor.cases.with_public_year(2023).count} }
+Vendor.all.map {|vendor| { vendor.name => vendor.cases.with_public_year(2023).count }}
+ActiveRecord::Base.logger = Logger.new STDOUT
+Vendor.all.map {|vendor| { vendor.name => vendor.cases.with_public_year(2023).count }}
+exit
+key_paths
+exit
+key_paths
+exit
+key_paths
+exit
+key_paths
+exit
+whereami
+email
+exit
+users
+exit
+users.pluck :email
+exit
+password.class
+name.class
+self.password
+self.password.class
+exit
+required_attrs[:password]
+required_attrs[:password].present?
+exit
+User.create!(email: "alice@not_trend.com", name: "name", password: "apowidjapwod")
+User.create!(email: "alice@not_trend.com", username: "username", password: "apowidjapwod")
+exit
+User.create!(email: "alice@not_trend.com", username: "username", password: "apowidjapwod")
+exit
+user
+user.valid?
+exit
+banned
+name
+[name, username]
+email
+[name, username, email]
+exit
+record
+instance_variable
+instance_variables
+instance_variables.attributes
+attributes
+attributes.select{|attr| ["name", "email", "username"].include?(attr.key) }
+attributes.select{|key, _value| ["name", "email", "username"].include?(key) }
+exit
+attributes.select{|key, _value| ["name", "email", "username"].include?(key) }
+attributes.select{|key, _value| ["name", "email", :username].include?(key) }
+attributes.with_indifferent_access.select{|key, _value| ["name", "email", :username].include?(key) }
+attributes.class
+attributes.with_indifferent_access.select{|key, _value| [:name, :email, :username].include?(key) }
+attributes
+attributes.with_indifferent_access
+attributes.with_indifferent_access[:name]
+exit
+attributes.symbolize_keys.select{|key, _value| [:name, :email, :username].include?(key) }
+exit
+fg
+exit
+attributes.select{|key, _value| credentials.include?(key) }
+attributes.symbolize_keys.select{|key, _value| credentials.include?(key) }
+attributes.symbolize_keys.select{|key, _value| credentials.include?(key) }.values
+attributes.symbolize_keys.select{|key, _value| credentials.include?(key) }.values.join
+password
+attributes.symbolize_keys.select{|key, _value| credentials.include?(key) }.values.join.downcase
+thang = attributes.symbolize_keys.select{|key, _value| credentials.include?(key) }.values.join.downcase
+thang.include?(password)
+password.include?(thang)
+exit
+values
+values = attributes.symbolize_keys.select{|key, _value| identifiers.include?(key) }.values
+values&:downcase
+values.&:downcase
+values.map(&:downcase)
+values.map!(&:downcase)
+values.map!(&:upcase)
+values
+exit
+values
+values.any?(nil)
+values.any?(blank)
+values.any?{|v| v.blank?}
+values = [""]
+values.any?{|v| v.blank?}
+values = [nil]
+values.any?{|v| v.blank?}
+values = ["nil"]
+values.any?{|v| v.blank?}
+exit
+password
+exit
+password
+exit
+password
+self
+self.persisted?
+self.password
+self.password_confirmation
+self.valid?
+password
+exit
+@case.dv_status != "accepted" && attr_to_update["dv_status"] == "accepted"
+exit
+@case.dv_status != "accepted" && attr_to_update["dv_status"] == "accepted"
+exit
+@case.dv_status != "accepted" && attr_to_update["dv_status"] == "accepted"
+exit
+@case.dv_status != "accepted" && attr_to_update["dv_status"] == "accepted"
+exit
+attributes.symbolize_keys
+exit
+user
+user.password
+user.username
+user.save
+user.valid?
+exit
+password
+exit
+password
+exit
+password
+exit
+values
+exit
+values
+exit
+values
+exit
+values
+password
+password.include?(val)
+val.include?(password)
+val
+exit
+val
+val.include?(password)
+password.include?(val)
+val
+password
+password.downcase
+password
+exit
+user
+user.valid?
+user.errors
+expect(user.errors[:password]).to include("cannot contain name, username, or email.")
+exit
+user.errors
+exit
+user.errors
+user.errors[:email]
+expect(user.errors[:email]).to eq(["can't be blank", "Please use a valid trendmicro.com email"])
+exit
+liaison
+exit
+PublishedCaseTweet.create!
+tweet = PublishedCaseTweet.create!
+tweet.valid?
+exit
+Faraday.get('http://httpbingo.org')
+exit
+result
+exit
+result
+result.status
+result.body
+result
+exit
+result
+exit
+result
+result.status
+result.body
+exit
+result
+exit
+adapter
+adapter.class
+exit
+adapter.class
+exit
+adapter.class
+adapter
+adapter.stubs
+conn.adapter adapter
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+result.body
+result.body.first
+result.body.first.first
+result.body.first.last
+exit
+result
+exit
+result
+result.body
+exit
+result
+result.body
+result.body["organizations"]
+result.body["organizations"].first["authority"]
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+connection
+exit
+connection
+connection.class
+exit
+connection.connection
+connection.connection.class
+connection = connection.connection
+exit
+CveServices::CvesResource
+exit
+CveServices::CvesResource
+CveServices
+ls CveServices
+exit
+result
+result.class
+exit
+result
+exit
+result
+exit
+self
+exit
+result
+exit
+self
+exit
+result
+result.class
+exit
+result
+exit
+params
+exit
+url
+client
+default_headers
+client.connection.get(url, default_headers)
+exit
+result
+result.class
+whereami
+Cve.new
+CveServices::Cve
+CveServices::Cves
+ecit
+exit
+result
+Cve
+CveServices::Cve
+CveServices::Cves
+exit
+CveServices::Cves
+CveServices::Cve
+CveServices::Cve.new result
+exit
+result
+exit
+obj
+exit
+lbj
+obj
+exit
+result
+exit
+default_headers
+client.connection.get(url, default_headers)
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+result["cve_ids"]
+result.cve_ids
+result.body
+exit
+result
+result.cve_ids
+result.cve_ids.first
+result.cve_ids.first.cve_id
+exit
+cve
+exit
+cve_presenter
+cve_presenter.base
+cve_presenter.cve.base
+exit
+cve_presenter.cve.base
+exit
+cve_presenter.formatted
+exit
+cve_presenter.formatted
+exit
+cve_presenter.formatted
+exit
+cve_presenter.formatted
+exit
+cve_presenter.formatted
+cve_presenter.base
+cve_presenter.cve.base
+exit
+cve_presenter.base
+cve_presenter.formatted
+exit
+result
+result.cve_ids
+exit
+result
+result.class
+expect(result).to be_a(CveServices::Reservation)
+exit
+result
+exit
+result
+exit
+result
+exit
+file_fixutre
+file_fixture
+exit
+file_fixture
+exit
+file_fixture
+exit
+file_fixture
+ActionDispatch::TestProcess::FixtureFile
+ActionDispatch::TestProcess::FixtureFile.file_fixture
+ActionDispatch::TestProcess::FixtureFile
+ls ActionDispatch::TestProcess::FixtureFile
+exit
+file_fixture
+exit
+file_fixture
+exit
+file_fixture("cves/create.json")
+file_fixture("create.json")
+file_fixture("cves/create.json")
+File.open("cves/create.json")
+File.open("spec/fixture/files/cves/create.json")
+exit
+File.read("spec/fixtures/files/cves/create.json")
+file_fixture("spec/fixtures/files/cves/create.json")
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+result.cve_ids
+result.cve_ids.first
+result.cve_ids.first.cna
+result.cve_ids.first
+result.cve_ids.first.cna
+result.cve_ids.first.to_h
+result.cve_ids.first.requested_by
+result.cve_ids.first.requested_by.cna
+expect(result.cve_ids.first.requested_by.cna).to eq("mitre")
+expect(result.cve_ids.first.requested_by.user).to eq("mitre")
+expect(result.cve_ids.first.requested_by.user).to eq("admin2@mitre.org")
+exit
+result
+result.to_h
+result.meta
+result.meta.remaining_quota
+expect(result.meta.remaining_quota).to eq(648)
+exit
+result.meta
+result
+result.to_h
+result.cve_ids
+result.cve_ids.first
+result.cve_ids.first.to_h
+exit
+params
+exit
+params
+args
+arguments
+parameters
+params
+exit
+params
+exit
+result
+result.to_h
+result.requested_by
+result.requested_by.cna
+result.requested_by.user
+exit
+result
+exit
+result
+result.to_h
+expect(cve_id.requested_by.cna).to eq("mitre")
+expect(result.requested_by.cna).to eq("mitre")
+exit
+result
+result.to_h
+result.cve_id
+exit
+result.to_h
+exit
+client
+exit
+client
+exit
+client
+exit
+client
+headers
+client.connection
+client.connection.headers
+exit
+client.connection.headers
+client.connection
+client
+ls client
+exit
+client
+exit
+client
+exit
+parms
+params
+ext
+exit
+rand(10 ** 10).to_s.rjust(10,'0')  
+rand(4 ** 4).to_s.rjust(4,'0')  
+exit
+@kase
+exit
+response
+exit
+@case
+exit
+response
+exit
+subnav
+page.body
+exit
+res = Researcher.find_by(username: "achachacuminseedroyal234")
+res.tags
+res.tag_list
+exit
+3activ
+acvit.key
+ctivty.ky
+actvt.y
+aactiity.key
+activity.key
+app/views/layouts/_activity.erb
+exit
+path
+path.join("/")
+exit
+UserRole.all
+exit
+UserRoles.all
+UserRole.all
+exit
+poc_read_perm
+poc_read_perm.user_roles
+exit
+user = User.last
+user.roles
+UserRole.all
+exit
+UserRole.all
+exit
+user.user_roles
+user.user_roles.include?(:analyst
+)
+user.user_roles.pluck(:name).include?(:analyst)
+user.user_roles.pluck(:name)
+user.user_roles.pluck(:name).include?("analyst")
+exit
+researcher
+exit
+kase
+ls kase
+kase.allowed_transitions
+exit
+kase.allowed_transitions
+kase.current_state
+exit
+CaseStateMachine
+CaseStateMachine.successors
+CaseStateMachine.successors["new"]
+CaseStateMachine.successors[kase.current_state]
+exit
+kase = Case.last
+kase.allowed_transitions
+exit
+kase
+kase.allowed_transitions
+exit
+things.sample
+things.sample.call
+exit
+things.sample
+ls things.first
+CaseFlow::Assign
+ls CaseFlow::Assign
+CaseFlow::Assign.call
+ls CaseFlow::Assign.call
+exit
+method(CaseFlow::Assign.call)
+method(CaseFlow::Assign.call).parameters
+method(:CaseFlow::Assign.call).parameters
+method(CaseFlow::Assign.call.to_sym).parameters
+CaseFlow::Assign.call.to_sym
+"CaseFlow::Assign.call".to_sym
+exit
+thing = things.first
+thing
+thing.last
+thing.last.new(kase.attributes)
+thing.first.call(thing.last.new(kase.attributes)
+  thing.first.call(thing.last.new(kase.attributes))
+thing.first.call(thing.last.new(kase.attributes))
+thing.first.call(assignment: thing.last.new(kase.attributes), by: User.last)
+exit
+thing.first.call(assignment: thing.last.new(kase.attributes), by: User.last)
+thing = things.first
+thing.first.call(assignment: thing.last.new(kase.attributes), by: User.last)
+thing.last.new(kase.attributes
+)
+exit
+thing = things.first
+thing.first.call(assignment: thing.last.new(kase.attributes), by: User.last)
+thing.last.new(kase.attributes
+)
+assignment = thing.last.new(kase.attributes)
+assignment.valid?
+assignment.errors
+exit
+thing = things.first
+thing.last.new(kase.attributes)
+thing.last.new(kase.attributes).valid?
+thing.last.new(kase.attributes).errors
+thing.last.new(kase.attributes).valid?
+exit
+researcher
+fg
+exit
+researcher
+exit
+researcher
+exit
+kase
+exit
+kase
+exit
+FeatureFlagger.call(flag: :update_portal
+)
+exit
+user.roles
+user
+exit
+user.roles_formatted
+user.save
+exit
+user.roles_formatted
+exit
+user
+user.roles_formatted
+exit
+user.roles_formatted
+exit
+user
+user.roles_formatted
+exit
+user.roles_formatted
+exit
+buttons
+html_doc = Nokogiri::HTML(buttons)
+ls html_doc
+html_doc.css("ul")
+html_doc.css("ul li")
+html_doc.css("ul li").size
+pp buttons
+html_doc.css("ul li").first
+html_doc.css("ul li").first.href
+html_doc.css("ul li").first.css("href")
+html_doc.css("ul li").first.css("a")
+html_doc.css("ul li").first.css("a").href
+html_doc.css("ul li").first.css("a")
+ls html_doc.css("ul li").first.css("a")
+html_doc.css("ul li").first.css("a").attr("href")
+html_doc.css("ul li").first.css("a").attr("href").value
+ecit
+exit
+items
+items.size
+items[0]
+items[1]
+[2]
+items[2]
+exit
+links.first
+links.first.css("button")
+links.first.css("button").text
+exit
+badge
+exit
+html_doc
+html_doc.body
+html_doc.to_s
+exit
+FreezeReason.find_or_create_by! name: "Waiting On: PM (send RFC email)", description: "~ RM's 'Pending RFC'"
+exit
+verified_identity_badge
+exit
+verified_consent_badge
+exit
+FeatureFlagger.call(flag: :update_portal)
+exit
+assignement.valid?
+assignment.valid?
+assignment.errors
+exit
+assignment.errors
+assignment.valid?
+exit
+assignment.valid?
+assignment.errors
+exit
+assignment.valid?
+assignment.errors
+exit
+exit-program
+reservation
+reservation.cve_ids
+reservation.cve_ids.first
+ls reservation
+reservation.cve_ids
+reservation.cve_ids.first.cve_id
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+reservation
+exit
+result
+exit
+result
+exit
+connection
+exit
+connection
+connection.present?
+exit
+args
+arguments
+*args
+parameters
+args
+__method__
+__method__.parameters
+__method__
+method(__method__).parameters
+conneciton
+connection
+exit
+method(__method__).parameters
+method(__method__)
+__method__
+exit
+api_org
+api_user
+exit
+hello("woo")
+CveClient::hello("woo")
+exit
+connection
+test
+:test
+exit
+mode
+fg
+exit
+mode
+exit
+tags
+tags.fist
+tags.first
+classes
+tags.first
+tags.first.tag_type
+exit
+Types.Hash(api_org: Types::Strict::String, api_user: Types::Strict::Email, api_key: Types::Strict::String)
+Types::Hash.schema(name: Types::String, age: Types::Coercible::Integer)
+Types.Hash(api_org: Types::Strict::String, api_user: Types::Email, api_key: Types::Strict::String)
+exit
+credentials
+credentials.api_user
+credentials.class
+exit
+client
+exit
+credentials
+exit
+@headers
+whereami
+connection
+connection.nil?
+@headers
+exit
+credentials
+exit
+headers
+exit
+@headers
+exit
+reservation
+exit
+api_org
+exit
+@headers
+exit
+reservation
+exit
+client
+exit
+client
+client.connection
+client.connection.class
+exit
+client
+exit
+client.connection.class
+exit
+client.connection.class
+exit
+client
+exit
+client.connection
+client.connection.class
+exit
+client.connection.class
+exit
+client.connection.class
+exit
+reservatioln
+reservation
+exit
+@connection
+@connection.class
+@connection.connection
+@connection.connection.class
+exit
+connection
+connection.connection
+connection.new.connection
+connection.new.connection.class
+exit
+client.connection.class
+exit
+client
+client.short_name
+exit
+flag
+Zeke::Application.config.features
+exit
+flag
+exit
+flag
+exit
+Zeke::Application.config
+Zeke::Application.config.usr_cve_reserve
+exit
+ENV["usr_reserve_cve"]
+exit
+ENV["usr_reserve_cve"]
+ENV["usr_reserve_cve"].first
+exit
+User.first
+user = User.first
+user.update(reserve_cves: true)
+exit
+user = User.first
+user
+user.settings
+user.update(cve_api_user: "admin2@mitre.org")
+exit
+User.new.settings
+User.new.settings.class
+exit
+kase
+exit
+Case
+exit
+kase
+exit
+kase
+exit
+kase
+exit
+kase
+exit
+kase
+exit
+kase
+exit
+kase
+exit
+double
+exit
+case
+  kase
+exit
+@case
+@uploaded_files
+exit
+kase
+@uploaded_files
+exit
+x
+exit
+Figaro.env.company_email_domain
+ENV.fetch(:company_email_domain)
+Env.fetch(:company_email_domain)
+ENV.fetch(:company_email_domain)
+ENV.fetch("company_email_domain")
+exit
+x
+exit
+rand(4**4).to_s.rjust(4, "0")
+rand(4**4).to_s.rjust(5, "0")
+exit
+user = User.first
+user.update(can_reserve_cves: true, cve_api_user: "woo@woo.com")
+exit
+connection
+connection.new
+exit
+client
+client.connection
+exit
+user = User.first
+user.update(can_reserve_cves: true)
+exit
+user = User.first
+user.update(cve_api_user: "hi@example.com")
+exit
+client.connection
+exit
+render
+response
+x
+exit
+result
+exit
+response
+render
+exit
+kase
+whereami
+rendered
+exit
+response
+x
+exit
+response.body
+ls response
+exit
+response.body
+pp response.body
+h response.body
+response.body.undump
+response.body.undump("\")
+response.body
+unescape response.body
+CGI.unescape response.body
+CGI.escape response.body
+x
+exi
+exit
+response.body
+puts response.boyd
+puts response.body
+response.body.gsub("\","")
+response.body.delete('\\"')
+exit
+bundle exec rspec spec/requests/cve_reservation_spec.rb
+t
+exit
+kase
+exit
+ENV
+exit
+put "woo"
+puts "woo"
+ls put
+exit
+ENV
+exit
+ENV
+ENV["hostname"]
+exit
+hostname
+Figaro.env.hostname
+ENV["hostname"]
+Figaro.env.hostname
+exit
+ENV
+exit
+ENV[
+"hostname"]
+ENV["hostname"]
+ENV.fetch("hostname")
+ENV.fetch("hostnames")
+exit
+ENV.fetch("hostnames")
+ENV.fetch("cve_api_org")
+exit
+ENV.fetch("cve_api_org")
+exit
+cve_service_credentials
+exit
+credentials.class
+exit
+@cve_credentials
+exit
+@cve_credentials
+exit
+credentials
+exit
+params
+exit
+url
+client.connection
+exit
+@cve_credentials
+exit
+params
+exit
+client.connection
+params
+params.to_json
+exit
+reservation
+exit
+ENV["stub_cve_service"]
+ENV
+ENV["stub_cve_service"]
+exit
+ENV["stub_cve_service"]
+exit
+ActiveModel::Type::Boolean.new.cast(ENV['stub_cve_service'])
+exit
+@cve_credentials
+@cve_credentials.class
+@cve_credentials[fake: true]
+@cve_credentials
+@cve_credentials[:fake] = true
+@cve_credentials
+exit
+@cve_credentials
+exit
+args
+exit
+credentials
+exit
+credentials
+credentials.to_h
+ls credentials
+credentials.valid?
+exit
+credentials.valid?
+credentials
+ls credentials
+exit
+short_name
+credentials
+credentials.short_name
+credentials[:short_name]
+exit
+params
+exit
+client.connection
+exit
+response.body
+exit
+response.body
+exit
+client.connection
+exit
+credentials[:fake]
+credentials
+exit
+credentials
+credentials[:fake]
+exit
+client.connection
+exit
+Types::Coercible::String
+exit
+Types::Coercible::String
+exit
+credentials
+exit
+@decorator.predicted_disclosure_date
+@decorator.predicted_disclosure
+exit
+@cve_credentials
+@cve_credentials[:fake]
+@cve_credentials.fake
+exit
+@cve_credentials.fake
+@cve_credentials.fake = true
+exit
+ActiveModel::Type::Boolean.new.cast(ENV["stub_cve_service"])
+ActiveModel::Type::Boolean.new.cast(ENV.fetch("stub_cve_service"))
+ActiveModel::Type::Boolean.new.cast(ENV.fetch("stub_cve_services"))
+ActiveModel::Type::Boolean.new.cast(ENV.fetch("stub_cve_services", false))
+ActiveModel::Type::Boolean.new.cast(ENV.fetch("stub_cve_service", false))
+fg
+exit
+credentials
+credentials.fake
+credentials.short_name
+exit
+reservation
+exit
+kase
+exit
+kase.cves
+exit
+connection
+credentials
+exit
+conneciton
+connection
+exit
+api_url
+credentials
+credentials.fake
+CveServices::Client.new(url: api_url, api_org: credentials.api_org, api_user: credentials.api_user, api_key: credentials.api_key, connection:)
+exit
+url
+connection
+exit
+connection
+connection.nil?
+default_connection
+exit
+current_user
+exit
+current_user
+exit
+current_user
+exit
+User.first
+User.first.cve_api_user
+User.first.update(cve_api_user: "admin2@mitre.org")
+User.first.cve_api_user
+exit
+@kase.cves
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+@kase.cves
+exit
+@kase.cves
+exit
+Cve.all
+kase.cves
+exit
+Time.now.year
+Time.zone.now.year
+exit
+cve_id
+Cve.all
+exit
+cve_id
+cve_id.split("-")
+cve_id.split("-").last
+cve_id.split("-").second
+exit
+cve
+cve.to_s
+exit
+result
+Cve.all
+ls Cve
+exit
+not_created
+not_created.valid?
+not_created.persisted?
+exit
+not_created.errors
+not_created.valid?.errors
+not_created.valid?
+not_created.errors
+exit
+cve2
+exit
+Cve.find_by_cve
+exit
+result
+exit
+cve
+exit
+kase.cves
+exit
+kase.cves
+kase.reload
+kase.cves
+exit
+case_id
+exit
+cve_id
+exit
+cve_id
+exit
+params
+exit
+params
+exit
+result
+expect(response["message"]
+).to eq("CVE-2023-0078 was successfully updated.")
+expect(result["message"]).to eq("CVE-2023-0078 was successfully updated.")
+exit
+result
+exit
+result
+exit
+result
+exit
+result
+exit
+file_fixture
+file_fixture("woo")
+file_fixture("cves/update")
+file_fixture("cves/update.json")
+exit
+body
+body.read
+exit
+body
+exit
+body
+body.to_json
+exit
+body
+body.to_json
+exit
+body
+file_fixture("cves/update.json").read.to_h
+file_fixture("cves/update.json").read.to_hash
+JSON.parse(file_fixture("cves/update.json").read)
+exit
+body
+body.to_json
+exit
+result
+exit
+User.last.reserve_cves
+User.last.reserve_cves?
+User.last.can_reserve_cves
+User.last.cve_api_user
+User.first.cve_api_user
+exit
+User.last
+User.first
+User.first.can_publish_cves
+User.first.update(can_publish_cves: true)
+User.first.can_publish_cves
+User.first.publish_cves?
+exit
+params
+exit
+"hello".to_json
+"hello".as_json
+"hello".to_h
+"hello".to_hash
+exit
+:hello.upcase
+:hello.to_s.upcase
+exit
+base_score
+exit
+base_score
+base_score.to_d
+base_score.class
+base_score.to_d()
+require "bigdecimal"
+base_score.to_d()
+exit
+base_score.is_zero?
+base_score.zero?
+0.0.zero?
+exit
+@kase
+exit
+@good_case
+exit
+@kase
+exit
+@kase
+exit
+kase
+exit
+args
+exit
+args
+exit
+args
+exit
+args
+exit
+@good_case
+exit
+args
+exit
+args
+exit
+args
+exit
+args
+exit
+args
+exit
+args
+exit
+args
+exit
+args
+exit
+args
+exit
+args
+exit
+@kase
+exit
+@kase
+exit
+result
+pp result
+pp expected_json
+exit
+@kase.title
+public_advisory
+exit
+public_advisory
+add_title
+@repoman.advisory(type: 'public')
+exit
+@public_advisory
+exit
+@repo_man
+exit
+@repo_man
+exit
+@kase.zdi_can
+exit
+@kase.zdi_can
+exit
+@kase.zdi_can
+exit
+kase.class
+kase
+exit
+kase.class
+kase
+exit
+kase
+kase.class
+exit
+kase
+exit
+seed_kase
+exit
+kase == seed_kase
+exit
+kase.current_state
+seed_kase.current_state
+seed_kase.analyst
+kase.analyst
+seed_kase.reload.analyst
+exit
+seed_kase.reload.analyst
+kase.analyst
+exit
+repo
+@pocs_dir
+exit
+@repo_name
+exit
+@kase
+whereami
+@kase.zdi_can
+exit
+@kase.zdi_can
+exit
+URI.parse("poop https://yousuck")
+URI.parse("https://yousuck")
+URI.parse("https://yousuck").class
+URI.parse("poop https://yousuck").class
+result = URI.parse("poop https://yousuck").class
+result = URI.parse!("poop https://yousuck").class
+result
+exit
+ENV
+whereami
+exit
+ENV
+Rails.env
+exit
+Rails.env
+exit
+User.first
+User.first.update(can_reserve_cves: true)
+User.first.update(can_publish_cves: true)
+User.first.update(cve_api_user: "admin2@mitre.org")
+exit
+kase
+exit
+cve
+kase.cves
+kase.cves << cve
+kase.cves
+exit
+kase.reload.cves
+cve
+cve.to_s
+exit
+kase
+repoman
+exit
+repoman
+exit
+can
+exit
+result
+exit
+result
+result.to_json
+JSON.parse result
+JSON.parse result.to_s
+result.class
+JSON.parse result.to_json
+JSON.parse result.to_json.class
+JSON.parse(result.to_json).class
+result.to_json
+result.to_json.gsub("\","")
+result.to_json.gsub("\\","")
+pp result
+pp result.to_json
+result.to_json.gsub("\\","")
+result.to_json.gsub("/\","")
+result.to_json.gsub("//\","")
+json = result.to_json
+puts json
+exit
+result
+exit
+params
+exit
+params
+params["cve_id"]
+exit
+kase.cves
+Cve.last
+exit
+kase.cves
+Cve
+ls Cve
+exit
+Cve.find_by_full_cve(cve_id)
+Cve.all
+kase.cves.find_by_full_cve(cve_id)
+exit
+kase.cves.find_by_full_cve(cve_id)
+exit
+kase
+kase.cwe
+exit
+client
+client.cves
+self
+CveServices::CveResource.new(sefl)
+CveServices::CveResource.new(self)
+exit
+body
+puts body
+puts body.to_json
+exit
+puts body.to_json
+exit
+puts body.to_json
+exit
+tony = User.find 14
+tony.update(can_publish_cves: true)
+tony.update(can_reserve_cves: true)
+tony
+tony.cve_api_user
+tony.update(cve_api_user: "admin2@mitre.org")
+tony.cve_api_user
+tony
+tony.cve_api_usersssssssss
+exit
+result
+result.class
+ls result
+result.message
+exit
+type
+@repo_name
+html
+sha
+exit
+result
+exit
+text
+text.encode(@encode_to, **@encoding_options)
+exit
+text
+exit
+result
+exit
+description
+description_text
+exit
+result
+exit
+text
+exit
+text
+exit
+result
+result.descriptions
+result[:descriptions]
+result[:cnaContainer][:descriptions]
+result[:cnaContainer][:descriptions].first
+result[:cnaContainer][:descriptions].first[:value]
+expect(result[:cnaContainer][:descriptions].first[:value]).to eq("Israeli Space Agency. applesuace. Was ZDI-CAN-7289.")
+exit
+result
+exit
+description
+expect(description).to include("applesuace")
+exit
+vendor_advisory
+@kase.notes
+exit
+@kase.notes
+vendor_advisory
+exit
+detailed
+vendor_advisory
+check_for_version_in_text(vendor_advisory)
+check_for_detailed_version_in_text(vendor_advisory)
+exit
+kase.notes
+kase.reload.notes
+exit
+notes
+exit
+notes
+notes.select { |note| note.body =~ /### Product Information/ }.first
+notes.find { |note| note.body =~ /### Product Information/ }
+exit
+result
+exit
+public_advisory
+add_title
+exit
+cve
+exit
+repoman
+exit
+repoman
+exit
+public_
+public_advisory
+exit
+@public_advisory
+exit
+@public_advisory
+exit
+description_text
+exit
+changeset
+changeset.to_json
+puts changeset.to_json
+exit
+raw_transition_date("disclosed")
+exit
+result
+exit
+raw_transition_date("disclosed").as_json
+raw_transition_date("disclosed")
+raw_transition_date("disclosed").to_s
+exit
+kase.raw_disclosure_date
+kase.raw_disclosure_date.to_s
+exit
+kase.raw_disclosure_date.to_s
+exit
+kase.raw_disclosure_date.to_s
+kase.raw_disclosure_date.as_json
+kase.disclosed_date
+expect(kase.raw_disclosure_date).to include(kase.disclosed_date)
+expect(kase.raw_disclosure_date.to_s).to include(kase.disclosed_date)
+exit
+kase.raw_disclosure_date
+exit
+changeset
+exit
+changeset
+exit
+changeset
+exit
+changeset
+exit
+changeset
+exit
+changeset
+exit
+kase
+exit
+kase.product
+kase.product_name
+kase.vendor_name
+exit
+kase
+exit
+kase
+kase.state
+kase.current_state
+exit
+kase
+exit
+changeset
+exit
+kase
+exit
+@kase
+exit
+kase
+kase.product_name
+exit
+@kase
+@kase.reload
+@kase.product_name
+exit
+kase
+kase.persisted?
+exit
+@kase
+exit
+kase
+Case.all
+exit
+kase
+exit
+@kase
+exit
+kase
+exit
+kase.product_name
+exit
+changeset
+exit
+changeset
+exit
+zdi_adv_url
+URL_REGEX
+exit
+zdi_adv_url =~ URL_REGEX
+URL_REGEX.match?(zdi_adv_url)
+exit
+result
+exit
+result[:cnaContainer][:references]
+result[:cnaContainer][:references].first
+result[:cnaContainer][:references].first[:value]
+exit
+result[:cnaContainer][:references].first[:value]
+result[:cnaContainer][:references]
+result[:cnaContainer][:references].first
+result[:cnaContainer][:references].first[:url]
+exit
+references
+result[:cnaContainer][:references].first
+exit
+reference
+reference[:url]
+exit
+reference
+result[:cnaContainer][:references]
+exit
+text_response
+kase
+kase.vendor_response
+exit
+text_response
+text_response =~ URL_REGEX
+URL_REGEX.match?(text_response)
+exit
+URL_REGEX.match?(text_response)
+text_response =~ URL_REGEX
+exit
+text_response =~ URL_REGEX
+exit
+URL_REGEX.match?(text_response)
+exit
+reference
+exit
+result
+exit
+result
+exit
+result
+exit
+cve.to_s
+exit
+result
+exit
+result
+exit
+attributes
+attributes.reject { |k, v| [:kase_id, :cvss3].include?(k) }
+attributes.reject.except(kase_id, :cvss3)
+attributes.except(kase_id, :cvss3)
+exit
+attributes.except(kase_id, :cvss3)
+exit
+level
+exit
+RewardLevel
+ls RewardLevel
+exit
+RewardLevel.levels
+exit
+level
+exit
+level
+exit
+classes
+exit
+Time.current.year
+Time.zone.now.year
+Time.zone.now
+Time.current
+Time.current.class
+Time.zone.now.class
+exit
+Date.current
+Time.current
+Time.current.year
+Date.current.year
+exit
+Time.current
+Time.now
+Time.current.class
+Time.now.class
+Time.zone.now.class
+exit
+result
+exit
+cve_client
+exit
+result
+exit
+cve_client
+exit
+result
+exit
+client
+exit
+client
+client.cves
+exit
+result
+exit
+cve
+cve.persisted?
+exit
+result
+exit
+is_link(text_response)
+is_link?(text_response)
+exit
+candidate
+URI.parse(candidate)
+URI.parse(candidate).scheme
+exit
+URI.parse(candidate).scheme
+URI.parse(candidate)
+exit
+URI.parse(candidate)
+URI.parse(candidate).scheme
+exit
+URI.parse(candidate)
+exit
+URI.parse(candidate).scheme
+exit
+URI.parse(candidate).scheme
+URI.parse(candidate)
+URI.parse(candidate).class
+[URI::HTTP, URI::HTTPS].include?(URI.parse(candidate).class)
+exit
+[URI::HTTP, URI::HTTPS].include?(URI.parse(candidate).class)
+exit
+URI.parse(candidate)
+exit
+URI.extract(candidate, ['http', 'https'])
+exit
+URI.extract(candidate, ['http', 'https'])
+exit
+URI.extract(candidate, ['http', 'https'])
+candidate
+exit
+URI.extract(candidate, ['http', 'https'])
+exit
+URI.extract(candidate, ['http', 'https'])
+exit
+URI.extract("http://example.com https://example.com", ['http', 'https'])
+exit
+result
+exit
+URI.extract("http://example.com https://example.com", ['http', 'https'])
+URI.extract("http://example.com,https://example.com", ['http', 'https'])
+URI.extract("http://example.com,https://example.comblah", ['http', 'https'])
+URI.extract("https://example.comblah", ['http', 'https'])
+URI.extract("abchttps://example.comblah", ['http', 'https'])
+candidate.scan(/(?=#{substr})/).count
+candidate.scan(/(?=#{http})/).count
+candidate.scan(\Ahttps?:\/\/.+).count
+candidate.scan(/\Ahttps?:\/\/.+/).count
+candidate
+candidate.scan(/\Ahttps?:\/\/.+/)
+exit
+result
+exit
+candidate.scan(/\Ahttps?:\/\/.+/)
+candidate
+candidate.scan(/\Ahttp?:\/\/.+/)
+candidate.scan(/\Ahttp?:\/\/.+/).count
+candidate.scan(/(?="http")/).count
+candidate
+candidate.scan(/(?="http")/)
+candidate.scan(/(?=http)/)
+candidate
+exit
+candidate.scan(/(?=http)/)
+candidate
+candidate.scan(/(?=example)/)
+candidate.scan(/example/)
+candidate.scan(/example/).count
+candidate.scan(/http/).count
+exit
+candidate
+exit
+candidate
+candidate.scan(/http/).count
+exit
+candidate
+candidate.scan(/http/).count
+exit
+candidate
+candidate.scan(/http/).count
+exit
+result
+exit
+result
+exit
+result
+exit
+candidate
+URI.extract(candidate, ["http", "https"])
+exit
+candidate
+exit
+candidate
+URI.extract(candidate, ["http", "https"])
+exit
+candidate
+exit
+candidate
+exit
+candidate
+URI.extract(candidate, ["http", "https"])
+exit
+candidate
+URI.extract(candidate, ["http", "https"])
+exit
+candidate
+URI.extract(candidate, ["http", "https"])
+candidate
+URI.parse(candidate).scheme ? true : false
+exit
+URI.split(candidate)
+exit
+URI.split(candidate)
+exit
+candidate
+URI.extract(candidate, ["http", "https"])
+URI.extract(candidate, ["http", "https"]).first
+URI.extract(candidate, ["http", "https"]).first == candidate
+exit
+test_response
+text_response
+ValidateUrl.call(candidate: text_response)
+exit
+result
+exit
+candidate
+candidate.scan(/http/).count > 1
+candidate.scan(/http/).count
+candidate.scan(/http/)
+exit
+candidate
+candidate.trim
+trim candidate
+exit
+result
+exit
+kase
+exit
+reservation
+exit
+cve_id
+exit
+cve_parts
+exit
+cve
+exit
+cve.new_record?
+exit
+kase
+exit
+reservation
+exit
+cve_id
+exit
+cve_parts
+exit
+ce
+cve
+cve.new_record?
+exit
+@cve_credentials
+@cve_credentials.to_h
+@cve_credentials.to_h
+@cve_credentials.to_h.stringify_keys
+exit
+credentials
+Cve::ReserveCve.call(credentials: credentials.symbolize_keys, api_url:, case_id:)
+exit
+result
+exit
+tweet
+tweet.valid?
+tweet.persisted?
+tweet.new_record?
+expect(tweet.body).to eq(body)
+exit
+disclosure_with_publish
+disclosure_with_publish.update(zero_day: true)
+disclosure_with_publish.class
+exit
+tweet
+exit
+disclosure_redisclose
+Case.all
+Case.pluck(:id)
+exit
+tweet
+expect(tweet.body).to include("0Day")
+expect(tweet.body).to include("(0Day)")
+exit
+disclosure_with_publish
+disclosure_with_publish.attrs
+disclosure_with_publish.attributes
+Disclosure.new(disclosure_with_publish.attributes[:zero_day] = true)
+disclosure_with_publish.attributes[:zero_day]
+disclosure_with_publish.attributes[:zero_day] = true
+Disclosure.new(disclosure_with_publish.attributes[:zero_day] = true)
+Disclosure.new({disclosure_with_publish.attributes[:zero_day] = true})
+disclosure_with_publish
+disclosure_with_publish.attributes
+disclosure_with_publish.attributes.merge(:zero_day => true)
+Disclosure.new(disclosure_with_publish.attributes.merge(:zero_day => true))
+exit
+updated_disclosure
+disclosure_with_publish
+disclosure_with_publish.case
+whereami
+exit
+ENV
+CveConfig
+CveConfig.to_source_trace
+CveConfig.to_s
+CveConfig.to_source_trace
+exit
+CveConfig.api_ur
+CveConfig.api_url
+exit
+CveConfig.api_url
+exit
+CveConfig
+CveConfig.stub_service
+exit
+@cve_credentials
+@cve_api_url
+exit
+@cve_api_url
+exit
+@cve_api_url
+exit
+ENV
+exit
+CveConfig.to_s
+CveConfig.to_source_trace
+exit
+CveConfig.to_source_trace
+exit
+ENV
+FeatureConfig.update_portal
+exit
+FeatureConfig.update_portal
+exit
+CveConfig.to_source_trace
+exit
+@notification
+exit
+notification
+notification.valid?
+exit
+notification
+@user
+exit
+kase
+kase.vendor_notification_date
+exit
+kase
+kase.vendor_notification_date
+exit
+kase.vendor_notification_date
+exit
+params
+exit
+start_time
+disclosure_duration
+exit
+kase.vendor_notification_date
+exit
+start_time
+exit
+kase.vendor_notification_date?
+kase.vendor_notification_date
+kase.vendor_notification_date.present?
+exit
+start_time
+exit
+result
+exit
+start_time
+duration
+exit
+disclosure_duration
+duration
+exit
+duration
+default_disclosure_duration
+exit
+disclosure_duration
+exit
+disclosure_duration
+exit
+result
+result.class
+exit
+disclosure_duration
+exit
+result.class
+exit
+result
+predicted_disclosure
+fg
+exit
+predicted_disclosure
+result
+exit
+result
+exit
+kase.tag_list
+exit
+kase.tags
+exit
+kase.tags
+kase.tag_list
+exit
+kase.tag_list
+kase.tags
+exit
+kase
+exit
+kase
+exit
+kase.vendor_notification_date.present?
+exit
+kase
+Case.all
+exit
+kase
+notification.id
+Case.last
+exit
+notification
+ls notification
+notification.case
+Case.all.count
+Case.last
+exit
+kase
+notification.id
+Case.find 1
+exit
+kase
+exit
+kase
+exit
+kase
+exit
+kase
+exit
+result
+exit
+result
+exit
+notification
+notification.valid?
+exit
+notification.valid?
+exit
+notification.valid?
+notification
+exit
+notification
+notification.valid?
+exit
+notification.valid?
+notification
+exit
+notification
+notification.valid?
+exit
+notification
+notification.note
+exit
+notification.note
+notification.note.present?
+exit
+notification.note
+notification.note.blank?
+exit
+user_presenter
+exit
+user_presenter
+user_presenter.hello
+user_presenter.email
+exit
+user
+exit
+email
+exit
+username = email.split("@")
+username = email.split("@").first
+username = "email".split("@").first
+username = "".split("@").first
+exit
+username
+email
+exit
+username
+exit
+username
+exit
+user
+exit
+user
+user.email
+exit
+username
+exit
+username.split("_")
+username.split("_").first.first
+exit
+username
+exit
+username
+exit
+username
+exit
+nameparts
+nameparts.size
+nameparts.count
+return nameparts.first if nameparts.size = 1
+return nameparts.first if (nameparts.size == 1)
+return nameparts.first.first if (nameparts.size == 1)
+nameparts
+nameparts.size != 1
+exit
+nameparts
+exit
+user.roles
+user.user_roles
+exit
+user.user_roles
+exit
+user.user_roles
+user.user_roles_formatted_orig
+user.roles_formatted_orig
+exit
+user_roles
+user_roles.map(&:name).join(", ")
+[].map(&:name).join(", ")
+exit
+user_presenter
+user_presenter.email
+user_presenter.initials
+exit
+nameparts
+exit
+nameparts.size
+exit
+@results
+@query
+exit
+expected_roles
+exit
+valid_email
+valid_email.match(email)
+valid_email.match("email")
+valid_email.match("email")?
+valid_email.match("email")
+valid_email.match?("email")
+exit
+email
+valid_email.match?(email
+)
+valid_email
+!valid_email.match?(email)
+valid_email.match?(email)
+email
+valid_email.match?("alice@trendmicro.com")
+email
+valid_email.match?(email)
+valid_email.match?(email.to_s)
+valid_email.match?("alice@trendmicro.com")
+email =~ valid_email
+email
+exit
+disclosure
+disclosure.valid?
+exit
+disclosure.valid?
+exit
+disclosure.valid?
+exit
+object
+exit
+@data
+exit
+@allowed_transitions
+@rollbacks
+exit
+@message
+@rollbacks
+@allowed_transitions
+@events
+exit
+@allowed_events
+exit
+state
+exit
+state
+exit
+state
+exit
+state
+exit
+state
+label
+@mapper.label_from_state(state)
+exit
+@kase.current_state
+state
+label
+@mapper.label_from_state(state)
+exit
+state
+@kase.current_state
+exit
+Measure = Data.define(:amount, :unit)
+exit
+CaseTransition.disclosed
+CaseTransition.disclose
+CaseTransition.where(state_to: "disclosed")
+CaseTransition.where(state_to: "disclosed").count
+CaseTransition.where(to_state: "disclosed").count
+exit
+reasons
+state_ids
+@state_ids
+reasons.present?
+@state_ids.present?
+state_ids.present?
+exit
+@cases
+@cases.count
+exit
+@cases.count
+exit
+@cases.count
+exit
+eˆt
+exit
+@cases.count
+eˆt
+exit
+@cases.count
+exit
+eˆt
+exit
+Case.frozen
+Case.frozen.count
+Case.frozen
+eˆt
+exit
+user
+eˆt
+exit
+user
+exit
+user
+exit
+eˆt
+exit
+whereami
+client
+client.cves
+whereami
+credentials.short_name
+eˆt
+exit
+client.cves
+eˆt
+exit
+client.cves
+eˆt
+exit
+reservation
+year
+exit
+eˆt
+exit
+@decorator
+@decorator.current_state
+@decorator["current_state"]
+@decorator.class
+eˆt
+exit
+@decorator
+eˆt
+exit
+@user_cases
+eˆt
+exit
+@decorator.freeze_reason
+@decorator.freeze_reason_display
+exit
+@user_cases
+@user_cases.first
+@user_cases.first.first
+@user_cases.first.last
+eˆt
+exit
+@user_cases
+exit
+@user_cases
+@user_cases.first
+@user_cases.first["freeze_reason"]
+eˆt
+exit
+@user_cases
+@user_cases.first
+@user_cases.first.last
+@user_cases.first["freeze_reason"]
+eˆt
+exit
+@user_cases.first["freeze_reason"]
+eˆt
+exit
+@user_cases["frozen"]
+@user_cases[:frozen]
+@user_cases
+eˆt
+exit
+@user_cases[:frozens]
+@user_cases[:frozens].first
+exit
+@user_cases[:frozens].first
+@user_cases[:frozens]
+@user_cases[:frozens].count
+exit
+@user_cases[:frozens].count
+@user_cases[:frozens]
+@user_cases
+@user_cases.first
+@user_cases.first.freeze_reason
+@user_cases.first.freeze_reason_display
+eˆt
+exit
+GITHUBE_API_RE
+exit
+GITHUBE_API_RE
+eˆt
+exit
+Case.needs_attention
+eˆt
+exit
+liaison_dash_cases
+liaison_dash_cases.class
+exit
+@user_cases
+@user_cases.class
+eˆt
+exit
+user_cases
+user_cases.class
+exit
+@user_cases
+@user_cases.class
+eˆt
+exit
+user_cases.class
+exit
+@user_cases.class
+exit
+@user_cases.class
+eˆt
+exit
+@user_cases.class
+exit
+cases
+cases.class
+eˆt
+exit
+cases
+cases.class
+exit
+cases.class
+exit
+cases.class
+exit
+@user_cases
+@user_cases.class
+exit
+eˆt
+exit
+result
+exit
+result
+exit
+eˆt
+exit
+CaseTransitions.most_recent
+CaseTransition.most_recent
+CaseTransition.most_recent.class
+CaseTransition.most_recent
+CaseTransition.assigned
+CaseTransition.assigned.count
+CaseTransition.most_recent.count
+CaseTransition.assigned.most_recent.count
+eˆt
+exit
+CaseTransition.assigned.or(contracted).most_recent.count
+CaseTransition.assigned.or(:contracted).most_recent.count
+CaseTransition.assigned.or(CaseTransition.contracted)
+eˆt
+exit
+@client
+ls @client
+exit
+eˆt
+c
+c.adapter
+exit
+c.api_endpoint
+c.web_endpoint
+exit
+cases
+user
+eˆt
+exit
+cases
+exit
+cases
+i
+exit
+kase.freeze
+kase
+exit
+kase
+exit
+kase
+exit
+kase.is_frozen?
+kase.freeze_reason
+kase.freeze_reasons
+exit
+cases
+CaseFreeze.all
+exit
+cases
+CaseFreeze.all
+exit
+cases
+eˆt
+exit
+cases
+cases.last
+exit
+cases.count
+exit
+cases.count
+exit
+cases.count
+kase.case_freezes
+exit
+CaseTransition.where(to_state: "disclosed").group(:case_id).having('COUNT(*) > 2')
+CaseTransition.where(to_state: "disclosed").group(:case_id).having('COUNT(*) > 2').count
+CaseTransition.where(to_state: "assigned").group(:case_id).having('COUNT(*) > 2').count
+CaseTransition.where(to_state: "assigned").group(:case_id).having('COUNT(*) > 2')
+CaseTransition.where(to_state: "assigned").group(:case_id).having('COUNT(*) > 2').count
+CaseTransition.where(to_state: "assigned").group(:case_id).having('COUNT(*) > 2').last
+CaseTransition.where(to_state: "assigned").group(:case_id).having("COUNT('case_id') > 2").last
+CaseTransition.select("case_id").where(to_state: "assigned").group(:case_id).having("COUNT('case_id') > 2").last
+CaseTranvsition.where(to_state: "assigned").group(:case_id).having("COUNT('case_id') > 2").last
+CaseTransition.where(to_state: "assigned").group(:case_id).having("COUNT('case_id') > 2").last
+CaseTransition.where(to_state: "assigned").group(:case_id).having("COUNT('case_id') > 2").count.length
+CaseTransition.where(to_state: "assigned").group(:case_id).having("COUNT('case_id') > 2").count
+CaseTransition.where(to_state: "disclosed").group(:case_id).having('COUNT(*) > 2').count.length
+CaseTransition.where(to_state: "disclosed").group(:case_id).having('COUNT(case_id) > 2').count.length
+CaseTransition.where(to_state: "disclosed").group(:case_id).having('COUNT(*) > 2').count.length
+CaseTransition.where(to_state: 'disclosed').group(:case_id).having('COUNT(*) > 2').count.length
+CaseTransition.where(to_state: 'disclosed').group(:case_id).having('COUNT(case_id) > 2').count.length
+CaseTransition.where(to_state: 'disclosed').group(:case_id).having('COUNT(*) > 2').count
+CaseTransition.disclosed
+exit
+CaseTransition.where(to_state: "disclosed").group(:case_id).count.select { |_, cnt| cnt > 2 }
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+CaseTransition.where(to_state: "disclosed").group(:case_id).count.select { |_, cnt| cnt > 2 }
+CaseTransition.where(to_state: 'disclosed').group(:case_id).having('COUNT(*) > 2').count
+CaseTransition.group(:case_id).having('COUNT(*) > 2').count
+CaseTransition.group(:case_id).having('COUNT(*) > 2').where(to_state: "disclosed").count
+CaseTransition.where(to_state: 'disclosed').group(:case_id).having('COUNT(*) > 2').count
+Project.group(:status, :city).count
+CaseTransition.group(:to_state).count
+CaseTransition.group(:to_state, :case_id).count
+CaseTransition.where(to_state: "disclosed").group(:to_state, :case_id).count
+CaseTransition.where(to_state: "disclosed").group(:to_state, :case_id)
+CaseTransition.where(to_state: "disclosed").group(:to_state, :case_id).all
+CaseTransition.where(to_state: "disclosed").group(:to_state, :case_id).count
+CaseTransition.where(to_state: "assigned").group(:to_state, :case_id).count
+CaseTransition.where(to_state: 'assigned').group(:case_id).having('COUNT(*) > 2').count
+eˆt
+exit
+reasons = ["Waiting On: PM (send RFC email)",
+  "Waiting On: PM (send rejection email)",
+  "Waiting On: PM (send offer email)",
+  "Waiting On: PM (Other)",
+  "Waiting On: Analyst",
+  "Waiting On: Analyst (Rework)",
+  "Waiting On: Researcher (Payment Information)",
+  "Waiting On: Researcher (RFC Reply)",
+  "Waiting On: Researcher (Other)",
+  "Waiting On: Lead (Advisory Approval)",
+  "Waiting On: Vendor (Patches)",
+  "Waiting On: Vendor (Other)",
+  "Waiting On: Admin (Termination)",
+  "Waiting On: Finance",
+  "Waiting On: Pwn2Own",
+  "Waiting On: Other",
+  "Waiting On: PM (Analyst Help)",
+  "Waiting On: Lead (Pricing Approval)",
+  "Waiting On: Manager (Pricing Approval)",
+  "Waiting On: Lead (Product Interest)",
+"Waiting On: PM (Reserve CVE)"]
+reasons.map{|k,v| [k.parameterize, v]}.to_h
+reasons.map{|reason| [reason.parameterize, reason]}.to_h
+eˆt
+exit
+whereami
+reasohn
+reason
+CaseFreeze.create!(case_id:, reason:, most_recent: true)
+exit
+case_freeze
+case_freeze.valid?
+case_freeze.persisted?
+eˆt
+exit
+frozen_cases.first
+frozen_cases.first.freeze_reason
+frozen_cases.first.freeze_reason.name
+exit
+reason
+exit
+exit-program
+reason
+eˆt
+exit
+exit-program
+CaseFreeze.count
+CaseFreeze.all
+CaseFreeze.pluck(:freeze_reason_id)
+CaseFreeze.where(freeze_reason_id: [nil, false]
+)
+CaseFreeze.where(freeze_reason_id: [nil, false])
+exit
+CaseFreeze.reasons
+CaseFreeze.reasons.map{|k,v| v: k}
+CaseFreeze.reasons.map{|k,v| [v,k]}
+CaseFreeze.reasons.map{|k,v| [v,k.to_sym]}.to_h
+CaseFreeze.reasons.map{|k,v| [v,k]}.to_h
+eˆt
+exit
+CaseFreeze.attribute
+CaseFreeze.attributes
+CaseFreeze.attrs
+ls CaseFreeze
+CaseFreeze.attribute_present?(:reason)
+CaseFreeze.attribute_names
+CaseFreeze.attributes
+CaseFreeze.attribute_names.include?("reason")
+eˆt
+exit
+FreezeReason.find_by(name: CaseFreeze.reasons.key(reason))
+FreezeReason.find_by(name: CaseFreeze.reasons.key("reason"))
+FreezeReason.find_by(name: CaseFreeze.reasons.key("Waiting On: PM (send RFC email)"))
+CaseFreeze.reasons.key("Waiting On: PM (send RFC email)")
+CaseFreeze.reasons
+CaseFreeze.reasons["waiting-on-pm-send-rfc-email"]
+CaseFreeze.reasons["Waiting On: PM (send RFC email)"]
+exit
+CaseFreeze.reasons["Waiting On: PM (send RFC email)"]
+eˆt
+exit
+CaseFreeze.reasons.key("Waiting On: PM (send RFC email)")
+CaseFreeze.reasons.key("waiting-on-analyst")
+exit
+case_freeze
+case_freeze.freeze_reason
+exit
+CaseFreeze.active
+exit
+case_freeze.case
+exit
+result
+exit
+CaseFreeze.most_recent
+exit
+eˆt
+exit
+result
+result.last
+CaseFreeze.active
+CaseFreeze.active.first
+exit
+result
+exit
+case_freeze
+exit
+CaseFreeze.inactive
+exit
+CaseFreeze.inactive
+eˆt
+exit
+eˆt
+CaseFreeze.inactive
+exit
+CaseFreeze.inactive
+exit
+CaseFreeze.inactive
+exit
+CaseFreeze.inactive
+exit
+CaseFreeze.inactive
+exit
+CaseFreeze.inactive
+CaseFreeze.inactive.count
+exit
+@refrigeration
+refrigeration_params
+exit
+kase
+whereami
+freeze
+exit
+reason_name
+freeze_reason
+exit
+result
+exit
+CaseFreeze.reasons
+CaseFreeze.reasons.values
+eˆt
+exit
+some_reason
+exit
+reason
+CaseFreeze.reasons.key(reason
+)
+exit
+reason_name
+FreezeReason.all
+exit
+some_reason
+some_reason.titleize
+exit
+CaseFreeze.reasons
+CaseFreeze.reasons.sample
+CaseFreeze.reasons.to_a
+CaseFreeze.reasons.to_a.sample
+exit
+some_reason
+reason
+exit
+result
+result.case
+result.case == kase
+result.case.next_user
+some_reason
+exit
+result.case.analyst
+result.case.next_user
+exit
+CaseFreeze.reassons
+CaseFreeze.reasons
+CaseFreeze.reasons.select{|reason| reason.key.includes?("Analyst") }
+CaseFreeze.reasons.select{|reason| reason.includes?("Analyst") }
+CaseFreeze.reasons.select{|reason| reason.include?("Analyst") }
+exit
+result
+exit
+result
+exit
+result
+exit
+result.case.is_frozen?
+case_freezes
+case_freezes.last
+case_freezes.last.is_frozen?
+exit
+result
+kase.is_frozen?
+exit
+[].last
+exit
+result
+exit
+result
+exit
+result
+result.is_frozen?
+eˆt
+exit
+result
+exit
+@kase.case_freezes
+exit
+kase.froze
+exit
+kase
+kase.froze
+kase.is_frozen?
+exit
+kase.is_frozen?
+kase.froze
+exit
+@kase.froze
+exti
+exit
+@kase.froze
+exit
+@kase.froze
+@kase.is_frozen?
+exit
+result
+exit
+eˆt
+exit
+result
+exit
+Case.where(froze: true)
+Case.where(froze: true).count
+exit
+Case.where(froze: true).count
+Case.frozen.count
+exit
+termination
+eˆt
+exit
+kase
+exit
+result
+result.success?
+result.failure?
+exit
+FeatureFlagger.call(flag: :update_portal)
+exit
+kase
+reason
+exit
+kase
+exit
+kase
+@kase
+exit
+result
+case_freeze
+eˆt
+exit
+case_freeze
+CaseFreeze.inactive
+CaseFreeze.active
+exit
+case_freeze.errors
+case_freeze.errors[:reason]
+exit
+case_freeze.errors[:reason]
+exit
+case_freeze.errors.size
+exit
+CaseFreeze.all
+exit
+liaison_dash_cases
+liaison_dash_cases[:frozens]
+liaison_dash_cases[:frozens].count
+exit
+case_freezes
+case_freezes.class
+exit
+most_recent_freeze
+exit
+most_recent_freeze
+case_freezes
+case_freezes.active
+exit
+case_freezes.find_by(most_recent: true)
+case_freezes.active
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+case_freezes.find_by(most_recent: true)
+case_freezes.active
+exit
+most_recent_freeze
+most_recent_freeze.first
+most_recent_freeze.first.reason
+exit
+most_recent_freeze.size
+most_recent_freeze.count
+most_recent_freeze.length
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+most_recent_freeze.length
+most_recent_freeze.count
+most_recent_freeze.size
+exit
+CaseFreeze
+CaseFreeze.all
+exit
+CaseFreeze.all
+exit
+CaseFreeze.all
+exit
+eˆt
+exit
+reason
+reason_name
+CaseFreeze.reasons
+reasons
+reason
+exit
+reason_name
+eˆt
+exit
+freeze_reason
+reason_name
+FreezeReason
+exit
+params
+exit
+reasons
+reason
+exit
+CaseFreeze.count
+CaseFreeze.last
+exit
+record
+record.class
+exit
+eˆt
+exit
+user
+exit
+kase.analyst && record&.reason_id && freeze_exists?(record.reason_id
+)
+record&.reason_id
+exit
+help_reason
+exit
+record
+exit
+CaseFreeze.allow_analyst_help?(reason)
+CaseFreeze.allow_analyst_help?(record.reason)
+record
+exit
+CaseFreeze.allow_analyst_help?(record.reason)
+exit
+params
+@refrigeration = Refrigeration.new @case.attributes.merge(refrigeration_params)
+exit
+params
+exit
+refrigeration
+refrigeration.to_h
+exit
+params
+exit
+params
+exit
+params
+exit
+CaseFreeze.all
+exit
+params
+exit
+CaseFreeze.all
+exit
+params
+exit
+params
+exit
+user
+is_the_analyst?
+user.liaison?
+exit
+@case.is_frozen?
+exit
+result
+result.success?
+exit
+kase.reload
+kase.reload.is_frozen?
+exit
+result
+result.success?
+eˆt
+exit
+kase.reload.is_frozen?
+exit
+kase
+exit
+result
+exit
+kase.reload.is_frozen?
+exit
+result
+exit
+kase
+whereami
+exit
+reason_name
+freeze_reason
+reason
+exit
+@other_freeze
+@other_freeze.name
+exit
+refrigeration
+exit
+refrigeration
+exit
+reason
+freeze_reasons
+exit
+refrigeration
+exit
+reason_name
+freeze_reason
+exit
+reason_name
+freeze_reason
+FreezeReason.all
+exit
+reason
+random_freeze_reason
+exit
+reason
+exit
+reason
+freeze_reason_value(reason)
+freeze_reasons.select { |_k, v| reason.last = v }
+reason
+reason.last
+exit
+freeze_reason
+reason_name
+exit
+params
+exit
+config
+exit
+config.manual_mode
+exit
+some_reason
+exit
+reaons
+reason
+some_reason
+exit
+some_reason
+some_reason.to_h
+exit
+some_reason
+exit
+CaseFreeze.attribute_names.include?("reason")
+exit
+reason_name
+freeze
+freeze.reason
+freeze.update(reason: reason_name)
+freeze
+eˆt
+exit
+reason_name
+exit
+exit-program
+reason_name
+freeze.reason
+freeze.reason == reason_name
+freeze.reason.parameterize == reason_name
+CaseFreeze.reasons
+CaseFreeze.reasons.map{|k,v| k.parameterize == v}
+exit
+exit-program
+freeze.reason.parameterize == reason_name
+exit
+exit-program
+case_freezes
+exit
+reason_name
+freeze
+freeze.update!(reason: reason_name)
+exit
+freeze.update!(reason: reason_name)
+exit
+result
+exit
+result
+freeze.persisted?
+freeze.valud?
+freeze.valid?
+freeze.invalid?
+freeze.errors
+freeze.errors.to_s
+ls freeze.errors
+freeze.errors.full_messages
+exit
+freeze.errors.full_messages
+exit
+freeze.valid?
+freeze.invalid?
+exit
+CaseFreeze.all
+CaseFreeze.pluck(:reasonvk
+CaseFreeze.pluck(:reason)
+exit
+CaseFreeze.pluck(:reason)
+exit
+eˆt
+exit
+@decorator
+@decorator.current_state
+exit
+User.analysts
+User.analysts.size
+exit
+User.all
+User.all.count
+User.lead_analysts
+exit
+@lead_analyst
+@lead_analyst.role
+@lead_analyst.roles
+@lead_analyst.user_roles
+exit
+User.lead_analysts
+exit
+@lead_analyst
+@lead_analyst.user_roles
+User.lead_analysts
+User.analysts
+User.analysts.first.user_roles
+exit
+params
+exit
+params
+Collaboration.new params
+Collaboration.new primary_user_id: params["primary_user_id"], secondary_user_id: params["secondary_user_id"]
+collab = Collaboration.new primary_user_id: params["primary_user_id"], secondary_user_id: params["secondary_user_id"]
+collab.valid?
+collab.save!
+exit
+params
+exit
+user
+exit
+user
+collaboration_params
+params
+exit
+user
+exit
+User.where.missing(:default_liaison).count
+User.where.missing(:default_liaison)
+User.last.default_liaison
+User.where(default_liaison: nil)
+exit
+User.last
+User.last.update default_liaison: User.first
+exit
+user = User.first
+user.audited
+user.audits
+user.audits.last
+user.audits.last.action
+user.audits.last.audited_changes
+exit
+@cve_credentials
+@cve_credentials.present?
+exit
+result
+@kase.id
+@cve_api_url
+@cve_credentials
+Cve::ReserveCve.call
+Cve::ReserveCve.call(credentials: @cve_credentials, api_url: @cve_api_url, case_id: @kase.id)
+exit
+result
+Cve::ReserveCve.call(credentials: @cve_credentials, api_url: @cve_api_url, case_id: @kase.id)
+exit
+User.can_reserve_cves
+exit
+Photo.where("data->>'filter' = 'Normal'")
+User.where("data->>'filter' = 'Normal'")
+User.where("data->>'filter' = 'Normal'").count
+User.where("settings->>'filter' = 'Normal'").count
+User.where("settings->>'filter' = 'Normal'").last
+User.where("settings->>'can_reserve_cves' = 'Normal'").last
+User.last.can_reserve_cves
+User.where("settings->>'can_reserve_cves' = 'false'").last
+User.where("settings->>'can_reserve_cves' = 'true'").last
+User.where("settings->>'can_reserve_cves' = true").last
+exit
+User.where("settings->>'can_reserve_cves' = true").last
+User.where("settings->>'can_reserve_cves' = 'true'").last
+User.where("settings->>'can_reserve_cves' = 'false'").last
+User.where("settings->>'can_reserve_cves' = 'false'")
+User.last.can_reserve_cves
+exit
+User.where('("settings"-->>'foo')::boolean IS TRUE')
+User.where("settings->>'can_reserve_cves' = 'false'")
+User.where("settings-->>'can_reserve_cves' = 'false'")
+User.where("settings-->>'can_reserve_cves' = 'false'").count
+User.where("settings->>'can_reserve_cves' = 'false'")
+User.where('("settings"-->>'foo')::boolean IS TRUE')
+User.where('("settings"-->>'can_reserve_cves')::boolean IS TRUE')
+User.where('("settings"->>\'foo\')::boolean IS TRUE')
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS TRUE')
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+exit
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS NULL')
+User.count
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS NULL').count
+User.where('("settings"-->>\'can_reserve_cves\')::boolean IS NULL').count
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+exit
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+User.where('("settings"->>\"can_reserve_cves\")::boolean IS FALSE')
+User.where('("settings"->>\"can_reserve_cves\")::boolean IS FALSE').count
+exit
+User.where('("settings"->>\"can_reserve_cves\")::boolean IS FALSE').count
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+User.select('("settings"->>\'can_reserve_cves\')::boolean')
+User.select('("settings"->>\'can_reserve_cves\')')
+User.select('("settings"->>'can_reserve_cves')')
+User.select("settings->>'can_reserve_cves'")
+eˆt
+exit
+User.last.update(cve_api_user: "dook")
+User.select("settings->>'cve_api_user'")
+User.select('("settings"->>\'can_reserve_cves\')::boolean')
+User.select(id,'("settings"->>\'can_reserve_cves\')::boolean')
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+exit
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS TRUE')
+exit
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS TRUE')
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+User.first
+User.first.touch
+exit
+User.first.cve_api_user
+User.where('("settings"->>\'can_reserve_cves\')::boolean IS FALSE')
+exit
+User.first.update(cve_api_user: "dook")
+User.select("settings->>'cve_api_user'")
+Photo.where("data->>'filter' = 'Normal'")
+User.where("settings->>'cve_api_user' = 'dook'")
+User.where("settings->>'cve_api_user' = 'dook'").count
+exit
+User.where("settings->>'can_reserve_cves' = 'yes'").count
+User.where("settings->>'can_reserve_cves' = 'no'").count
+User.first.update(can_reserve_cves: "yes")
+User.where("settings->>'can_reserve_cves' = 'yes'").count
+User.where("settings->>'can_reserve_cves' = 'yes'")
+user
+exit
+user.id
+exit
+case
+  kase
+kase
+exit
+searchable_case.description
+searchable_case.description.length
+searchable_case.searchable_description
+searchable_case.searchable_description.length
+exit
+searchable_case
+searchable_case.notes
+Note
+create(:note)
+note = create(:note)
+exit
+note = create(:note)
+build(:note, case: searchable_case)
+searchable_case.notes
+searchable_case.reload.notes
+searchable_case.save.notes
+searchable_case.save
+searchable_case.notes
+Note.last
+exit
+searchable_note
+searchable_note.case
+searchable_note.case.notes
+searchable_note.case.reload.notes
+exit
+first_note.case
+first_note.case.notes
+first_note.case.reload.notes
+eˆt
+exit
+first_note.case.reload.notes.length
+first_note.case.reload.notes.pluck(:body)
+first_note.case.reload.notes.pluck(:body).join
+first_note.case.reload.notes.pluck(:body).join.length
+first_note.case.reload.searchable_notes.length
+exit
+searchable_case
+searchable_case.notes
+exit
+searchable_case.notes
+exit
+all_notes
+notes
+exit
+all_notes
+notes
+exit
+notes
+exit
+notes
+exit
+notes
+exit
+notes
+all_notes
+all_notes.truncate(1000, separator: " ", omission: "")
+all_notes.truncate(1000, separator: "", omission: "")
+all_notes.truncate(1000, separator: "", omission: "").length
+exit
+Faker::Hipster.paragraph_by_chars
+Faker::Hipster.paragraph_by_chars(chars = 1000, supplemental = nil)
+Faker::Hipster.paragraph_by_chars(characters: 1000, supplemental = nil)
+Faker::Hipster.paragraph_by_chars(characters: 1000)
+Faker::Hipster.paragraph_by_chars(characters: 1000).length
+Faker::Hipster.paragraph_by_chars(characters: 1000)
+exit
+PgSearch::Multisearch.rebuild(Case)
+eˆt
+exit
+kase = Case.last
+kase.update_pg_search_document 
+exit
+kase = Case.last
+kase.update_pg_search_document 
+kase = Case.last
+kase.update_pg_search_document 
+exit
+@query
+Searcher.search(@query).includes(:searchable)
+exit
+result
+result.class
+exit
+Setting.new
+exit
+eˆt
+exit
+User.where("settings->>'can_reserve_cves' = 'yes'")
+User.where("settings->>'can_reserve_cves' = 'no'")
+tony.update(can_publish_cves: true)
+exit
+User.where("settings->>'can_reserve_cves' = 'no'")
+User.where("settings->>'can_reserve_cves' = 'yes'")
+User.where(settings->>'can_publish_cves')::boolean)
+User.where("settings->>'can_publish_cves'")::boolean)
+User.last
+User.first
+User.first.update(can_publish_cves: true)
+eˆt
+exit
+User.first.update(can_publish_cves: true)
+User.last.update(can_publish_cves: true)
+User.where("settings->>'can_publish_cves'")::boolean)
+User.where(settings->>'can_publish_cves')::boolean)
+User.where("settings->>'can_publish_cves'")::boolean)
+User.where("settings->>'can_publish_cves'")
+User.where("settings->>'can_publish_cves'").count
+User.where("settings->>'can_publish_cves'::boolean")
+User.where("settings->>'can_publish_cves'::boolean").count
+exit
+User.where("(settings->>'can_publish_cves')::boolean").count
+User.where("(settings->>'can_publish_cves')::boolean")
+eˆt
+exit
+PgSearchDocument.last
+PgSearch.multisearch.last
+PgSearch.multisearch.count
+PgSearch.multisearch.all.count
+PgSearch.multisearch.all
+PgSearch.multisearch("microsoft")
+PgSearch.multisearch("microsoft").count
+PgSearch.multisearch("microsoft").where.missing(:searchable_type)
+PgSearch.multisearch("microsoft").where.missing(:case)
+Case.last
+Case.last.pg_search_document
+exit
+Case.last.pg_search_document
+PgSearch.multisearch("microsoft").where.missing(:case)
+PgSearch.multisearch("microsoft")
+ls PgSearch.multisearch
+PgSearch.multisearch.delete_all
+PgSearch.multisearch("microsoft")
+ls PgSearch.multisearch
+ls PgSearch
+ls PgSearch.multisearch
+PgSearch.multisearch.destroy_all
+PgSearch.multisearch.count
+PgSearch::Multisearch.rebuild(Case)
+exit
+setting.name
+setting.vluae
+setting.value
+exit
+Faker::Name.unique.name
+Faker::Hipster.words(number: 4)
+Faker::Hipster.words(number: 1)
+Faker::Hipster.words(number: 1).first
+Faker::Hipster.word
+eˆt
+exit
+Setting.names
+Setting.names.keys.sample
+exit
+Setting.names.keys.sample
+exit
+params
+Owner.find params[:id]
+exit
+@owner
+exit
+params
+collaboration_params
+User.find(collaboration_params[:id])
+exit
+user.default_liaison
+exit
+@owner
+Owner.all
+owner_params
+exit
+owner_params
+@owner
+exit
+params
+exit
+whereami
+params
+@case = Case.find 1
+exit
+whereami
+exit
+params
+liaison_params
+exit
+whereami
+params
+liaison_params
+exit
+eˆt
+exit
+case.aa_reports_link
+exit
+kase.aa_reports_link
+exti
+exit
+kase.aa_reports_link
+exit
+params
+liaison_params
+exit
+@case.update(liaison_params)
+exit
+exit
+user = User.find 12
+user = User.find 11
+user = User.find 8
+user.can_switch_dashboard_user
+user.update(can_switch_dashboard_user: true)
+user.settings
+exit
+user = User.find 8
+user.update(can_switch_dashboard_user: false)
+exit
+user.settings
+user.settings.each
+user.settings.keys
+exit
+user.can_reserve_cves!
+exit
+josh = User.first
+josh.can_reserve_cves
+josh.update can_reserve_cves: true
+josh.update cve_api_user: "something"
+exit
+josh = User.first
+josh.update cve_api_user: "hi@hello.com"
+eˆt
+exit
+Users.all.count
+User.all.count
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+User.all.count
+eˆt
+exit
+CountUsers
+CountUsers.perform_async
+Sidekiq::Queue.all
+CountUsers.perform_async
+eˆt
+exit
+CountUsersJob.perform_async
+eˆt
+exit
+CountUsersJob.perform_async
+eˆt
+exit
+CountUsersJob.perform_async
+exit
+Case.where(liaison_id: "")
+Case.last.liaison
+Case.where.missing(:liaison_id)
+Case.where.missing(:liaison)
+Case.where.missing(:liaison).count
+exit
+CountUsersJob.perform_async
+exit
+eˆt
+exit
+User.find(8).update(can_switch_dashboard_user: true)
+exit
+OwnerPolicy
+OwnerPolicy.new
+OwnerPolicy.new(user, owner)
+OwnerPolicy.new(owner, user)
+exit
+OwnerPolicy.new(user, owner)
+exit
+kase
+eˆt
+exit
+user = User.first
+user.settings
+user.can_reserve_cves
+user.can_reserve_cves?
+exit
+@case
+exit
+analyst_id
+assigner_id
+exit
+analyst
+analyst.default_liaison
+exit
+analyst.default_liaison
+exit
+fallback_liaison
+fallback_liaison.user
+exit
+attributes
+exit
+attributes
+exit
+analyst
+analyst.default_liaison
+exit
+owner
+exit
+User.where("(settings->>'can_publish_cves')::boolean")
+User.where("(settings->>'can_reserve_cves')::boolean")
+User.where("(settings->>'can_reserve_cves')::boolean").first
+User.where("(settings->>'can_publish_cves')::boolean").count
+User.where("(settings->>'can_publish_cves')::boolean")
+User.where("(settings->>'can_publish_cves')::boolean").class
+User.where("(settings->>'can_publish_cves')::boolean").first
+User.where("(settings->>'can_publish_cves')::boolean").first.class
+User.where("(settings->>'can_publish_cves')::boolean").first.email
+User.where("(settings->>'can_publish_cves')")
+User.where("(settings->>'can_publish_cves')").count
+User.where("(settings->>'can_publish_cves')::boolean").first.email
+User.where("(settings->>'can_publish_cves')::boolean").count
+exit
+user.default_liaison
+exit
+user.default_liaison_id
+exit
+travis = User.find 8
+travis.update can_switch_dashboard_user: true
+exit
+owner
+owner.fallback-liaison?
+owner.fallback-liaison
+exit
+@refrigeration
+@refrigeration.case
+@refrigeration.kase
+@case
+@case.is_frozen?
+exit
+reason_nam
+reason_name
+freeze_reason
+exit
+rand
+rand(100)
+rand(100) > 70
+exit
+reason_name
+freeze_reason
+FreezeReason.all
+exit
+CaseFreeze.reasons.each do |reason|
+  FreezeReason.find_or_create_by! name: reason.key, description: reason.key
+end
+CaseFreeze
+exit
+CaseFreeze
+exit
+CaseFreeze.reasons.each do |reason|
+  FreezeReason.find_or_create_by! name: reason.key, description: reason.key
+end
+CaseFreeze.reasons.each do |reason|
+  FreezeReason.find_or_create_by! name: reason.first, description: reason.first
+end
+FreezeReason.all
+exit
+result
+exit
+thaw_result
+freeze_result
+eˆt
+exit
+thaw_result
+exit
+result
+result.case
+exit
+result.class
+exit
+result.class
+exit
+thaw_result
+esxit
+exit
+kase.next_user
+User.all
+exit
+kase.next_user
+User.all
+exit
+freeze
+freeze.reason
+exit
+next_user
+exit
+freeze.reason
+freeze.reason.key
+CaseFreeze.reasons
+CaseFreeze.reasons[freeze.reason]
+exit
+thaw_result
+exit
+travis = User.find 8
+travis.roles
+travis.user_roles
+travis.user_roles << UserRole.find(2)
+travis.user_roles
+exit
+kase = Case.find 175
+kase.case_number
+kase.case_number.to_f
+kase.case_number.to_i
+exit
+kase = Case.find 175
+kase.case_number.to_i
+Float kase.case_number
+Float "kase.case_number"
+exit
+Case.where("CAST(case_number AS INT) = ?", TRUE)
+Case.where("CAST(case_number AS INT) = ?", 'true')
+Case.where("CAST(case_number AS INT) = ?", 'true').count
+Case.where("case_number ~ '^[0-9]+$'").count
+Case.where("case_number ~ '^[0-9]+$'")
+exit
+response.body
+exit
+@case.zdi_can
+exit
+@case.zdi_can
+exit
+@case.zdi_public_number
+exit
+@case.zdi_public_number
+exit
+@case.cve
+@case.cves
+@case.cves.first
+@case.cves.first.to_s
+exit
+@case.case_number
+exit
+ReserveCveJob
+exit
+defined?(Blog)
+defined?(ReserveCveJob)
+defined?(User)
+eˆt
+exit
+defined?(User)
+defined?(ReserveCveJob)
+ReserveCveJob
+Foo
+User
+exit
+Rails.configuration.autoload_paths
+Rails.configuration.eager_load_paths
+exit
+CountUsersJob
+defined?(CountUsersJob)
+exit
+travis = User.find 8
+travis.update(can_reserve_cves: true, cve_api_user: "hi@hi.com")
+exit
+kase.state
+kase.current_state
+exit
+kase.current_state
+reason
+exit
+eˆt
+exit
+reason
+kase.current_state
+exit
+kase.current_state
+reason
+exit
+kase.analyst
+current_user
+user
+record.reason
+exit
+params
+assistance_request_params
+exit
+assistance_request_params
+exit
+freeze
+exit
+params
+exit
+freeze
+freeze.reason
+exit
+freeze.reason
+exit
+freeze.reason
+freeze
+exit
+params
+@case.attributes
+whereami
+Waiting On: PM (Request Liaison Assistance)
+@case.attributes.merge(params)
+exit
+freeze
+exit
+params
+exit
+@assistance_request
+exit
+@assistance_request
+exit
+@assistance_request
+exit
+kase
+whereami
+freeze.reason
+exit
+freeze_reason
+reason_name
+exit

@@ -1,4 +1,5 @@
-vim.cmd.colorscheme("rose-pine")
+--vim.cmd.colorscheme("rose-pine")
+vim.cmd.colorscheme("catppuccin-frappe")
 
 --vim.o.background = "dark" -- or "light" for light mode
 --vim.cmd([[colorscheme gruvbox]])

@@ -1,0 +1,351 @@
+[INFO  Thu May 11 16:26:58 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=ruby-lsp) {}
+[INFO  Thu May 11 16:26:58 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 16:26:58 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[INFO  Thu May 11 16:26:58 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=lua-language-server) {}
+[ERROR Thu May 11 16:26:58 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 16:26:58 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 16:27:00 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=lua-language-server)
+[ERROR Thu May 11 16:27:00 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=ruby-lsp) error=spawn: gem failed with exit code 1 and signal 0. 
+[INFO  Thu May 11 16:28:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=ruby-lsp) {}
+[INFO  Thu May 11 16:28:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 16:28:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 16:28:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 16:28:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 16:28:54 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=ruby-lsp) error=spawn: gem failed with exit code 1 and signal 0. 
+[INFO  Thu May 11 16:31:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=ruby-lsp) {}
+[INFO  Thu May 11 16:31:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 16:31:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 16:31:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 16:31:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 16:31:22 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=ruby-lsp) error=spawn: gem failed with exit code 1 and signal 0. 
+[INFO  Thu May 11 16:56:48 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=ruby-lsp) {}
+[INFO  Thu May 11 16:56:48 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 16:56:48 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 16:56:48 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 16:56:48 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 16:56:50 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=ruby-lsp) error=spawn: gem failed with exit code 1 and signal 0. 
+[INFO  Thu May 11 16:57:36 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=ruby-lsp) {}
+[INFO  Thu May 11 16:57:36 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 16:57:36 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 16:57:36 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 16:57:36 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 16:57:39 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=ruby-lsp)
+[INFO  Thu May 11 16:58:40 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 16:58:40 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 16:58:40 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 16:58:40 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 16:58:55 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 16:58:55 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 16:58:55 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 16:58:55 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 17:08:59 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 17:08:59 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 17:08:59 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 17:08:59 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 17:36:49 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 17:36:49 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 17:36:49 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 17:36:49 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 17:37:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 17:37:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 17:37:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 17:37:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 17:38:18 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 17:38:18 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 17:38:18 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 17:38:18 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 18:01:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 18:01:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 18:01:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 18:01:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 18:15:54 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 18:15:54 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 18:15:54 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 18:15:54 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 18:18:56 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 18:18:56 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 18:18:56 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 18:18:56 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 18:31:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 18:31:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 18:31:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 18:31:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 18:37:51 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 18:37:51 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 18:37:51 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 18:37:51 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 18:37:58 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 18:37:58 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 18:37:58 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 18:37:58 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 19:03:05 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 19:03:05 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 19:03:05 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 19:03:05 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 19:04:27 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 19:04:27 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 19:04:27 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 19:04:29 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 19:06:26 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 19:06:26 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 19:06:26 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 19:06:26 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 19:07:24 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 19:07:24 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 19:07:24 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 19:07:24 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 19:19:25 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 19:19:25 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 19:19:25 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 19:19:25 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 20:06:16 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 20:06:16 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 20:06:16 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 20:06:16 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 20:09:31 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 20:09:31 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 20:09:31 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 20:09:31 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 20:11:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 20:11:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 20:11:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 20:11:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 20:12:57 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 20:12:57 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 20:12:57 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 20:12:57 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 20:21:13 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 20:21:13 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 20:21:13 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 20:21:13 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Thu May 11 20:24:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Thu May 11 20:24:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Thu May 11 20:24:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Thu May 11 20:24:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 06:12:29 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 06:12:29 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 06:12:29 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 06:12:29 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 06:20:38 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 06:20:38 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 06:20:38 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 06:20:38 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 06:48:02 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 06:48:02 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 06:48:02 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 06:48:02 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 06:52:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 06:52:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 06:52:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 06:52:21 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 08:30:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 08:30:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 08:30:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 08:30:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 08:30:28 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 08:30:28 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 08:30:28 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 08:30:28 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 08:32:34 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 08:32:34 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 08:32:34 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 08:32:34 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 08:34:05 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 08:34:05 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 08:34:05 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 08:34:05 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 08:34:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 08:34:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 08:34:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 08:34:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 08:36:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 08:36:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 08:36:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 08:36:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 08:46:11 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 08:46:11 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 08:46:11 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 08:46:11 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 10:12:00 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 10:12:00 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 10:12:00 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 10:12:00 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 10:14:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 10:14:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 10:14:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 10:14:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 10:14:46 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 10:14:46 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 10:14:46 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 10:14:46 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 10:16:50 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 10:16:50 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 10:16:50 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 10:16:50 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 10:21:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 10:21:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 10:21:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 10:21:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 10:22:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 10:22:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 10:22:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 10:22:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 10:22:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 10:22:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 10:22:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 10:22:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 10:48:52 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 10:48:52 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 10:48:52 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 10:48:52 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 10:52:03 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 10:52:03 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 10:52:03 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 10:52:03 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 10:54:41 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 10:54:41 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 10:54:41 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 10:54:41 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 10:59:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 10:59:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 10:59:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 10:59:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 11:00:30 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 11:00:30 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 11:00:30 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 11:00:30 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 11:01:17 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 11:01:17 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 11:01:17 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 11:01:17 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 11:02:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 11:02:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 11:02:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 11:02:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 11:04:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 11:04:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 11:04:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 11:04:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 12:35:56 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 12:35:56 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 12:35:56 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 12:35:56 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 12:47:23 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 12:47:23 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 12:47:23 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 12:47:23 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 12:47:26 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 12:47:26 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 12:47:26 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 12:47:26 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 13:11:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 13:11:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 13:11:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 13:11:15 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 13:13:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 13:13:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 13:13:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 13:13:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 13:13:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 13:13:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 13:13:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 13:13:42 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 13:14:29 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 13:14:29 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 13:14:29 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 13:14:29 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 13:18:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 13:18:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 13:18:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 13:18:07 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 13:46:28 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 13:46:28 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 13:46:28 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 13:46:28 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 13:49:40 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 13:49:40 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 13:49:40 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 13:49:40 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 14:12:49 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 14:12:49 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 14:12:49 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 14:12:49 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 14:19:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 14:19:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 14:19:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 14:19:47 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 14:22:27 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 14:22:27 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 14:22:27 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 14:22:27 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 14:34:35 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 14:34:35 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 14:34:35 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 14:34:35 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 14:35:08 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 14:35:08 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 14:35:08 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 14:35:08 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 14:36:48 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 14:36:48 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 14:36:48 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 14:36:48 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 14:44:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 14:44:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 14:44:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 14:44:14 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 14:45:06 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 14:45:06 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 14:45:06 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 14:45:06 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 14:48:16 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 14:48:16 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 14:48:16 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 14:48:16 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 14:49:22 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 14:49:22 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 14:49:22 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 14:49:22 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 14:49:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 14:49:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 14:49:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 14:49:53 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 15:25:03 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 15:25:03 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 15:25:03 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 15:25:03 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 15:40:04 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 15:40:04 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 15:40:04 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 15:40:04 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 15:55:39 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 15:55:39 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 15:55:39 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 15:55:39 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 16:31:50 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 16:31:50 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 16:31:50 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 16:31:50 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 16:32:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 16:32:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 16:32:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 16:32:19 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 16:32:39 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 16:32:39 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Fri May 12 16:32:39 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=typescript-language-server) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[ERROR Fri May 12 16:32:39 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:200: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Fri May 12 17:05:55 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Fri May 12 17:05:55 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=eslint-lsp) {}
+[INFO  Fri May 12 17:05:57 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=typescript-language-server)
+[INFO  Fri May 12 17:05:59 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=eslint-lsp)
+[ERROR Sun Jun 11 19:57:15 2023] ...pack/packer/start/mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"rust\"".
+[INFO  Sun Jun 11 19:57:43 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=rust-analyzer) {}
+[INFO  Sun Jun 11 19:57:45 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=rust-analyzer)
+[INFO  Fri Jun 30 10:37:33 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=json-lsp) {}
+[INFO  Fri Jun 30 10:37:39 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=json-lsp)
+[INFO  Fri Jun 30 10:37:45 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) Package(name=lua-language-server)
+[INFO  Fri Jun 30 10:37:45 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=ruby-lsp) Package(name=ruby-lsp)
+[INFO  Fri Jun 30 10:37:45 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=rust-analyzer) Package(name=rust-analyzer)
+[INFO  Fri Jun 30 10:37:46 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=lua-language-server)
+[INFO  Fri Jun 30 10:37:46 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=rust-analyzer)
+[INFO  Fri Jun 30 10:37:48 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=ruby-lsp)

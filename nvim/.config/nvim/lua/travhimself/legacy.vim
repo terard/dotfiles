@@ -16,18 +16,36 @@ function! RemoveFancyCharacters()
   let typo["…"] = '...'
   :exe ":%s/".join(keys(typo), '\|').'/\=typo[submatch(0)]/ge'
 endfunction
-command! RemoveFancyCharacters :call RemoveFancyCharacters()
+command! RemoveFancyCaracters :call RemoveFancyCaracters()
 
-nnoremap <Leader>r :call VisualFindAndReplace()<CR>
-xnoremap <Leader>r :call VisualFindAndReplaceWithSelection()<CR>
-function! VisualFindAndReplace()
-  :OverCommandLine%s/
-  :w
-endfunction
-function! VisualFindAndReplaceWithSelection() range
-  :'<,'>OverCommandLine s/
-  :w
-endfunction
+"nmap <leader>t <Plug>PlenaryTestFile
+
+" sort of a mess since vim-over stopped working
+"nnoremap <Leader>r :call VisualFindAndReplace()<CR>
+"function! VisualFindAndReplace()
+  ":OverCommandLine%s/
+  ":w
+"endfunction
+
+"nnoremap <leader>r :call VisualFindAndReplaceWithSelection()<CR>
+"function! VisualFindAndReplaceWithSelection() range
+  "":'<,'>OverCommandLine s/
+  "":'<,'> s/
+  "":1,40:s/
+  ""execute a:firstline . "," . a:lastline . 's/'
+  "":a:firstline . "," . a:lastline . 's/'
+  "":w
+"endfunction
+
+"xnoremap <leader>r :call VisualFindAndReplaceWithSelection()<CR>
+
+"function! VisualFindAndReplaceWithSelection() range
+  ""echo a:firstline
+  ""echo a:lastline
+  "":'<,'> s/\%V
+  "":%s/\%V
+  "":w
+"endfunction
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RENAME CURRENT FILE

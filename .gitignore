@@ -1,2 +1,12 @@
 .DS_Store
 nvim/.config/nvim/plugin/packer_compiled.lua
+bin/.local/share/
+bin/.local/state/
+
+bin/.local/share/nvim/.netrwhist
+bin/.local/share/nvim/harpoon.json
+bin/.local/share/nvim/site/pack/packer/start/golden-ratio (untracked content)
+bin/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim (untracked content)
+bin/.local/share/nvim/site/pack/packer/start/toggleterm.nvim (untracked content)
+bin/.local/state/nvim/lsp.log
+bin/.local/state/nvim/shada/main.shada

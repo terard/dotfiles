@@ -65,7 +65,7 @@ font:
       # style: "Medium Italic"
 
       # Point size of the font
-  size: 18.0
+  size: 15.0
   #use_thin_strokes: true
   AppleFontSmoothing: true
 
@@ -82,135 +82,143 @@ selection:
 #shell:
   #program: /bin/zsh
 
-schemes:
-  gruvbox_dark: &gruvbox_dark
-    primary:
-      # hard contrast: background = '#1d2021'
-      background: '#282828'
-      # soft contrast: background = '#32302f'
-      foreground: '#ebdbb2'
-    normal:
-      black:   '#282828'
-      red:     '#cc241d'
-      green:   '#98971a'
-      yellow:  '#d79921'
-      blue:    '#458588'
-      magenta: '#b16286'
-      cyan:    '#689d6a'
-      white:   '#a89984'
-    bright:
-      black:   '#928374'
-      #black:   '#3a342e'
-      red:     '#fb4934'
-      green:   '#b8bb26'
-      yellow:  '#fabd2f'
-      blue:    '#83a598'
-      magenta: '#d3869b'
-      cyan:    '#8ec07c'
-      white:   '#ebdbb2'
-  ayu_dark: &ayu_dark
-      # Default colors
-    primary:
-      background: '#0A0E14'
-      foreground: '#B3B1AD'
+import:
+  # uncomment the flavour you want below:
+  #- ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+  - ~/dotfiles/alacritty/.config/catppuccin/catppuccin-macchiato.yml
+  #- ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+  #  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
 
-    # Normal colors
-    normal:
-      black: '#01060E'
-      red: '#EA6C73'
-      green: '#91B362'
-      yellow: '#F9AF4F'
-      blue: '#53BDFA'
-      magenta: '#FAE994'
-      cyan: '#90E1C6'
-      white: '#C7C7C7'
-
-    # Bright colors
-    bright:
-      black: '#686868'
-      red: '#F07178'
-      green: '#C2D94C'
-      yellow: '#FFB454'
-      blue: '#59C2FF'
-      magenta: '#FFEE99'
-      cyan: '#95E6CB'
-      white: '#FFFFFF'
-
-  # TokyoNight Alacritty Colors
-  tokyo_storm: &tokyo_storm
-    # Default colors
-    primary:
-      background: '0x24283b'
-      foreground: '0xc0caf5'
-
-    # Normal colors
-    normal:
-      black:   '0x1d202f'
-      red:     '0xf7768e'
-      green:   '0x9ece6a'
-      yellow:  '0xe0af68'
-      blue:    '0x7aa2f7'
-      magenta: '0xbb9af7'
-      cyan:    '0x7dcfff'
-      white:   '0xa9b1d6'
-
-    # Bright colors
-    bright:
-      black:   '0x414868'
-      red:     '0xf7768e'
-      green:   '0x9ece6a'
-      yellow:  '0xe0af68'
-      blue:    '0x7aa2f7'
-      magenta: '0xbb9af7'
-      cyan:    '0x7dcfff'
-      white:   '0xc0caf5'
-
-    indexed_colors:
-      - { index: 16, color: '0xff9e64' }
-      - { index: 17, color: '0xdb4b4b' }
-
-colors:
-  primary:
-    background: "0x232136"
-    foreground: "0xe0def4"
-  cursor:
-    text: "0xe0def4"
-    cursor: "0x56526e"
-  vi_mode_cursor:
-    text: "0xe0def4"
-    cursor: "0x56526e"
-  line_indicator:
-    foreground: None
-    background: None
-  selection:
-    text: "0xe0def4"
-    background: "0x44415a"
-  normal:
-    black: "0x393552"
-    red: "0xeb6f92"
-    green: "0x3e8fb0"
-    yellow: "0xf6c177"
-    blue: "0x9ccfd8"
-    magenta: "0xc4a7e7"
-    cyan: "0xea9a97"
-    white: "0xe0def4"
-  bright:
-    black: "0x6e6a86"
-    red: "0xeb6f92"
-    green: "0x3e8fb0"
-    yellow: "0xf6c177"
-    blue: "0x9ccfd8"
-    magenta: "0xc4a7e7"
-    cyan: "0xea9a97"
-    white: "0xe0def4"
-  hints:
-    start:
-      foreground: "#908caa"
-      background: "#2a273f"
-    end:
-      foreground: "#6e6a86"
-      background: "#2a273f"
-
-#colors: *ayu_dark
-#colors: *gruvbox_dark
-#colors: *tokyo_storm
+    # schemes:
+    #   gruvbox_dark: &gruvbox_dark
+    #     primary:
+    #       # hard contrast: background = '#1d2021'
+    #       background: '#282828'
+    #       # soft contrast: background = '#32302f'
+    #       foreground: '#ebdbb2'
+    #     normal:
+    #       black:   '#282828'
+    #       red:     '#cc241d'
+    #       green:   '#98971a'
+    #       yellow:  '#d79921'
+    #       blue:    '#458588'
+    #       magenta: '#b16286'
+    #       cyan:    '#689d6a'
+    #       white:   '#a89984'
+    #     bright:
+    #       black:   '#928374'
+    #       #black:   '#3a342e'
+    #       red:     '#fb4934'
+    #       green:   '#b8bb26'
+    #       yellow:  '#fabd2f'
+    #       blue:    '#83a598'
+    #       magenta: '#d3869b'
+    #       cyan:    '#8ec07c'
+    #       white:   '#ebdbb2'
+    #   ayu_dark: &ayu_dark
+    #       # Default colors
+    #     primary:
+    #       background: '#0A0E14'
+    #       foreground: '#B3B1AD'
+    #
+    #     # Normal colors
+    #     normal:
+    #       black: '#01060E'
+    #       red: '#EA6C73'
+    #       green: '#91B362'
+    #       yellow: '#F9AF4F'
+    #       blue: '#53BDFA'
+    #       magenta: '#FAE994'
+    #       cyan: '#90E1C6'
+    #       white: '#C7C7C7'
+    #
+    #     # Bright colors
+    #     bright:
+    #       black: '#686868'
+    #       red: '#F07178'
+    #       green: '#C2D94C'
+    #       yellow: '#FFB454'
+    #       blue: '#59C2FF'
+    #       magenta: '#FFEE99'
+    #       cyan: '#95E6CB'
+    #       white: '#FFFFFF'
+    #
+    #   # TokyoNight Alacritty Colors
+    #   tokyo_storm: &tokyo_storm
+    #     # Default colors
+    #     primary:
+    #       background: '0x24283b'
+    #       foreground: '0xc0caf5'
+    #
+    #     # Normal colors
+    #     normal:
+    #       black:   '0x1d202f'
+    #       red:     '0xf7768e'
+    #       green:   '0x9ece6a'
+    #       yellow:  '0xe0af68'
+    #       blue:    '0x7aa2f7'
+    #       magenta: '0xbb9af7'
+    #       cyan:    '0x7dcfff'
+    #       white:   '0xa9b1d6'
+    #
+    #     # Bright colors
+    #     bright:
+    #       black:   '0x414868'
+    #       red:     '0xf7768e'
+    #       green:   '0x9ece6a'
+    #       yellow:  '0xe0af68'
+    #       blue:    '0x7aa2f7'
+    #       magenta: '0xbb9af7'
+    #       cyan:    '0x7dcfff'
+    #       white:   '0xc0caf5'
+    #
+    #     indexed_colors:
+    #       - { index: 16, color: '0xff9e64' }
+    #       - { index: 17, color: '0xdb4b4b' }
+    #
+    # # rose pine moon: https://github.com/rose-pine/alacritty/blob/main/dist/rose-pine-moon.yml
+    # colors:
+    #   primary:
+    #     background: "0x232136"
+    #     foreground: "0xe0def4"
+    #   cursor:
+    #     text: "0xe0def4"
+    #     cursor: "0x56526e"
+    #   vi_mode_cursor:
+    #     text: "0xe0def4"
+    #     cursor: "0x56526e"
+    #   line_indicator:
+    #     foreground: None
+    #     background: None
+    #   selection:
+    #     text: "0xe0def4"
+    #     background: "0x44415a"
+    #   normal:
+    #     black: "0x393552"
+    #     red: "0xeb6f92"
+    #     green: "0x3e8fb0"
+    #     yellow: "0xf6c177"
+    #     blue: "0x9ccfd8"
+    #     magenta: "0xc4a7e7"
+    #     cyan: "0xea9a97"
+    #     white: "0xe0def4"
+    #   bright:
+    #     black: "0x6e6a86"
+    #     red: "0xeb6f92"
+    #     green: "0x3e8fb0"
+    #     yellow: "0xf6c177"
+    #     blue: "0x9ccfd8"
+    #     magenta: "0xc4a7e7"
+    #     cyan: "0xea9a97"
+    #     white: "0xe0def4"
+    #   hints:
+    #     start:
+    #       foreground: "#908caa"
+    #       background: "#2a273f"
+    #     end:
+    #       foreground: "#6e6a86"
+    #       background: "#2a273f"
+    #
+    # #colors: *ayu_dark
+    # #colors: *gruvbox_dark
+    # #colors: *tokyo_storm

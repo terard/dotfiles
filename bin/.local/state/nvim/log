@@ -1,0 +1,1760 @@
+ERR 2023-05-11T17:51:10.338 ?.45611    terminfo_start:358: uv_tty_set_mode failed: inappropriate ioctl for device
+ERR 2023-05-11T17:51:10.338 ?.17117    terminfo_start:358: uv_tty_set_mode failed: inappropriate ioctl for device
+ERR 2023-05-11T19:52:26.412 ?.2765     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-05-11T19:52:26.413 ?.2765     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-11T19:52:26.413 ?.2765     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-11T19:52:26.414 ?.2765     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-11T19:52:26.415 ?.2765     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-17T18:46:19.814 ?.61761    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-05-17T18:46:19.815 ?.61761    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-17T18:46:19.815 ?.61761    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-17T18:46:19.816 ?.61761    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-17T18:46:25.227 ?.37988    terminfo_start:358: uv_tty_set_mode failed: inappropriate ioctl for device
+ERR 2023-05-25T14:37:33.644 ?.10875    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-05-25T14:37:33.644 ?.5080     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-05-25T14:37:33.644 ?.10966    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-05-25T14:37:33.644 ?.5080     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-25T14:37:33.644 ?.10966    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-25T14:37:33.644 ?.5080     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-25T14:37:33.644 ?.10966    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-25T14:37:33.644 ?.10875    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-25T14:37:33.644 ?.10875    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-25T14:37:33.644 ?.10966    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-25T14:37:33.644 ?.5080     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-25T14:37:33.645 ?.10966    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-25T14:37:33.645 ?.5080     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-25T14:37:33.645 ?.10875    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-25T14:37:33.645 ?.10875    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-30T13:24:24.747 ?.17237    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-05-30T13:24:24.747 ?.17237    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-30T13:24:24.747 ?.17237    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-05-30T13:24:24.748 ?.17237    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-06T10:46:51.824 ?.25885    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-06T10:46:51.826 ?.25885    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-06T10:46:51.829 ?.25885    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-06T10:46:51.834 ?.25885    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-06T10:46:51.885 ?.58601    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-06T10:46:51.886 ?.58601    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-06T10:46:51.887 ?.58601    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-06T10:46:51.893 ?.8202     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-06T10:46:51.894 ?.58601    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-06T10:46:51.895 ?.8202     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-06T10:46:51.895 ?.58601    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-06T10:46:51.900 ?.8202     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-06T10:46:51.911 ?.8202     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T18:58:01.908 ?.24092    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-22T18:58:01.909 ?.24092    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T18:58:01.909 ?.24092    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T18:58:01.910 ?.24092    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:01.933 ?.6325     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-22T20:24:01.933 ?.6284     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-22T20:24:01.934 ?.6325     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:01.934 ?.6284     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:01.934 ?.6325     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:01.934 ?.6284     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:01.934 ?.6325     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:01.935 ?.6325     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:01.935 ?.6284     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:01.935 ?.6284     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:04.871 ?.1213     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-22T20:24:04.871 ?.1213     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:04.871 ?.1213     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:04.873 ?.1213     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:24.003 ?.63760    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-22T20:24:24.003 ?.63760    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:24.003 ?.63760    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:24.003 ?.63760    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:24.004 ?.63760    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:26.351 ?.63125    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-22T20:24:26.351 ?.63125    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:26.351 ?.63125    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:26.352 ?.63125    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:26.352 ?.63125    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:44.345 ?.8573     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-22T20:24:44.345 ?.8573     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:44.345 ?.6524     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-22T20:24:44.345 ?.8573     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:44.345 ?.6524     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:44.345 ?.6524     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:44.345 ?.6524     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:44.345 ?.6524     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:44.346 ?.8573     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-22T20:24:44.346 ?.8573     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-23T09:15:56.828 ?.4771     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-23T09:15:56.829 ?.4771     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-23T09:15:56.830 ?.4771     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-23T09:15:56.836 ?.4771     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-26T13:24:59.126 ?.20960    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-26T13:24:59.126 ?.20960    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-26T13:24:59.126 ?.20960    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-26T13:24:59.127 ?.20960    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-26T13:24:59.127 ?.20960    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-27T14:11:43.236 ?.76528    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-27T14:11:43.237 ?.76528    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-27T14:11:43.237 ?.76528    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-27T14:11:43.237 ?.76528    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-27T14:11:43.237 ?.76528    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-28T09:23:53.823 ?.79761    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-28T09:23:53.824 ?.79761    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-28T09:23:53.824 ?.79761    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-28T09:23:53.825 ?.79761    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-28T09:23:53.860 ?.86742    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-06-28T09:23:53.860 ?.86742    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-28T09:23:53.860 ?.86742    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-28T09:23:53.860 ?.86742    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-06-28T09:23:53.860 ?.86742    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-06T10:38:35.357 ?.92848    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-06T10:38:35.357 ?.92848    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-06T10:38:35.357 ?.92848    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-06T10:38:35.358 ?.92848    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-06T10:38:35.359 ?.92848    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:47:16.414 ?.79452    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-11T08:47:16.414 ?.61866    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-11T08:47:16.415 ?.79452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:47:16.415 ?.61866    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:47:16.415 ?.79452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:47:16.415 ?.61866    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:47:16.418 ?.61866    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:47:16.418 ?.79452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:47:16.419 ?.79452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:47:16.419 ?.61866    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:59:44.309 ?.47482    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-11T08:59:44.309 ?.47482    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:59:44.309 ?.47482    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:59:44.310 ?.47482    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T08:59:44.310 ?.47482    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T09:04:10.095 ?.54357    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-11T09:04:10.096 ?.54357    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T09:04:10.096 ?.54357    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T09:04:10.096 ?.54357    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T09:04:10.096 ?.54357    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T09:05:02.654 ?.63604    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-11T09:05:02.654 ?.63604    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T09:05:02.654 ?.63604    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T09:05:02.656 ?.63604    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T09:06:18.902 ?.77254    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-11T09:06:18.902 ?.77254    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T09:06:18.902 ?.77254    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T09:06:18.903 ?.77254    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-11T09:06:18.903 ?.77254    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-14T09:27:15.835 ?.51043    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-14T09:27:15.835 ?.51043    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-14T09:27:15.835 ?.51043    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-14T09:27:15.837 ?.51043    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-14T09:27:15.837 ?.51043    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-14T20:04:59.111 ?.52107    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-14T20:04:59.112 ?.52107    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-14T20:04:59.113 ?.52107    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-14T20:04:59.119 ?.52107    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-14T20:04:59.167 ?.29632    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-14T20:04:59.168 ?.29632    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-14T20:04:59.169 ?.29632    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-14T20:04:59.173 ?.29632    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.797 ?.25082    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-27T11:15:35.797 ?.10818    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-27T11:15:35.798 ?.10818    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.10818    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.21227    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-27T11:15:35.798 ?.21227    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.6777     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-27T11:15:35.798 ?.6777     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.6777     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.21227    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.21422    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-27T11:15:35.798 ?.21422    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.21422    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.25954    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-27T11:15:35.797 ?.25082    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.25954    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.25954    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.25082    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.799 ?.25082    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.798 ?.25404    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-07-27T11:15:35.799 ?.25404    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.799 ?.21227    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.799 ?.25404    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.799 ?.6777     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.799 ?.25082    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.800 ?.10818    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.800 ?.6777     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.800 ?.25954    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.801 ?.25954    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.801 ?.25404    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.801 ?.21422    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-07-27T11:15:35.801 ?.21422    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-02T08:37:23.768 ?.34617    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-02T08:37:23.769 ?.34617    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-02T08:37:23.770 ?.34617    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-02T08:37:23.774 ?.34617    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-02T13:43:08.856 ?.4262     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-02T13:43:08.856 ?.2054     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-02T13:43:08.856 ?.4262     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-02T13:43:08.856 ?.2054     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-02T13:43:08.856 ?.4262     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-02T13:43:08.856 ?.2054     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-02T13:43:08.857 ?.2054     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-02T13:43:08.857 ?.2054     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-02T13:43:08.857 ?.4262     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-02T13:43:08.857 ?.4262     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-03T13:00:25.277 ?.16599    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-03T13:00:25.278 ?.16599    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-03T13:00:25.278 ?.16599    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-03T13:00:25.278 ?.16599    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-06T10:31:10.196 ?.33352    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-06T10:31:10.197 ?.33352    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-06T10:31:10.200 ?.33352    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-06T10:31:10.206 ?.33352    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-06T10:31:10.207 ?.33352    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-09T12:28:55.218 ?.11970    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-09T12:28:55.218 ?.12161    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-09T12:28:55.218 ?.11970    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-09T12:28:55.218 ?.12161    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-09T12:28:55.218 ?.11970    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-09T12:28:55.218 ?.12161    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-09T12:28:55.219 ?.11970    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-09T12:28:55.219 ?.11970    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-09T12:28:55.220 ?.12161    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-09T12:28:55.220 ?.12161    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-14T11:25:35.333 ?.43943    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-14T11:25:35.335 ?.43943    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-14T11:25:35.335 ?.43943    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-14T11:25:35.347 ?.43943    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-14T18:45:03.851 ?.3304     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-14T18:45:03.851 ?.3304     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-14T18:45:03.851 ?.3304     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-14T18:45:03.852 ?.3304     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-18T07:20:27.878 ?.52452    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-18T07:20:27.878 ?.52452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-18T07:20:27.878 ?.52452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-18T07:20:27.879 ?.52452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-18T07:20:27.880 ?.52452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-22T10:05:49.530 ?.49459    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-22T10:05:49.530 ?.49459    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-22T10:05:49.530 ?.49459    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-22T10:05:49.531 ?.49459    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-23T11:05:14.083 ?.61714    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-23T11:05:14.083 ?.61599    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-08-23T11:05:14.083 ?.61599    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-23T11:05:14.083 ?.61599    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-23T11:05:14.083 ?.61714    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-23T11:05:14.083 ?.61714    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-23T11:05:14.085 ?.61599    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-23T11:05:14.085 ?.61599    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-08-23T11:05:14.085 ?.61714    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-02T11:47:28.080 ?.60969    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-02T11:47:28.084 ?.60969    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-02T11:47:28.088 ?.60969    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-02T11:47:28.091 ?.60969    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-02T11:47:28.092 ?.60969    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-02T11:47:28.146 ?.61399    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-02T11:47:28.147 ?.61399    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-02T11:47:28.148 ?.61399    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-02T11:47:28.157 ?.61399    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-02T11:47:28.158 ?.61399    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-11T14:25:32.802 ?.6311     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-11T14:25:32.805 ?.6311     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-11T14:25:32.805 ?.6271     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-11T14:25:32.806 ?.6311     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-11T14:25:32.806 ?.6271     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-11T14:25:32.807 ?.6271     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-11T14:25:32.817 ?.6271     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-11T14:25:32.818 ?.6311     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-11T14:25:32.819 ?.6271     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.037 ?.66546    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-14T11:09:48.039 ?.66480    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-14T11:09:48.039 ?.66480    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.040 ?.66480    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.042 ?.62892    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-14T11:09:48.043 ?.62892    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.044 ?.62892    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.044 ?.52249    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-14T11:09:48.045 ?.52249    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.046 ?.46104    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-14T11:09:48.046 ?.52249    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.047 ?.46104    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.047 ?.17975    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-14T11:09:48.047 ?.46104    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.048 ?.17975    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.049 ?.17975    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.049 ?.66546    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.050 ?.66546    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.053 ?.66480    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.060 ?.62892    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.060 ?.52249    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.061 ?.62892    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.061 ?.46104    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.062 ?.17975    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-14T11:09:48.064 ?.66546    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:31.460 ?.41027    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-18T11:19:31.460 ?.19112    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-18T11:19:31.460 ?.41027    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:31.460 ?.19112    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:31.460 ?.41027    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:31.460 ?.19112    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:31.462 ?.41027    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:31.462 ?.19112    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:38.662 ?.40752    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-18T11:19:38.662 ?.41973    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-18T11:19:38.662 ?.17457    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-18T11:19:38.662 ?.41973    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:38.662 ?.40752    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:38.662 ?.41973    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:38.662 ?.17457    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:38.662 ?.40752    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:38.662 ?.17457    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:38.664 ?.40752    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:38.664 ?.41973    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:38.664 ?.41973    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-18T11:19:38.664 ?.17457    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-22T16:52:19.716 ?.40770    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-22T16:52:19.717 ?.40770    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-22T16:52:19.717 ?.40770    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-22T16:52:19.717 ?.40770    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-22T17:05:37.281 ?.47912    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-22T17:05:37.282 ?.47912    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-22T17:05:37.282 ?.47912    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-22T17:05:37.283 ?.47912    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:45.998 ?.66349    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-25T10:28:45.999 ?.48278    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-25T10:28:45.000 ?.48278    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.001 ?.48278    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:45.009 ?.66945    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-25T10:28:45.012 ?.66349    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.013 ?.66349    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.015 ?.48278    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.017 ?.66595    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-25T10:28:46.017 ?.66945    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.018 ?.66595    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.018 ?.66945    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.019 ?.66595    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.022 ?.66349    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.024 ?.66349    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.025 ?.66945    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.026 ?.66945    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.031 ?.66595    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-25T10:28:46.032 ?.66595    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.755 ?.38864    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-28T13:57:05.755 ?.38864    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.755 ?.38864    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.755 ?.52609    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-28T13:57:05.755 ?.38864    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.755 ?.52609    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.755 ?.52609    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.755 ?.52609    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.755 ?.38864    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.756 ?.52609    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.756 ?.52609    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.782 ?.37640    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-28T13:57:05.782 ?.37640    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.782 ?.37640    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.782 ?.37640    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.782 ?.37640    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.801 ?.54390    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-28T13:57:05.801 ?.54390    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.801 ?.54390    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.802 ?.54390    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.812 ?.39101    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-28T13:57:05.813 ?.39101    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.36698    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-28T13:57:05.813 ?.39101    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.36698    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.39056    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-28T13:57:05.813 ?.36698    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.39005    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-28T13:57:05.813 ?.39056    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.39005    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.19697    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-28T13:57:05.813 ?.39056    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.39005    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.19697    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.19697    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.37059    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-28T13:57:05.813 ?.36135    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-09-28T13:57:05.813 ?.36135    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.36135    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.37059    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.37059    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.39005    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.39101    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.39101    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.19697    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.813 ?.39005    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.814 ?.36135    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.814 ?.36135    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.814 ?.39056    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.814 ?.39056    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.814 ?.36698    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-09-28T13:57:05.814 ?.37059    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.328 ?.27284    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-09T09:47:27.328 ?.25966    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-09T09:47:27.328 ?.25595    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-09T09:47:27.328 ?.25966    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.328 ?.25595    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.328 ?.25726    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-09T09:47:27.328 ?.27284    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.328 ?.25595    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.328 ?.25966    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.328 ?.25726    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.328 ?.27284    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.328 ?.25726    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.329 ?.25726    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.329 ?.25966    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.329 ?.27284    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.329 ?.25595    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.329 ?.25726    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.329 ?.27284    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-09T09:47:27.329 ?.25966    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-16T15:39:08.884 ?.38912    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-16T15:39:08.884 ?.38912    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-16T15:39:08.884 ?.38912    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-16T15:39:08.886 ?.38912    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-16T15:39:08.888 ?.21682    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-16T15:39:08.888 ?.21682    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-16T15:39:08.889 ?.21682    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-16T15:39:08.890 ?.21682    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-18T14:04:27.099 ?.56430    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-18T14:04:27.099 ?.56430    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-18T14:04:27.099 ?.56430    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-18T14:04:27.100 ?.56430    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.916 ?.64537    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-20T13:32:48.916 ?.64277    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-20T13:32:48.916 ?.62521    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-20T13:32:48.916 ?.63279    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-20T13:32:48.917 ?.64537    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.917 ?.64277    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.917 ?.63279    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.917 ?.62521    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.917 ?.64537    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.917 ?.64277    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.917 ?.62521    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.917 ?.63279    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.917 ?.64277    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.917 ?.62521    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.917 ?.64537    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.918 ?.64537    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-20T13:32:48.918 ?.63279    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-23T07:03:46.685 ?.83724    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-23T07:03:46.686 ?.82938    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-23T07:03:46.687 ?.82742    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-23T07:03:46.687 ?.82938    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-23T07:03:46.688 ?.82742    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-23T07:03:46.688 ?.82938    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-23T07:03:46.689 ?.82742    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-23T07:03:46.690 ?.83724    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-23T07:03:46.691 ?.83724    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-23T07:03:46.697 ?.82742    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-23T07:03:46.702 ?.83724    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-23T07:03:46.703 ?.82938    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-23T07:03:46.703 ?.82742    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-23T07:03:46.704 ?.82938    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.940 ?.15255    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-30T11:45:32.940 ?.10173    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-30T11:45:32.940 ?.15772    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-30T11:45:32.941 ?.10173    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.941 ?.15772    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.941 ?.15255    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.942 ?.10173    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.942 ?.15772    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.942 ?.15255    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.943 ?.32056    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-30T11:45:32.943 ?.35558    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-30T11:45:32.944 ?.32056    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.944 ?.35558    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.945 ?.32056    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.945 ?.35558    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.951 ?.15772    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.952 ?.15772    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.954 ?.15858    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-30T11:45:32.955 ?.15858    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.956 ?.15858    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.956 ?.35558    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.956 ?.32056    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.957 ?.10173    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.959 ?.15858    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.960 ?.15858    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.962 ?.15255    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.963 ?.15255    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:32.000 ?.46061    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-10-30T11:45:33.001 ?.46061    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:33.002 ?.46061    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:33.004 ?.46061    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-10-30T11:45:33.005 ?.46061    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.466 ?.7346     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-06T07:09:37.468 ?.7346     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.469 ?.7346     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.470 ?.5277     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-06T07:09:37.478 ?.24035    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-06T07:09:37.479 ?.24035    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.480 ?.24035    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.482 ?.18298    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-06T07:09:37.484 ?.6583     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-06T07:09:37.485 ?.6583     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.486 ?.4951     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-06T07:09:37.486 ?.6583     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.487 ?.4951     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.488 ?.4951     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.491 ?.5277     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.492 ?.5277     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.496 ?.7346     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.499 ?.18298    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.500 ?.18298    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.504 ?.6583     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.505 ?.6583     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.506 ?.4951     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.507 ?.4951     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.507 ?.5277     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.508 ?.24035    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.512 ?.18298    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.513 ?.18298    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.515 ?.6508     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-06T07:09:37.518 ?.6508     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.519 ?.6508     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.521 ?.5750     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-06T07:09:37.528 ?.5750     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.529 ?.5750     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.531 ?.6508     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.532 ?.6508     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.532 ?.5750     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-06T07:09:37.533 ?.5750     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-13T09:33:29.966 ?.22044    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-13T09:33:29.966 ?.22044    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-13T09:33:29.966 ?.22044    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-13T09:33:29.968 ?.22044    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-13T09:33:29.968 ?.22044    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.138 ?.19608    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-17T14:05:48.139 ?.19941    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-17T14:05:48.139 ?.19608    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.140 ?.19941    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.141 ?.19941    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.150 ?.67976    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-17T14:05:48.151 ?.50811    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-17T14:05:48.151 ?.67976    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.152 ?.50811    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.152 ?.48816    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-17T14:05:48.152 ?.67976    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.152 ?.48816    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.153 ?.19608    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.153 ?.50811    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.153 ?.48816    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.157 ?.19941    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.168 ?.67976    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.169 ?.67976    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.170 ?.19608    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.172 ?.50811    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.172 ?.50811    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.174 ?.48816    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.183 ?.42390    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-17T14:05:48.184 ?.42390    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.185 ?.42390    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-17T14:05:48.191 ?.42390    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-28T10:33:34.451 ?.4583     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-11-28T10:33:34.451 ?.4583     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-28T10:33:34.451 ?.4583     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-28T10:33:34.452 ?.4583     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-11-28T10:33:34.452 ?.4583     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-12-04T08:25:49.511 ?.53185    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-12-04T08:25:49.512 ?.53185    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-12-04T08:25:49.513 ?.53185    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-12-04T08:25:49.518 ?.53185    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-12-06T09:21:42.058 ?.13960    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-12-06T09:21:42.058 ?.13960    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-12-06T09:21:42.058 ?.13960    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-12-06T09:21:42.060 ?.13960    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-12-06T09:21:42.060 ?.13960    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-12-14T09:35:00.730 ?.47973    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2023-12-14T09:35:00.734 ?.47973    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-12-14T09:35:00.735 ?.47973    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2023-12-14T09:35:00.743 ?.47973    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-11T10:04:19.746 ?.35719    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-01-11T10:04:19.748 ?.35719    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-11T10:04:19.751 ?.35719    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-11T10:04:19.760 ?.35719    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-17T10:21:01.428 ?.46732    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-01-17T10:21:01.428 ?.46577    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-01-17T10:21:01.428 ?.46732    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-17T10:21:01.428 ?.46577    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-17T10:21:01.428 ?.46732    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-17T10:21:01.428 ?.46577    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-17T10:21:01.429 ?.46577    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-17T10:21:01.429 ?.46577    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-17T10:21:01.429 ?.46732    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-17T10:21:01.429 ?.46732    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-27T06:58:40.246 ?.28871    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-01-27T06:58:40.251 ?.27443    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-01-27T06:58:40.252 ?.27443    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-27T06:58:40.253 ?.28871    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-27T06:58:40.254 ?.28871    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-27T06:58:40.255 ?.27443    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-27T06:58:40.269 ?.27443    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-01-27T06:58:40.271 ?.28871    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:03.293 ?.770      terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-02T09:38:03.293 ?.29899    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-02T09:38:03.293 ?.30050    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-02T09:38:03.293 ?.770      flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:03.293 ?.29899    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:03.293 ?.30050    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:03.293 ?.29899    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:03.293 ?.770      flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:03.293 ?.30050    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:03.295 ?.29899    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:03.295 ?.30050    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:03.295 ?.770      flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:03.295 ?.30050    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:09.679 ?.27029    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-02T09:38:09.680 ?.27029    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:09.680 ?.27029    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:09.681 ?.27029    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:09.681 ?.27029    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:21.905 ?.29401    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-02T09:38:21.905 ?.29401    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:21.905 ?.29401    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:21.906 ?.29401    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-02T09:38:21.906 ?.29401    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-12T18:05:32.413 ?.45393    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-12T18:05:32.413 ?.45393    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-12T18:05:32.413 ?.45393    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-12T18:05:32.413 ?.45393    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-12T18:05:32.414 ?.45393    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.086 ?.44629    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-20T14:04:40.088 ?.44629    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.098 ?.44629    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.114 ?.44629    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.137 ?.38249    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-20T14:04:40.138 ?.38249    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.139 ?.38249    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.143 ?.26439    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-20T14:04:40.144 ?.26439    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.146 ?.26439    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.146 ?.38249    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.150 ?.26439    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.199 ?.69601    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-20T14:04:40.200 ?.69601    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.201 ?.69601    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.203 ?.69601    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.203 ?.21899    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-20T14:04:40.205 ?.21899    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.206 ?.21899    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.207 ?.69601    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.210 ?.21899    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-20T14:04:40.212 ?.21899    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-22T08:52:53.671 ?.24309    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-22T08:52:53.671 ?.24309    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-22T08:52:53.671 ?.24309    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-22T08:52:53.671 ?.24309    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-22T08:52:53.671 ?.24309    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-22T10:06:07.966 ?.3070     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-02-22T10:06:07.966 ?.3070     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-22T10:06:07.966 ?.3070     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-02-22T10:06:07.967 ?.3070     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-06T10:04:26.855 ?.47077    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-03-06T10:04:26.855 ?.47077    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-06T10:04:26.855 ?.47077    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-06T10:04:26.856 ?.47077    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-06T10:04:26.856 ?.47077    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-11T11:10:18.620 ?.34417    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-03-11T11:10:18.621 ?.34417    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-11T11:10:18.621 ?.34417    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-11T11:10:18.622 ?.34417    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-11T11:10:31.663 ?.32262    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-03-11T11:10:31.663 ?.32262    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-11T11:10:31.663 ?.32262    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-11T11:10:31.663 ?.32262    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-11T11:10:31.664 ?.32262    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-11T11:10:31.664 ?.32262    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:39:55.972 ?.28531    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-03-18T10:39:55.972 ?.28531    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:39:55.972 ?.28531    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:39:55.973 ?.28531    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:40:30.450 ?.77323    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-03-18T10:40:30.450 ?.7062     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-03-18T10:40:30.450 ?.77323    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:40:30.450 ?.7020     terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-03-18T10:40:30.450 ?.7062     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:40:30.450 ?.77323    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:40:30.450 ?.7062     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:40:30.450 ?.7020     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:40:30.450 ?.7020     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:40:30.451 ?.7062     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:40:30.451 ?.77323    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:40:30.451 ?.7020     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-03-18T10:40:30.451 ?.7020     flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.876 ?.34917    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-08T12:49:57.880 ?.34917    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.880 ?.29689    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-08T12:49:57.883 ?.29689    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.883 ?.34917    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.887 ?.29689    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.895 ?.34917    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.897 ?.83542    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-08T12:49:57.898 ?.83542    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.898 ?.80702    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-08T12:49:57.901 ?.80702    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.901 ?.83542    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.902 ?.80702    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.909 ?.34917    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.910 ?.83542    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.912 ?.29689    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.930 ?.83542    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.941 ?.83542    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-08T12:49:57.950 ?.80702    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-15T10:08:44.568 ?.45771    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-15T10:08:44.568 ?.45771    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-15T10:08:44.568 ?.45771    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-15T10:08:44.569 ?.45771    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.259 ?.80456    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-17T09:44:43.259 ?.77995    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-17T09:44:43.259 ?.77084    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-17T09:44:43.259 ?.77348    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-17T09:44:43.259 ?.80456    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.259 ?.77995    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.259 ?.77084    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.259 ?.77348    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.259 ?.80456    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.259 ?.77995    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.260 ?.77348    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.260 ?.77084    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.260 ?.77348    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.261 ?.77084    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.261 ?.77084    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.261 ?.77995    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T09:44:43.261 ?.80456    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T11:49:34.905 ?.30520    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-17T11:49:34.905 ?.30520    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T11:49:34.905 ?.30520    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-17T11:49:34.905 ?.30520    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-24T10:06:03.476 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:51:59.664 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:51:59.673 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:51:59.676 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:51:59.856 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:00.563 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:01.747 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:01.749 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:05.001 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:05.003 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:05.877 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:05.879 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:06.087 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:06.089 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:06.530 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:06.532 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:06.733 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:06.734 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:10.154 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:10.159 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:10.166 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:10.344 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:10.572 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:12.432 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:12.434 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:12.611 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:12.612 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:12.783 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:12.785 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:13.713 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:13.715 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:13.909 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:13.910 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:14.657 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:14.658 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:14.898 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:14.899 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:15.102 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:15.104 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:15.326 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:15.328 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:15.731 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:15.733 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:15.932 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:15.934 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:16.743 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:16.744 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:17.014 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:17.016 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:17.194 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:17.195 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:17.442 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:17.443 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:17.579 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:18.541 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:18.543 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:18.741 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:18.748 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:21.203 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:21.208 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:21.855 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:21.857 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:22.764 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:22.962 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:22.968 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:23.504 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:23.507 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:24.507 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:24.509 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:24.686 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:24.687 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:24.798 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:24.799 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:24.887 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.025 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.026 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.159 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.226 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.345 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.346 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.698 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.699 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.742 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.898 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.923 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:25.925 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:26.170 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:26.172 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:26.441 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:26.442 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:26.778 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:26.780 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:26.943 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:26.945 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:27.161 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:27.163 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:27.370 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-29T12:52:27.371 nvim.16262.0 decor_provider_invoke:47: error in provider treesitter/highlighter:line: Error executing lua: ...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: query: invalid node type at position 1348 for language javascript
+stack traceback:
+	[C]: in function '_ts_parse_query'
+	...im/0.9.0/share/nvim/runtime/lua/vim/treesitter/query.lua:259: in function 'get'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:50: in function 'new'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:194: in function 'get_query'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:220: in function 'fn'
+	...0/share/nvim/runtime/lua/vim/treesitter/languagetree.lua:324: in function 'for_each_tree'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:206: in function 'on_line_impl'
+	....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:282: in function <....0/share/nvim/runtime/lua/vim/treesitter/highlighter.lua:276>
+ERR 2024-04-30T09:28:06.653 ?.48095    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-30T09:28:06.653 ?.14775    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-04-30T09:28:06.653 ?.48095    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-30T09:28:06.653 ?.14775    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-30T09:28:06.653 ?.48095    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-30T09:28:06.653 ?.14775    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-30T09:28:06.653 ?.48095    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-30T09:28:06.654 ?.48095    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-04-30T09:28:06.654 ?.14775    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-06T10:26:10.744 ?.49331    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-05-06T10:26:10.744 ?.19414    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-05-06T10:26:10.744 ?.49331    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-06T10:26:10.744 ?.19414    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-06T10:26:10.744 ?.49331    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-06T10:26:10.744 ?.19414    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-06T10:26:10.744 ?.19414    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-06T10:26:10.745 ?.19414    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-06T10:26:10.745 ?.49331    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-13T13:15:41.492 ?.12680    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-05-13T13:15:41.493 ?.12680    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-13T13:15:41.493 ?.12680    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-13T13:15:41.493 ?.12680    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-13T13:15:41.493 ?.12680    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-13T18:46:38.387 ?.71452    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-05-13T18:46:38.388 ?.18945    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-05-13T18:46:38.389 ?.71452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-13T18:46:38.389 ?.18945    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-13T18:46:38.390 ?.18945    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-13T18:46:38.390 ?.71452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-13T18:46:38.393 ?.18945    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-13T18:46:38.394 ?.71452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-13T18:46:38.395 ?.71452    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-22T09:17:58.872 ?.43723    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-05-22T09:17:58.872 ?.43723    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-22T09:17:58.872 ?.43723    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-22T09:17:58.873 ?.43723    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-22T09:24:54.586 ?.21185    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-05-22T09:24:54.587 ?.21185    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-22T09:24:54.587 ?.21185    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-22T09:24:54.588 ?.21185    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.226 ?.65663    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-05-24T11:14:27.226 ?.68568    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-05-24T11:14:27.226 ?.79227    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-05-24T11:14:27.226 ?.69241    terminfo_start:368: uv_pipe_open failed: inappropriate ioctl for device
+ERR 2024-05-24T11:14:27.227 ?.79227    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.227 ?.68568    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.227 ?.65663    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.227 ?.79227    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.227 ?.69241    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.227 ?.68568    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.227 ?.65663    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.227 ?.69241    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.228 ?.65663    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.228 ?.68568    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.228 ?.69241    flush_buf:2223: uv_write failed: bad file descriptor
+ERR 2024-05-24T11:14:27.228 ?.79227    flush_buf:2223: uv_write failed: bad file descriptor

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/travis_erard/work/trend/zdi/zeke-worktrees/request_liaison_assistance/zeke'
+let g:netrw_dirhist_3='/Users/travis_erard/work/trend/zdi/zeke-worktrees/fix-cve-ui/zeke/app/commands/cve'
+let g:netrw_dirhist_2='/Users/travis_erard/work/trend/zdi/zeke-worktrees/fix-cve-ui/zeke/app/commands'
+let g:netrw_dirhist_1='/Users/travis_erard/work/trend/zdi/zeke-worktrees/fix-cve-ui/zeke/app'
+let g:netrw_dirhist_0='/Users/travis_erard/work/trend/zdi/zeke-worktrees/develop/zeke/app'
+let g:netrw_dirhist_9='/Users/travis_erard/work/trend/zdi/zeke-worktrees/develop/zeke'
+let g:netrw_dirhist_8='/Users/travis_erard/work/trend/zdi/zeke-worktrees/develop/zeke/config'
+let g:netrw_dirhist_7='/Users/travis_erard/work/trend/zdi/zeke-worktrees/request_liaison_assistance/zeke/app/commands'
+let g:netrw_dirhist_6='/Users/travis_erard/work/trend/zdi/zeke-worktrees/request_liaison_assistance/zeke/spec/commands/cve'
+let g:netrw_dirhist_5='/Users/travis_erard/work/trend/zdi/zeke-worktrees/request_liaison_assistance/zeke/app/commands'
