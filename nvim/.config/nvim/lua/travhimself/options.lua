@@ -1,4 +1,4 @@
-print("hello from options")
+--print("hello from options")
 vim.opt.termguicolors = true
 
 vim.opt.guicursor = ""
@@ -47,7 +47,7 @@ vim.opt.clipboard = "unnamed"
 --vim.opt.clipboard = "unnamed"
 --set clipboard+=unnamedplus
 
--- vim.g.mapleader = ","
+vim.g.mapleader = ","
 
 --vim.g.neoterm_size = tostring(0.3 * vim.o.columns)
 --vim.g.neoterm_default_mod = 'botright vertical'

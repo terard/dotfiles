@@ -1,4 +1,5 @@
 return {
+  enabled = false,
   "VonHeikemen/lsp-zero.nvim",
   branch = "v2.x",
   opts = {},
