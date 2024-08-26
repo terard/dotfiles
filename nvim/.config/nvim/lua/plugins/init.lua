@@ -8,6 +8,7 @@ return {
 
 	"kassio/neoterm",
 	"vim-test/vim-test",
+	--"klen/nvim-test",
 
 	-- from old
 	"roman/golden-ratio",
@@ -24,4 +25,11 @@ return {
 
 	-- trying out
 	"folke/which-key.nvim",
+	"voldikss/vim-floaterm",
+	--"neomake/neomake",
+	--"reinh/vim-makegreen",
+	--"hrsh7th/nvim-cmp",
+	--"hrsh7th/cmp-buffer",
+	--"prichrd/netrw.nvim",
+	"rafamadriz/friendly-snippets",
 }

@@ -45,8 +45,22 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 --vim.keymap.set("n", "<leader>t", ":TestFile -strategy=harpoon<CR>")
 vim.keymap.set("n", "<leader>t", function()
 	vim.api.nvim_command("write")
-	vim.cmd("TestFile -strategy=basic")
+	--vim.cmd("TestFile -strategy=basic")
+	--vim.cmd("TestFile -strategy=neovim")
+	vim.cmd("TestFile")
+	--vim.cmd("TestFile -strategy=neovim_sticky")
+	--vim.cmd("TestFile -strategy=harpoon")
+	--vim.cmd("TestFile -strategy=floaterm")
+	--vim.cmd("TestFile -strategy=neomake")
+	--vim.cmd("TestFile -strategy=makegreen")
 end)
+
+--let test#strategy = "dispatch"
+vim.g["test#strategy"] = "floaterm"
+vim.g.floaterm_width = 0.8
+vim.g.floaterm_height = 0.8
+--vim.g["test#preserve_screen"] = 1
+--vim.g["test#basic#start_normal"] = 1
 
 --nnoremap
 --vim.keymap.set("n", "<leader><CR>", ":so $XDG_CONFIG_HOME/nvim/init.vim<CR>")

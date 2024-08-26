@@ -49,6 +49,13 @@ vim.opt.clipboard = "unnamed"
 
 vim.g.mapleader = ","
 
+--let g:test#neovim#start_normal = 1 " If using neovim strategy
+--vim.g.opt.test.neovim.start_normal = 1
+--vim.g["test#neovim#start_normal"] = 1
+--let g:test#basic#start_normal = 1 " If using basic strategy
+--vim.g.opt.test.basic.start_normal = 1
+--vim.g["test#basic#start_normal"] = 1
+
 --vim.g.neoterm_size = tostring(0.3 * vim.o.columns)
 --vim.g.neoterm_default_mod = 'botright vertical'
 --vim.g.neoterm_autoinsert = 1
