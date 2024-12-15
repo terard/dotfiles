@@ -1,4 +1,4 @@
-vim.keymap.set("n", "<leader>d", vim.cmd.Ex)
+--vim.keymap.set("n", "<leader>d", vim.cmd.Ex)
 --vim.keymap.set("n", "<cr>", vim.cmd.Ex)
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -61,6 +61,8 @@ vim.g.floaterm_width = 0.8
 vim.g.floaterm_height = 0.8
 --vim.g["test#preserve_screen"] = 1
 --vim.g["test#basic#start_normal"] = 1
+
+vim.g["test#ruby#rspec#executable"] = "bundle exec rspec"
 
 --nnoremap
 --vim.keymap.set("n", "<leader><CR>", ":so $XDG_CONFIG_HOME/nvim/init.vim<CR>")

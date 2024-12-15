@@ -19,6 +19,8 @@ return {
 		formatters_by_ft = {
 			ruby = { "standardrb" },
 			eruby = { "htmlbeautifier" },
+			html = { "htmlbeautifier" },
+			xml = { "xmllint" },
 			--eruby = { "erb_format" },
 			lua = { "stylua" },
 			--python = { "isort", "black" },

@@ -30,6 +30,10 @@ vim.opt.cursorline = true
 vim.opt.termguicolors = true
 
 vim.opt.autoread = true
+--vim.o.autoread = true
+vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter" }, {
+	command = "checktime",
+})
 
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"

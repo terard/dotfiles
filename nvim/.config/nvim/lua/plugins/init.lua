@@ -23,6 +23,12 @@ return {
 	"mhartington/formatter.nvim",
 	"tkatsu/vim-erblint",
 
+	{
+		"davidmh/mdx.nvim",
+		config = true,
+		dependencies = { "nvim-treesitter/nvim-treesitter" },
+	},
+
 	-- trying out
 	"folke/which-key.nvim",
 	"voldikss/vim-floaterm",

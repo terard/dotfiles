@@ -44,6 +44,8 @@ return {
 			"L3MON4D3/LuaSnip", -- Snippet engine
 			"rafamadriz/friendly-snippets", -- Predefined snippets
 			"saadparwaiz1/cmp_luasnip", -- Completion source for LuaSnip
+			"luckasRanarison/tailwind-tools.nvim", -- tailwind
+			"onsails/lspkind-nvim", -- tailwind
 		},
 		config = function()
 			local cmp = require("cmp")
@@ -52,6 +54,11 @@ return {
 			require("luasnip.loaders.from_vscode").lazy_load()
 			require("luasnip").filetype_extend("ruby", { "rails" })
 			cmp.setup({
+				formatting = {
+					format = require("lspkind").cmp_format({
+						before = require("tailwind-tools.cmp").lspkind_format,
+					}),
+				},
 				snippet = {
 					expand = function(args)
 						luasnip.lsp_expand(args.body)

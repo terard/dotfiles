@@ -1,6 +1,6 @@
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_DATA_HOME=$HOME/.local/share
-export BAT_THEME=Nord
+export BAT_THEME=Catpuccin
 export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
 
 # (installed with homebrew)
@@ -84,6 +84,8 @@ alias h="history"
 
 alias cat="bat"
 
+alias kd="kamal deploy"
+
 alias ag="ag -f --hidden"
 
 alias zrc='nvim ~/.zshrc; . ~/.zshrc'
@@ -110,8 +112,10 @@ alias gwp="git worktree prune"
 
 alias pryor="bundle exec pry -r ./config/environment"
 
-alias pg_start="brew services start postgresql@15"
-alias pg_stop="brew services stop postgresql@15"
+#alias pg_start="brew services start postgresql@15"
+#alias pg_stop="brew services stop postgresql@15"
+alias pg_start="brew services start postgresql@16"
+alias pg_stop="brew services stop postgresql@16"
 
 alias redis_start="brew services start redis"
 alias redis_stop="brew services stop redis"
@@ -159,4 +163,9 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # pnpm end
 
 # path+=("/Users/atomic/Library/Python/3.10/bin")
-export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+#export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
+
+# Added by Windsurf
+export PATH="/Users/september/.codeium/windsurf/bin:$PATH"
