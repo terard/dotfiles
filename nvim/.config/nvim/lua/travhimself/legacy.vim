@@ -1,6 +1,10 @@
 "imap <silent><script><expr> <C-y> copilot#Accept("\<CR>")
 "let g:copilot_no_tab_map = v:true
 
+if has('nvim')
+  tmap <C-o> <C-\><C-n>
+endif
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RemoveFancyCharacters COMMAND
 " Remove smart quotes, etc.

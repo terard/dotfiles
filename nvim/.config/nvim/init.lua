@@ -14,5 +14,10 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = "," -- Make sure to set `mapleader` before lazy so your mappings are correct
 
 require("lazy").setup("plugins")
+
+vim.cmd.colorscheme("catppuccin-frappe")
+
 require("travhimself")
+--require("avante_lib").load()
+--require("oil").setup()
 --print("hello from init")

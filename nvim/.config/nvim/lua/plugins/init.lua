@@ -6,22 +6,24 @@ return {
 	--"theprimeagen/harpoon",
 	"tpope/vim-fugitive",
 
-	"kassio/neoterm",
+	--"kassio/neoterm",
 	"vim-test/vim-test",
 
 	-- from old
 	"roman/golden-ratio",
 	"scrooloose/nerdcommenter",
-	"osyo-manga/vim-over",
+	--"osyo-manga/vim-over",
 	"tpope/vim-surround",
-	"github/copilot.vim",
+	--"github/copilot.vim",
 
 	-- new
-	"kchmck/vim-coffee-script",
-	"ThePrimeagen/git-worktree.nvim",
-	"mhartington/formatter.nvim",
-	"tkatsu/vim-erblint",
+	--"kchmck/vim-coffee-script",
+	--"ThePrimeagen/git-worktree.nvim",
+	--"mhartington/formatter.nvim",
+	--"tkatsu/vim-erblint",
 
 	-- trying out
-	"folke/which-key.nvim",
+	--"folke/which-key.nvim",
+
+	"voldikss/vim-floaterm",
 }

@@ -3,6 +3,12 @@ export XDG_DATA_HOME=$HOME/.local/share
 export BAT_THEME=Nord
 export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
 
+export HOMEBREW_NO_AUTO_UPDATE=1
+
+# https://stackoverflow.com/questions/52671926/rails-may-have-been-in-progress-in-another-thread-when-fork-was-called
+export DISABLE_SPRING=true
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
 # (installed with homebrew)
 if type brew &>/dev/null; then
 	FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
@@ -110,8 +116,8 @@ alias gwp="git worktree prune"
 
 alias pryor="bundle exec pry -r ./config/environment"
 
-alias pg_start="brew services start postgresql@15"
-alias pg_stop="brew services stop postgresql@15"
+alias pg_start="brew services start postgresql@13"
+alias pg_stop="brew services stop postgresql@13"
 
 alias redis_start="brew services start redis"
 alias redis_stop="brew services stop redis"
@@ -159,4 +165,4 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # pnpm end
 
 # path+=("/Users/atomic/Library/Python/3.10/bin")
-export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"

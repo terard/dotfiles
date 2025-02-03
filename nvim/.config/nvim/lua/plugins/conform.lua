@@ -7,7 +7,7 @@ return {
 			-- Customize or remove this keymap to your liking
 			"<leader>f",
 			function()
-				require("conform").format({ async = true, lsp_fallback = true })
+				require("conform").format({ async = true, lsp_fallback = false })
 			end,
 			mode = "",
 			desc = "Format buffer",
@@ -19,13 +19,14 @@ return {
 		formatters_by_ft = {
 			ruby = { "standardrb" },
 			eruby = { "htmlbeautifier" },
+			html = { "htmlbeautifier" },
 			--eruby = { "erb_format" },
 			lua = { "stylua" },
 			--python = { "isort", "black" },
 			--javascript = { { "prettierd", "prettier" } },
 		},
 		-- Set up format-on-save
-		format_on_save = { timeout_ms = 500, lsp_fallback = true },
+		format_on_save = { timeout_ms = 500, lsp_fallback = false },
 		-- Customize formatters
 		formatters = {
 			shfmt = {
@@ -33,8 +34,8 @@ return {
 			},
 		},
 	},
-	init = function()
-		-- If you want the formatexpr, here is the place to set it
-		vim.o.formatexpr = "v:lua.require'conform'.formatexpr()"
-	end,
+	-- init = function()
+	-- 	-- If you want the formatexpr, here is the place to set it
+	-- 	vim.o.formatexpr = "v:lua.require'conform'.formatexpr()"
+	-- end,
 }

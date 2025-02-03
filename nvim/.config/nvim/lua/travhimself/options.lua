@@ -1,3 +1,9 @@
+--vim.g.ruby_host_prog = "/Users/travis_erard/.rubies/ruby-3.1.3/bin/ruby"
+--vim.g.ruby_host_prog = "/Users/travis_erard/.rubies/ruby-3.1.3/bin/ruby"
+vim.g.loaded_ruby_provider = 0
+
+vim.g.have_nerd_font = false
+
 --print("hello from options")
 vim.opt.termguicolors = true
 

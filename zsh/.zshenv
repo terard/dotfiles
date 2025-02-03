@@ -13,3 +13,4 @@
   #export PATH=/usr/local/bin/:$PATH
   #export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$(/usr/local/bin/brew --prefix)/share/zsh-syntax-highlighting/highlighters
 #fi
+. "$HOME/.cargo/env"
