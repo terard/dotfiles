@@ -61,6 +61,7 @@ vim.g.floaterm_width = 0.8
 vim.g.floaterm_height = 0.8
 --vim.g["test#preserve_screen"] = 1
 --vim.g["test#basic#start_normal"] = 1
+--vim.g["neoterm_automap_keys"] = ""
 
 vim.g["test#ruby#rspec#executable"] = "bundle exec rspec"
 

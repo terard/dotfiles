@@ -1,6 +1,6 @@
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_DATA_HOME=$HOME/.local/share
-export BAT_THEME=Catpuccin
+export BAT_THEME=zenburn
 export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
 
 # (installed with homebrew)
@@ -60,6 +60,7 @@ export VISUAL="nvim"
 
 # https://github.com/junegunn/fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source <(fzf --zsh)
 
 # ruby
 source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
@@ -76,9 +77,9 @@ export PATH="$HOME/.local/bin:$PATH"
 
 
 # alias
-alias l='ls -lah'
-alias ls='ls -G'
-alias ll='ls -lG'
+alias ll='ls -la'
+#alias ls='ls -G'
+alias l='ls -lG'
 alias t="tree -la -I .git"
 alias h="history"
 
@@ -141,6 +142,9 @@ alias tk="tmux kill-server"
 
 alias ap="ansible-playbook"
 
+alias rspecm="rspec"
+alias rs="time be rspec"
+
 # By default, zsh considers many characters part of a word (e.g., _ and -).
 # Narrow that down to allow easier skipping through words via M-f and M-b.
 export WORDCHARS='*?[]~&;!$%^<>'
@@ -169,3 +173,4 @@ export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
 
 # Added by Windsurf
 export PATH="/Users/september/.codeium/windsurf/bin:$PATH"
+export PATH="/opt/homebrew/opt/node@22/bin:$PATH"

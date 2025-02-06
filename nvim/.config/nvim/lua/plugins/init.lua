@@ -6,7 +6,7 @@ return {
 	--"theprimeagen/harpoon",
 	"tpope/vim-fugitive",
 
-	"kassio/neoterm",
+	--"kassio/neoterm",
 	"vim-test/vim-test",
 	--"klen/nvim-test",
 

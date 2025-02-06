@@ -1,4 +1,5 @@
 return {
+	enabled = true,
 	"stevearc/conform.nvim",
 	event = { "BufWritePre" },
 	cmd = { "ConformInfo" },
