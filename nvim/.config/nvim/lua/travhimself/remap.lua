@@ -11,7 +11,7 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
---vim.keymap.set("x", "<leader>p", '"_dP')
+vim.keymap.set("x", "<leader>p", '"_dP')
 
 --vim.keymap.set("n", "<leader>y", "\"+y")
 --vim.keymap.set("v", "<leader>y", "\"+y")
@@ -43,14 +43,14 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 --vim.keymap.set("n", "<leader>t", ":TestFile -strategy=neoterm<CR>")
 --vim.keymap.set("n", "<leader>t", ":TestFile -strategy=basic<CR>")
 --vim.keymap.set("n", "<leader>t", ":TestFile -strategy=harpoon<CR>")
-vim.keymap.set("n", "<leader>t", function()
-	vim.api.nvim_command("write")
-	--vim.cmd("TestFile -strategy=basic")
-	vim.cmd("TestFile")
-end)
-vim.g["test#strategy"] = "floaterm"
-vim.g.floaterm_width = 0.8
-vim.g.floaterm_height = 0.8
+-- vim.keymap.set("n", "<leader>t", function()
+-- 	vim.api.nvim_command("write")
+-- 	--vim.cmd("TestFile -strategy=basic")
+-- 	vim.cmd("TestFile")
+-- end)
+-- vim.g["test#strategy"] = "floaterm"
+-- vim.g.floaterm_width = 0.8
+-- vim.g.floaterm_height = 0.8
 
 --nnoremap
 --vim.keymap.set("n", "<leader><CR>", ":so $XDG_CONFIG_HOME/nvim/init.vim<CR>")
@@ -63,11 +63,8 @@ vim.keymap.set("t", "<C-k>", '<C-"><C-n><C-w>k')
 vim.keymap.set("t", "<C-h>", '<C-"><C-n><C-w>h')
 vim.keymap.set("t", "<C-l>", '<C-"><C-n><C-w>l')
 
--- copied from old config
-vim.keymap.set("n", "<C-j>", "<C-w>j")
-vim.keymap.set("n", "<C-k>", "<C-w>k")
-vim.keymap.set("n", "<C-h>", "<C-w>h")
-vim.keymap.set("n", "<C-l>", "<C-w>l")
+-- Removed: these were overriding vim-tmux-navigator bindings
+-- vim-tmux-navigator handles <C-h/j/k/l> for both vim splits and tmux panes
 
 --vim.keymap.set("n", "<leader><leader>", "<c-^>")
 --vim.keymap.set("n", "<leader><leader>", ":bprevious<cr>")
