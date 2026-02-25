@@ -239,6 +239,9 @@ return {
 							completion = {
 								callSnippet = "Replace",
 							},
+							diagnostics = {
+								globals = { "vim" }, -- Mark `vim` as a global
+							},
 							-- You can toggle below to ignore Lua_LS's noisy `missing-fields` warnings
 							-- diagnostics = { disable = { 'missing-fields' } },
 						},
@@ -366,16 +369,16 @@ return {
 					--
 					-- <c-l> will move you to the right of each of the expansion locations.
 					-- <c-h> is similar, except moving you backwards.
-					["<C-l>"] = cmp.mapping(function()
-						if luasnip.expand_or_locally_jumpable() then
-							luasnip.expand_or_jump()
-						end
-					end, { "i", "s" }),
-					["<C-h>"] = cmp.mapping(function()
-						if luasnip.locally_jumpable(-1) then
-							luasnip.jump(-1)
-						end
-					end, { "i", "s" }),
+					--["<C-l>"] = cmp.mapping(function()
+					--if luasnip.expand_or_locally_jumpable() then
+					--luasnip.expand_or_jump()
+					--end
+					--end, { "i", "s" }),
+					--["<C-h>"] = cmp.mapping(function()
+					--if luasnip.locally_jumpable(-1) then
+					--luasnip.jump(-1)
+					--end
+					--end, { "i", "s" }),
 
 					-- For more advanced Luasnip keymaps (e.g. selecting choice nodes, expansion) see:
 					--    https://github.com/L3MON4D3/LuaSnip?tab=readme-ov-file#keymaps

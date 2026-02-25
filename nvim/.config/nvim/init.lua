@@ -17,6 +17,14 @@ require("lazy").setup("plugins")
 
 vim.cmd.colorscheme("catppuccin-frappe")
 
+--vim.diagnostic.config
+vim.diagnostic.config({
+  virtual_text = true, -- Shows error message at the end of the line
+  underline = true,    -- The "red squiggle" equivalent
+  update_in_insert = false, -- Only update after leaving insert mode to reduce noise
+  severity_sort = true,
+})
+
 require("travhimself")
 --require("avante_lib").load()
 --require("oil").setup()

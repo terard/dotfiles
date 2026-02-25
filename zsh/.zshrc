@@ -38,6 +38,8 @@ else
   export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$(/usr/local/bin/brew --prefix)/share/zsh-syntax-highlighting/highlighters
 fi
 
+eval "$(fnm env --use-on-cd --shell zsh)"
+
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 # [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
@@ -116,8 +118,10 @@ alias gwp="git worktree prune"
 
 alias pryor="bundle exec pry -r ./config/environment"
 
-alias pg_start="brew services start postgresql@13"
-alias pg_stop="brew services stop postgresql@13"
+#alias pg_start="brew services start postgresql@13"
+#alias pg_stop="brew services stop postgresql@13"
+alias pg_start="brew services start postgresql@15"
+alias pg_stop="brew services stop postgresql@15"
 
 alias redis_start="brew services start redis"
 alias redis_stop="brew services stop redis"
@@ -133,6 +137,7 @@ bindkey -e
 
 # tmux
 bindkey -s ^f "tmux-sessionizer\n"
+#bindkey -s ^l "tmux clear-history"
 alias tmus="tmux"
 alias tls="tmux ls"
 alias ta="tmux attach"
@@ -165,4 +170,10 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # pnpm end
 
 # path+=("/Users/atomic/Library/Python/3.10/bin")
-export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"
+#export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+#export PATH="/opt/homebrew/opt/mysql@8.4/bin:$PATH"
+export PATH="/opt/homebrew/opt/mariadb/bin:$PATH"
+
+# roc-lang
+export PATH=$PATH:~/code/roc-lang/roc_nightly-macos_apple_silicon-2025-03-22-c47a8e9cdac

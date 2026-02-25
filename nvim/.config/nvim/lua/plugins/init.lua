@@ -14,6 +14,8 @@ return {
 	"scrooloose/nerdcommenter",
 	--"osyo-manga/vim-over",
 	"tpope/vim-surround",
+	"tpope/vim-rails",
+	"tpope/vim-ragtag",
 	--"github/copilot.vim",
 
 	-- new
